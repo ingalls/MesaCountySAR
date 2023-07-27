@@ -26,10 +26,6 @@
 <script>
 import Call911 from './util/Call911.vue';
 import PageFooter from './util/PageFooter.vue';
-import {
-    LoginIcon,
-    PhoneCallIcon,
-} from 'vue-tabler-icons';
 
 export default {
     name: 'Home',
@@ -48,10 +44,6 @@ export default {
     components: {
         Call911,
         PageFooter,
-        PhoneCallIcon,
-        LoginIcon,
-        BrandFacebookFilledIcon,
-        BrandInstagramIcon,
     }
 }
 </script>
