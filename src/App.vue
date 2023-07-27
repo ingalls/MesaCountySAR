@@ -78,13 +78,15 @@ $xxl: 1400px;
    }
 }
 
-.ml-md-100 {
+.mx-md-100 {
     @include xs {
         margin-left: 0px;
+        margin-right: 0px;
     }
 
     @include md {
         margin-left: 100px;
+        margin-right: 100px;
     }
 }
 </style>
