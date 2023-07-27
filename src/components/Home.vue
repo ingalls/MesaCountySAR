@@ -2,7 +2,7 @@
 <div class='h-100'>
     <Call911/>
 
-    <div style="background: #eee url(/MainPageDarken50.jpg) no-repeat 0 0; background-size: cover;" class="h-100">
+    <div style="background: #eee url(/MainPageDarken70.jpg) no-repeat 0 0; background-size: cover;" class="h-100">
         <div class='d-flex px-3 py-3'>
             <div style="background: url(/logo.png) no-repeat 0 0; background-size: cover; width: 150px; height: 150px; margin-left: 100px;" class='my-3'></div>
 
