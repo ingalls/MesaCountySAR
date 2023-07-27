@@ -26,7 +26,7 @@
             <p class='text-center strong display-6'>Our fully unpaid team of XX volunteers donates thousands of hours serving Mesa County's community and visitors. We're entirely funded by your donations and grants from our community.</p>
         </div>
     </div>
-    <div style="background: #eee url(/MainPageSecond.jpg) no-repeat 0 0; background-size: cover;" class="h-100">
+    <div style="background: #eee url(/MainPageSecond.jpg) no-repeat 0 0; background-size: cover;" class="h-100 position-relative">
         <div class='container-xl'>
             <div class='row'>
                 <div class='col-12 col-md-4 text-center py-8'>
@@ -53,9 +53,22 @@
                 </div>
             </div>
         </div>
+        <div class='position-absolute' style='bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.7);'>
+            <div class='container-xl'>
+                <div class='row'>
+                    <div class='col-12 col-md-4 text-center py-8'>
+                    </div>
+                    <div class='col-12 col-md-4 text-center py-8'>
+                        <div class='d-flex justify-content-center'>
+                        <div style="background: url(/logo.png) no-repeat 0 0; background-size: cover; width: 150px; height: 150px;" class='my-3'></div>
+                        </div>
+                    </div>
+                    <div class='col-12 col-md-4 text-center py-8'>
+                    </div>
+                </div>
+           </div>
+        </div>
     </div>
-
-    <PageFooter/>
 </div>
 </template>
 
