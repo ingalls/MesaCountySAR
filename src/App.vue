@@ -78,6 +78,11 @@ $xxl: 1400px;
    }
 }
 
+.bg-none {
+    @include xs { background: #eee; }
+    @include md { background: #eee url(/MainPageSecond.jpg) no-repeat 0 0; background-size: cover; }
+}
+
 .text-md-left {
     @include md { text-align: left !important }
 }
