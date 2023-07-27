@@ -20,10 +20,41 @@
             <div class='display-4 strong' style='margin-top: 50px; margin-bottom: 50px;'>for over 20 years</div>
         </div>
     </div>
-
-    <div class='ms-auto btn-list'>
-        <LoginIcon @click='external("https://team.mesacountysar.com")' v-tooltip='"Team Login"' class='cursor-pointer'/>
+    <div class='my-7'>
+        <h1 class='text-center display-4 strong'>Mesa County Search and Rescue</h1>
+        <div class='container-xl py-3'>
+            <p class='text-center strong display-6'>Our fully unpaid team of XX volunteers donates thousands of hours serving Mesa County's community and visitors. We're entirely funded by your donations and grants from our community.</p>
+        </div>
     </div>
+    <div style="background: #eee url(/MainPageSecond.jpg) no-repeat 0 0; background-size: cover;" class="h-100">
+        <div class='container-xl'>
+            <div class='row'>
+                <div class='col-12 col-md-4 text-center py-8'>
+                    <div class='mb-5'>
+                        <PhoneFilledIcon class='text-red' size='75'/>
+                    </div>
+
+                    <div class='h1'>100+ Missions</div>
+                    <span class='h3'>performed annually</span>
+                </div>
+                <div class='col-12 col-md-4 text-center py-8'>
+                    <div class='mb-5'>
+                        <ActivityHeartbeatIcon class='text-red' size='75'/>
+                    </div>
+                    <div class='h1'>20+ Years</div>
+                    <span class='h3'>on-call 24/7</span>
+                </div>
+                <div class='col-12 col-md-4 text-center py-8'>
+                    <div class='mb-5'>
+                        <ClockIcon class='text-red' size='75'/>
+                    </div>
+                    <div class='h1'>5000+ Hours</div>
+                    <span class='h3'>donated every year</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <PageFooter/>
 </div>
 </template>
@@ -32,6 +63,9 @@
 import PageFooter from './util/PageFooter.vue';
 import Call911 from './util/Call911.vue';
 import {
+    PhoneFilledIcon,
+    ActivityHeartbeatIcon,
+    ClockIcon,
     LoginIcon,
 } from 'vue-tabler-icons';
 
@@ -53,6 +87,9 @@ export default {
         Call911,
         PageFooter,
         LoginIcon,
+        PhoneFilledIcon,
+        ActivityHeartbeatIcon,
+        ClockIcon,
     }
 }
 </script>
