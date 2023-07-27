@@ -26,11 +26,11 @@
         </div>
 
     </div>
-    <div class='my-7'>
-        <h1 class='text-center display-4 strong'>Mesa County Search and Rescue</h1>
+    <div class='my-4 my-md-7'>
+        <h1 class='text-center display-md-4 strong'>Mesa County Search and Rescue</h1>
         <div class='container-xl py-3'>
-            <p class='text-center strong display-6'>Our fully unpaid team of XX volunteers donates thousands of hours serving Mesa County's community and visitors.</p>
-            <p class='text-center strong display-6'>We are entirely funded by community donations and grants.</p>
+            <p class='text-center strong display-md-6'>Our fully unpaid team of XX volunteers donates thousands of hours serving Mesa County's community and visitors.</p>
+            <p class='text-center strong display-md-6'>We are entirely funded by community donations and grants.</p>
         </div>
     </div>
     <div style="background: #eee url(/MainPageSecond.jpg) no-repeat 0 0; background-size: cover;" class="h-100 position-relative">

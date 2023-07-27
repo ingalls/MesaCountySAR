@@ -106,4 +106,10 @@ $xxl: 1400px;
     @include md { font-size: 40px; font-weight: 600; line-height: 56px; }
     @include lg { font-size: 56px; font-weight: 600; line-height: 67.2px; }
 }
+
+.display-md-6 {
+    @include xs { font-size: 12px; font-weight: 400; line-height: 16px; }
+    @include md { font-size: 40px; font-weight: 400; line-height: 56px; }
+    @include lg { font-size: 46px; font-weight: 400; line-height: 56px; }
+}
 </style>
