@@ -65,7 +65,7 @@
     <div style='background: rgba(0,0,0,0.7);'>
         <div class='container-xl'>
             <div class='row text-white'>
-                <div class='col-12 col-md-4 text-center py-8'>
+                <div class='col-12 col-md-4 text-center py-2 py-md-8'>
                     <h3>Get In Touch</h3>
 
                     <div class='pb-1'>
@@ -81,7 +81,7 @@
                         <div><a href='mailto:rescue@ingalls.ca' class='text-white cursor-pointer'>rescue@ingalls.ca</a></div>
                     </div>
                 </div>
-                <div class='col-12 col-md-4 text-center py-6'>
+                <div class='col-12 col-md-4 text-center py-2 py-md-6'>
                     <div class='d-flex justify-content-center'>
                         <div style="background: url(/logo.png) no-repeat 0 0; background-size: cover; width: 150px; height: 150px;" class='my-3'></div>
                     </div>
@@ -89,7 +89,7 @@
                         <div @click='$router.push("/donate")' class='nav-hover my-3 bg-red py-3 w-50 rounded cursor-pointer'>Donate</div>
                     </div>
                 </div>
-                <div class='col-12 col-md-4 text-center py-8 strong'>
+                <div class='col-12 col-md-4 text-center py-2 py-md-8 strong'>
                     <div @click='$router.push("/team")' class='cursor-pointer'>The Team</div>
                     <div @click='$router.push("/education")' class='my-3 cursor-pointer'>Education</div>
                     <div @click='$router.push("/gallery")' class='my-3 cursor-pointer'>Gallery</div>
