@@ -4,11 +4,11 @@
         <BrandFacebookFilledIcon @click='external("https://www.facebook.com/profile.php?id=100064661560769")' class='cursor-pointer mx-3 d-none d-md-inline'/>
         <BrandInstagramIcon @click='external("https://www.instagram.com/mesacountysar/")' class='cursor-pointer d-none d-md-inline'/>
 
-        <div class='ms-md-auto d-flex d-inline strong mx-3'>
+        <div class='ms-lg-auto d-flex justify-content-center d-inline strong mx-3'>
             <div><PhoneCallIcon/> For Rescue Assistance - Call 911</div>
         </div>
 
-        <div class='d-inline d-md-none ms-auto mx-3 text-black'>
+        <div class='d-inline d-lg-none ms-auto mx-3 text-black'>
             <Menu2Icon @click='menu = !menu' class='cursor-pointer'/>
         </div>
     </div>
