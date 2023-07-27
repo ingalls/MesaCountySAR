@@ -23,7 +23,7 @@
     <div class='my-7'>
         <h1 class='text-center display-4 strong'>Mesa County Search and Rescue</h1>
         <div class='container-xl py-3'>
-            <p class='text-center strong display-6'>Our fully unpaid team of XX volunteers donates thousands of hours serving Mesa County's community and visitors. We're entirely funded by your donations and grants from our community.</p>
+            <p class='text-center strong display-6'>Our fully unpaid team of XX volunteers donates thousands of hours serving Mesa County's community and visitors. We are entirely funded by community donations and grants.</p>
         </div>
     </div>
     <div style="background: #eee url(/MainPageSecond.jpg) no-repeat 0 0; background-size: cover;" class="h-100 position-relative">
