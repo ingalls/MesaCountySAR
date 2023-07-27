@@ -2,11 +2,16 @@
 <div class='h-100'>
     <Call911/>
 
-    <div style="background: #eee url(/MainPageDarken70.jpg) no-repeat 0 0; background-size: cover;" class="h-100">
-        <div class='d-flex px-3 py-3'>
-            <div style="background: url(/logo.png) no-repeat 0 0; background-size: cover; width: 150px; height: 150px; margin-left: 100px;" class='my-3'></div>
+    <div class="h-100 position-relative" style="background: #eee url(/MainPageDarken70.jpg) no-repeat 0 0; background-size: cover;">
+        <div class='position-absolute text-white' style='bottom: 0px; left: 0px; right: 0px;'>
+            <div class='d-flex justify-content-center my-7'>
+                <ChevronDownIcon size='50'/>
+           </div>
+        </div>
+        <div class='d-flex justify-content-center px-3 py-3'>
+            <div class='my-3 mx-md-100' style="background: url(/logo.png) no-repeat 0 0; background-size: cover; width: 150px; height: 150px;"></div>
 
-            <div class='ms-auto strong text-white' style='margin-top: 75px; font-size: 1.5rem; margin-right: 100px;'>
+            <div class='ms-auto d-none d-md-inline strong text-white' style='margin-top: 75px; font-size: 1.5rem; margin-right: 100px;'>
                 <span @click='$router.push("/team")' class='nav-hover mx-3 cursor-pointer'>The Team</span>
                 <span @click='$router.push("/education")' class='nav-hover mx-3 cursor-pointer'>Education</span>
                 <span @click='$router.push("/gallery")' class='nav-hover mx-3 cursor-pointer'>Gallery</span>
@@ -14,11 +19,12 @@
                 <span @click='$router.push("/donate")' class='nav-hover mx-3 bg-red py-3 px-3 rounded cursor-pointer'>Donate</span>
             </div>
         </div>
-        <div class='text-white' style='margin-left: 300px;'>
-            <div class='display-4 strong' style='margin-top: 50px; margin-bottom: 50px;'>Dedicated to saving lives</div>
-            <div class='display-4 strong' style='margin-top: 50px; margin-bottom: 50px;'>and serving Mesa County</div>
-            <div class='display-4 strong' style='margin-top: 50px; margin-bottom: 50px;'>for over 20 years</div>
+        <div class='text-white text-center text-md-left ml-lg-300'>
+            <div class='display-md-4 strong my-md-50'>Dedicated to saving lives</div>
+            <div class='display-md-4 strong my-md-50'>and serving Mesa County</div>
+            <div class='display-md-4 strong my-md-50'>for over 20 years</div>
         </div>
+
     </div>
     <div class='my-7'>
         <h1 class='text-center display-4 strong'>Mesa County Search and Rescue</h1>
@@ -101,6 +107,7 @@ import Call911 from './util/Call911.vue';
 import {
     PhoneFilledIcon,
     ActivityHeartbeatIcon,
+    ChevronDownIcon,
     ClockIcon,
     LoginIcon,
 } from 'vue-tabler-icons';
@@ -125,6 +132,7 @@ export default {
         LoginIcon,
         PhoneFilledIcon,
         ActivityHeartbeatIcon,
+        ChevronDownIcon,
         ClockIcon,
     }
 }

@@ -78,15 +78,32 @@ $xxl: 1400px;
    }
 }
 
-.mx-md-100 {
-    @include xs {
-        margin-left: 0px;
-        margin-right: 0px;
-    }
+.text-md-left {
+    @include md { text-align: left !important }
+}
 
-    @include md {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
+.mx-md-100 {
+    @include xs { margin-left: 0px; margin-right: 0px; }
+    @include md { margin-left: 100px; margin-right: 100px; }
+}
+.ml-lg-300 {
+    @include xs { margin-left: 0px; margin-right: 0px; }
+    @include md { margin-left: 150px; margin-right: 150px; }
+    @include lg { margin-left: 300px; margin-right: 300px; }
+}
+.my-md-50 {
+    @include xs { margin-top: 5px; margin-top: 5px; }
+    @include md { margin-top: 50px; margin-top: 50px; }
+}
+
+.text-lg-50 {
+    @include xs { margin-top: 0px; margin-top: 0px; }
+    @include md { margin-top: 50px; margin-top: 50px; }
+}
+
+.display-md-4 {
+    @include xs { font-size: 18px; font-weight: 600; line-height: 20px; }
+    @include md { font-size: 40px; font-weight: 600; line-height: 56px; }
+    @include lg { font-size: 56px; font-weight: 600; line-height: 67.2px; }
 }
 </style>
