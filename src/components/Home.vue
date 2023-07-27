@@ -55,15 +55,37 @@
         </div>
         <div class='position-absolute' style='bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.7);'>
             <div class='container-xl'>
-                <div class='row'>
+                <div class='row text-white'>
                     <div class='col-12 col-md-4 text-center py-8'>
-                    </div>
-                    <div class='col-12 col-md-4 text-center py-8'>
-                        <div class='d-flex justify-content-center'>
-                        <div style="background: url(/logo.png) no-repeat 0 0; background-size: cover; width: 150px; height: 150px;" class='my-3'></div>
+                        <h3>Get In Touch</h3>
+
+                        <div class='pb-1'>
+                            <div><a @click='external("https://goo.gl/maps/2gg7YG9toWsiE3Yz6")' class='text-white cursor-pointer'>215 Rice Street</a></div>
+                            <div><a @click='external("https://goo.gl/maps/2gg7YG9toWsiE3Yz6")' class='text-white cursor-pointer'>Grand Junction, CO</a></div>
+                            <div><a @click='external("https://goo.gl/maps/2gg7YG9toWsiE3Yz6")' class='text-white cursor-pointer'>81501</a></div>
+                        </div>
+
+                        <h3>Non-Emergency Contact</h3>
+
+                        <div class='pb-1'>
+                            <div><a href='tel:2023906116' class='text-white cursor-pointer'>202-390-6116</a></div>
+                            <div><a href='mailto:rescue@ingalls.ca' class='text-white cursor-pointer'>rescue@ingalls.ca</a></div>
                         </div>
                     </div>
-                    <div class='col-12 col-md-4 text-center py-8'>
+                    <div class='col-12 col-md-4 text-center py-6'>
+                        <div class='d-flex justify-content-center'>
+                            <div style="background: url(/logo.png) no-repeat 0 0; background-size: cover; width: 150px; height: 150px;" class='my-3'></div>
+                        </div>
+                        <div class='d-flex justify-content-center'>
+                            <div @click='$router.push("/donate")' class='nav-hover my-3 bg-red py-3 w-50 rounded cursor-pointer'>Donate</div>
+                        </div>
+                    </div>
+                    <div class='col-12 col-md-4 text-center py-8 strong'>
+                        <div @click='$router.push("/team")' class='cursor-pointer'>The Team</div>
+                        <div @click='$router.push("/education")' class='my-3 cursor-pointer'>Education</div>
+                        <div @click='$router.push("/gallery")' class='my-3 cursor-pointer'>Gallery</div>
+                        <div @click='$router.push("/contact")' class='my-3 cursor-pointer'>Contact</div>
+                        <div @click='external("https://team.mesacountysar.com")' class='my-3 cursor-pointer'>Team Login</div>
                     </div>
                 </div>
            </div>
@@ -93,7 +115,7 @@ export default {
     },
     methods: {
         external: function(url) {
-              window.location = new URL(url);
+            window.location = new URL(url);
         },
     },
     components: {
