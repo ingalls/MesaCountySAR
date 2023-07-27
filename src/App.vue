@@ -72,7 +72,7 @@ $xxl: 1400px;
 }
 
 // Extra Extra large devices
-@mixin xl {
+@mixin xxl {
    @media (min-width: #{$xxl}) {
        @content;
    }
@@ -116,5 +116,13 @@ $xxl: 1400px;
     @include xs { font-size: 12px; font-weight: 400; line-height: 16px; }
     @include md { font-size: 40px; font-weight: 400; line-height: 56px; }
     @include lg { font-size: 46px; font-weight: 400; line-height: 56px; }
+}
+
+.fs-dynamic {
+    @include xs { font-size: 8px !important; }
+    @include md { font-size: 10px !important; }
+    @include lg { font-size: 12px !important; }
+    @include xl { font-size: 22px !important; }
+    @include xxl { font-size: 26px !important; }
 }
 </style>

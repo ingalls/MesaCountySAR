@@ -2,17 +2,12 @@
 <div class='h-100'>
     <Call911/>
 
-    <div class="h-100 position-relative" style="background: #eee url(/MainPageDarken70.jpg) no-repeat 0 0; background-size: cover;">
-        <div class='position-absolute text-white' style='bottom: 0px; left: 0px; right: 0px;'>
-            <div class='d-flex justify-content-center my-7'>
-                <ChevronDownIcon size='50'/>
-           </div>
-        </div>
+    <div class="min-vh-100" style="background: #eee url(/MainPageDarken70.jpg) no-repeat 0 0; background-size: cover;">
         <div class='d-flex justify-content-center px-3 py-3'>
             <div class='my-3 mx-md-100' style="background: url(/logo.png) no-repeat 0 0; background-size: cover; width: 150px; height: 150px;"></div>
 
-            <div class='ms-auto d-none d-md-inline strong text-white' style='margin-top: 75px; font-size: 1.5rem; margin-right: 100px;'>
-                <span @click='$router.push("/team")' class='nav-hover mx-3 cursor-pointer'>The Team</span>
+            <div class='ms-auto d-none d-lg-inline strong text-white fs-dynamic' style='margin-top: 75px; margin-right: 100px;'>
+                <span @click='$router.push("/team")' class='nav-hover mx-3 cursor-pointer'>Team</span>
                 <span @click='$router.push("/education")' class='nav-hover mx-3 cursor-pointer'>Education</span>
                 <span @click='$router.push("/gallery")' class='nav-hover mx-3 cursor-pointer'>Gallery</span>
                 <span @click='$router.push("/contact")' class='nav-hover mx-3 cursor-pointer'>Contact</span>
@@ -24,7 +19,11 @@
             <div class='display-md-4 strong my-md-50'>and serving Mesa County</div>
             <div class='display-md-4 strong my-md-50'>for over 20 years</div>
         </div>
-
+        <div class='text-white'>
+            <div class='d-flex justify-content-center my-7'>
+                <ChevronDownIcon size='50'/>
+           </div>
+        </div>
     </div>
     <div class='my-4 my-md-7'>
         <h1 class='text-center display-md-4 strong'>Mesa County Search and Rescue</h1>
