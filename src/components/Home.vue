@@ -14,6 +14,11 @@
                 <span @click='$router.push("/donate")' class='nav-hover mx-3 bg-red py-3 px-3 rounded cursor-pointer'>Donate</span>
             </div>
         </div>
+        <div class='text-white' style='margin-left: 300px;'>
+            <div class='display-4 strong' style='margin-top: 50px; margin-bottom: 50px;'>Dedicated to saving lives</div>
+            <div class='display-4 strong' style='margin-top: 50px; margin-bottom: 50px;'>and serving Mesa County</div>
+            <div class='display-4 strong' style='margin-top: 50px; margin-bottom: 50px;'>for over 20 years</div>
+        </div>
     </div>
 
     <div class='ms-auto btn-list'>
