@@ -13,6 +13,7 @@ const router = new VueRouter.createRouter({
     history: VueRouter.createWebHistory(),
     routes: [
         { path: '/', name: 'home', component: () => import('./components/Home.vue') },
+        { path: '/donate', name: 'donate', component: () => import('./components/Donate.vue') },
         { path: '/:catchAll(.*)', name: 'lost', component: () => import('./components/Lost.vue') },
     ]
 });
