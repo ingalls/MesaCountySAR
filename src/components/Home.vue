@@ -81,7 +81,7 @@
                     </div>
                 </div>
                 <div class='col-12 col-md-4 text-center py-2 py-md-6'>
-                    <div class='d-none d-md-inline d-flex justify-content-center'>
+                    <div class='d-none d-md-flex justify-content-center'>
                         <div style="background: url(/logo.png) no-repeat 0 0; background-size: cover; width: 150px; height: 150px;" class='my-3'></div>
                     </div>
                     <div class='d-flex justify-content-center'>
