@@ -39,6 +39,11 @@ export default {
             menu: false
         }
     },
+    methods: {
+        external: function(url) {
+            window.location = new URL(url);
+        },
+    },
     components: {
         BrandFacebookFilledIcon,
         BrandInstagramIcon,
