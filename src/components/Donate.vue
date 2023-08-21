@@ -1,7 +1,8 @@
 <template>
 <div class='h-100'>
-    <Call911/>
+    <Call911 :menu='false'/>
 
+    <Header label='Our Team'/>
 
     <PageFooter/>
 </div>
@@ -9,24 +10,18 @@
 
 <script>
 import Call911 from './util/Call911.vue';
+import Header from './util/Header.vue';
 import PageFooter from './util/PageFooter.vue';
 
 export default {
-    name: 'Home',
-    components: {
-        PageFooter,
-    },
+    name: 'Team',
     data: function() {
         return {
         }
     },
-    methods: {
-        external: function(url) {
-              window.location = new URL(url);
-        },
-    },
     components: {
         Call911,
+        Header,
         PageFooter,
     }
 }

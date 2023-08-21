@@ -114,9 +114,6 @@ import {
 
 export default {
     name: 'Home',
-    components: {
-        PageFooter,
-    },
     data: function() {
         return {
         }
