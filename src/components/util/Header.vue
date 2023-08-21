@@ -1,5 +1,5 @@
 <template>
-<div class='bg-white py-2 py-md-4 px-3' style="background: #eee url(/MainPageDarken70.jpg) no-repeat 0 0; background-size: cover;">
+<div class='bg-white py-2 py-md-4 px-3' style="background: #eee url(/MainPageDarken70.webp) no-repeat 0 0; background-size: cover;">
     <div class='mx-md-100 d-flex'>
         <div class='d-none d-md-inline'>
             <div style="background: url(/logo.png) no-repeat 0 0; background-size: cover; width: 150px; height: 150px;"></div>
