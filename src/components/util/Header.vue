@@ -11,11 +11,11 @@
             <h1 v-text='label' class='my-auto mx-2 text-white'/>
 
         <div class='ms-auto d-none d-lg-inline strong text-white fs-dynamic my-auto'>
-            <span v-if='$route.name !== "team"' @click='$router.push("/team")' class='nav-hover mx-3 cursor-pointer'>Team</span>
-            <span v-if='$route.name !== "education"' @click='$router.push("/education")' class='nav-hover mx-3 cursor-pointer'>Education</span>
-            <span v-if='$route.name !== "gallery"' @click='$router.push("/gallery")' class='nav-hover mx-3 cursor-pointer'>Gallery</span>
-            <span v-if='$route.name !== "contact"' @click='$router.push("/contact")' class='nav-hover mx-3 cursor-pointer'>Contact</span>
-            <span v-if='$route.name !== "donate"' @click='$router.push("/donate")' class='nav-hover mx-3 bg-red py-3 px-3 rounded cursor-pointer'>Donate</span>
+            <span @click='$router.push("/team")' class='nav-hover mx-3 cursor-pointer'>Team</span>
+            <span @click='$router.push("/education")' class='nav-hover mx-3 cursor-pointer'>Education</span>
+            <span @click='$router.push("/gallery")' class='nav-hover mx-3 cursor-pointer'>Gallery</span>
+            <span @click='$router.push("/contact")' class='nav-hover mx-3 cursor-pointer'>Contact</span>
+            <span @click='$router.push("/donate")' class='nav-hover mx-3 bg-red py-3 px-3 rounded cursor-pointer'>Donate</span>
         </div>
     </div>
 </div>
