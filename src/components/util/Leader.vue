@@ -1,7 +1,7 @@
 <template>
 <div class="card">
     <div class="card-body p-4 text-center">
-        <span class="avatar avatar-xl mb-3 rounded" style="background-image: url(./static/avatars/000m.jpg)"></span>
+        <span class="avatar avatar-xl mb-3 rounded" :style="`background-image: url(${profile})`"></span>
         <h3 class="m-0 mb-1" v-text='name'></h3>
         <div class="text-secondary" v-text='position'></div>
         <div class="mt-3">
@@ -16,6 +16,10 @@ export default {
     name: 'Leader',
     props: {
         name: {
+            type: String,
+            required: true
+        },
+        profile: {
             type: String,
             required: true
         },

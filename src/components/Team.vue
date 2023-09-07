@@ -16,16 +16,36 @@
             <h2>Board</h2>
 
             <div class="col-md-6 col-lg-3">
-                <Leader name='Nate Rinderle' group='Board' position='President'/>
+                <Leader
+                    name='Nate Rinderle'
+                    profile='/img/nate.jpg'
+                    group='Board'
+                    position='President'
+                />
             </div>
             <div class="col-md-6 col-lg-3">
-                <Leader name='Garrett Rodstrom' group='Board' position='Vice President'/>
+                <Leader
+                    name='Garrett Rodstrom'
+                    profile='/img/garrett.jpg'
+                    group='Board'
+                    position='Vice President'
+                />
             </div>
             <div class="col-md-6 col-lg-3">
-                <Leader name='Donna Powelson' group='Board' position='Treasurer'/>
+                <Leader
+                    name='Donna Powelson'
+                    profile='/img/donna.jpg'
+                    group='Board'
+                    position='Treasurer'
+                />
             </div>
             <div class="col-md-6 col-lg-3">
-                <Leader name='Nathan Smithgall' group='Board' position='Secretary'/>
+                <Leader
+                    name='Nathan Smithgall'
+                    profile='/img/smithgall.jpg'
+                    group='Board'
+                    position='Secretary'
+                />
             </div>
         </div>
 
@@ -33,19 +53,44 @@
             <h2>Standards</h2>
 
             <div class="col-md-6 col-lg-3">
-                <Leader name='Joe Kanopsic' group='Standards' position='Standards'/>
+                <Leader
+                    name='Joe Kanopsic'
+                    profile='/img/joe.jpg'
+                    group='Standards'
+                    position='Standards'
+                />
             </div>
             <div class="col-md-6 col-lg-3">
-                <Leader name='Nicholas Ingalls' group='Standards' position='Standards'/>
+                <Leader
+                    name='Nicholas Ingalls'
+                    profile='/img/nick.jpg'
+                    group='Standards'
+                    position='Standards'
+                />
             </div>
             <div class="col-md-6 col-lg-3">
-                <Leader name='Jeanine Camp' group='Standards' position='Standards'/>
+                <Leader
+                    name='Jeanine Camp'
+                    profile='/img/jeanine.jpg'
+                    group='Standards'
+                    position='Standards'
+                />
             </div>
             <div class="col-md-6 col-lg-3">
-                <Leader name='Jeffrey Stephens' group='Standards' position='Standards'/>
+                <Leader
+                    name='Jeffrey Stephens'
+                    profile='/img/jeff.jpg'
+                    group='Standards'
+                    position='Standards'
+                />
             </div>
             <div class="col-md-6 col-lg-3">
-                <Leader name='Cory Lidberg' group='Standards' position='Standards'/>
+                <Leader
+                    name='Cory Lidberg'
+                    profile='/img/nate.jpg'
+                    group='Standards'
+                    position='Standards'
+                />
             </div>
         </div>
 
