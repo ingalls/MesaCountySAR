@@ -1,6 +1,6 @@
 <template>
 <div class='page page-center'>
-    <Call911 :menu='false'/>
+    <Call911/>
 
     <Header label='Contact Us'/>
 
