@@ -99,8 +99,7 @@
 
             <div class="col-12">
                 <div class="card">
-                    <div class="card-body p-4 text-center">
-                    </div>
+                    <img class="rounded" src='/img/team.jpg'/>
                 </div>
             </div>
         </div>
