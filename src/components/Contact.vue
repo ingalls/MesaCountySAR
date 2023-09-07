@@ -1,8 +1,8 @@
 <template>
-<div class='h-100'>
+<div class='page page-center'>
     <Call911 :menu='false'/>
 
-    <Header label='Our Team'/>
+    <Header label='Contact Us'/>
 
     <PageFooter/>
 </div>

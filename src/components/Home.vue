@@ -1,5 +1,5 @@
 <template>
-<div class='h-100'>
+<div class='page page-center'>
     <Call911/>
 
     <div class="min-vh-100" style="background: #eee url(/MainPageDarken70.jpg) no-repeat 0 0; background-size: cover;">

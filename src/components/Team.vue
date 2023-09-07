@@ -1,5 +1,5 @@
 <template>
-<div class='h-100'>
+<div class='page page-center'>
     <Call911/>
 
     <Header label='Our Team'/>
