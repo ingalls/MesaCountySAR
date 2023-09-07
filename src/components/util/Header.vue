@@ -1,10 +1,10 @@
 <template>
 <div class="min-vh-25" style="background: #eee url(/MainPageDarken70.jpg) no-repeat 0 0; background-size: cover;">
     <div class='d-flex px-3 py-3'>
-        <div class='d-none d-md-inline'>
+        <div @click='$router.push("/")' class='d-none d-md-inline cursor-pointer'>
             <div style="background: url(/logo.png) no-repeat 0 0; background-size: cover; width: 150px; height: 150px;"></div>
         </div>
-        <div class='d-inline d-md-none'>
+        <div @click='$router.push("/")' class='d-inline d-md-none cursor-pointer'>
             <div style="background: url(/logo.png) no-repeat 0 0; background-size: cover; width: 50px; height: 50px;"></div>
         </div>
 
