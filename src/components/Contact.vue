@@ -4,9 +4,28 @@
 
     <Header label='Contact Us'/>
 
-    <Location/>
+    <div class="container-tight py-4">
+        <div class="empty">
+            <p class="empty-title">Mailing Address</p>
+            <p class="empty-subtitle text-muted">
+                Mesa County Search &amp; Rescue
+            </p>
+            <p class="empty-subtitle text-muted">
+                PO Box 2251
+            </p>
+            <p class="empty-subtitle text-muted">
+                Grand Junction CO
+            </p>
+            <p class="empty-subtitle text-muted">
+                81502, USA
+            </p>
+        </div>
+    </div>
 
-    <PageFooter/>
+
+    <footer class="footer footer-transparent d-print-none">
+        <Location/>
+    </footer>
 </div>
 </template>
 
