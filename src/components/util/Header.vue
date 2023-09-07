@@ -1,14 +1,21 @@
 <template>
-<div class='bg-white py-2 py-md-4 px-3' style="background: #eee url(/MainPageDarken70.webp) no-repeat 0 0; background-size: cover;">
-    <div class='mx-md-100 d-flex'>
+<div class="min-vh-25" style="background: #eee url(/MainPageDarken70.jpg) no-repeat 0 0; background-size: cover;">
+    <div class='d-flex px-3 py-3'>
         <div class='d-none d-md-inline'>
             <div style="background: url(/logo.png) no-repeat 0 0; background-size: cover; width: 150px; height: 150px;"></div>
         </div>
         <div class='d-inline d-md-none'>
             <div style="background: url(/logo.png) no-repeat 0 0; background-size: cover; width: 50px; height: 50px;"></div>
         </div>
-        <div class='mx-3 mt-2 d-flex'>
-            <h1 class='align-self-center' v-text='label'/>
+
+        <h1 class='align-self-center' v-text='label'/>
+
+        <div class='ms-auto d-none d-lg-inline strong text-white fs-dynamic' style='margin-top: 75px; margin-right: 100px;'>
+            <span @click='$router.push("/team")' class='nav-hover mx-3 cursor-pointer'>Team</span>
+            <span @click='$router.push("/education")' class='nav-hover mx-3 cursor-pointer'>Education</span>
+            <span @click='$router.push("/gallery")' class='nav-hover mx-3 cursor-pointer'>Gallery</span>
+            <span @click='$router.push("/contact")' class='nav-hover mx-3 cursor-pointer'>Contact</span>
+            <span @click='$router.push("/donate")' class='nav-hover mx-3 bg-red py-3 px-3 rounded cursor-pointer'>Donate</span>
         </div>
     </div>
 </div>

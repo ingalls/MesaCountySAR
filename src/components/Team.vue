@@ -1,6 +1,6 @@
 <template>
 <div class='h-100'>
-    <Call911 :menu='false'/>
+    <Call911/>
 
     <Header label='Our Team'/>
     <div class='container-xl mt-6 mb-6'>
