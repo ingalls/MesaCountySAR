@@ -87,7 +87,7 @@
             <div class="col-md-6 col-lg-3">
                 <Leader
                     name='Cory Lidberg'
-                    profile='/img/nate.jpg'
+                    profile='/img/cory.jpg'
                     group='Standards'
                     position='Standards'
                 />
