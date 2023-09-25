@@ -14,7 +14,6 @@ const router = new VueRouter.createRouter({
     routes: [
         { path: '/', name: 'home', component: () => import('./components/Home.vue') },
         { path: '/team', name: 'team', component: () => import('./components/Team.vue') },
-        { path: '/donate', name: 'donate', component: () => import('./components/Donate.vue') },
         { path: '/gallery', name: 'gallery', component: () => import('./components/Gallery.vue') },
         { path: '/contact', name: 'contact', component: () => import('./components/Contact.vue') },
         { path: '/education', name: 'education', component: () => import('./components/Education.vue') },

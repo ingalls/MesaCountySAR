@@ -15,7 +15,7 @@
             <span @click='$router.push("/education")' class='nav-hover mx-3 cursor-pointer'>Education</span>
             <span @click='$router.push("/gallery")' class='nav-hover mx-3 cursor-pointer'>Gallery</span>
             <span @click='$router.push("/contact")' class='nav-hover mx-3 cursor-pointer'>Contact</span>
-            <span @click='$router.push("/donate")' class='nav-hover mx-3 bg-red py-3 px-3 rounded cursor-pointer'>Donate</span>
+            <span @click='external("https://buy.stripe.com/aEUaFy1ZE03y8nu3cc")' class='nav-hover mx-3 bg-red py-3 px-3 rounded cursor-pointer'>Donate</span>
         </div>
     </div>
 </div>
@@ -29,6 +29,11 @@ export default {
             type: String,
             required: true
         }
-    }
+    },
+    methods: {
+        external: function(url) {
+            window.location = new URL(url);
+        },
+    },
 }
 </script>
