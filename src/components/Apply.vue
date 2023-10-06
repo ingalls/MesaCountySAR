@@ -15,6 +15,21 @@
     <div class='container-xl'>
         <div class='row row-cards mb-6'>
             <div class="card">
+                <div class='ribbon bg-red'>NOTICE</div>
+                <div class="card-body">
+                    <h3 class="card-title">Applications Paused for 2024</h3>
+                    <p class='text-secondary'>
+                        The team is currently focusing on our Mountain Rescue Association Accredition which takes place once every 5 years.
+                    </p>
+                    <p class='text-secondary'>
+                        As such we will not be running a Prospective Member program for the
+                        2024 year. We welcome you to submit an application for it to be considered for
+                        the 2025 program. Should a more immediate need for members present itself,
+                        these application will be considered first.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
                 <div class='card-header'><h3 class='card-title'>Team Application</h3></div>
                 <div class="card-body">
                     <div class='row g-2'>
