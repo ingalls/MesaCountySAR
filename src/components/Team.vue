@@ -3,6 +3,7 @@
     <Call911/>
 
     <Header label='Our Team'/>
+
     <div class='container-xl mt-6 mb-6'>
         <div class="row g-2 align-items-center">
             <div class="col d-flex">
@@ -13,7 +14,21 @@
 
     <div class='container-xl'>
         <div class='row row-cards'>
-            <h2>Board</h2>
+
+            <div class="col-12">
+                <div class="card">
+                    <div @click='$router.push("/apply")' class='ribbon bg-red cursor-pointer'>Apply</div>
+                    <div class="card-body">
+                        <h3 class="card-title">Join Our Team</h3>
+                        <p class='text-secondary'>
+                            Each year we take on 20 potential members to go through an intensive
+                            training and onboarding process to become an effective member of our team.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class='pt-3'>Board</h2>
 
             <div class="col-md-6 col-lg-3">
                 <Leader

@@ -36,26 +36,32 @@
         <div class='container-xl'>
             <div class='row'>
                 <div class='col-12 col-md-4 text-center py-3 py-md-8'>
-                    <div class='mb-5'>
-                        <PhoneFilledIcon class='text-red' size='75'/>
-                    </div>
+                    <div class='rounded py-3' style=' background: rgba(0,0,0,0.5);'>
+                        <div class='mb-5'>
+                            <PhoneFilledIcon class='text-red' size='75'/>
+                        </div>
 
-                    <div class='h1'>100+ Missions</div>
-                    <span class='h3'>performed annually</span>
+                        <div class='h1 text-white'>100+ Missions</div>
+                        <span class='h3 text-white'>performed annually</span>
+                    </div>
                 </div>
                 <div class='col-12 col-md-4 text-center py-3 py-md-8'>
-                    <div class='mb-5'>
-                        <ActivityHeartbeatIcon class='text-red' size='75'/>
+                    <div class='rounded py-3' style=' background: rgba(0,0,0,0.5);'>
+                        <div class='mb-5'>
+                            <ActivityHeartbeatIcon class='text-red' size='75'/>
+                        </div>
+                        <div class='h1 text-white'>20+ Years</div>
+                        <span class='h3 text-white'>on-call 24/7</span>
                     </div>
-                    <div class='h1'>20+ Years</div>
-                    <span class='h3'>on-call 24/7</span>
                 </div>
                 <div class='col-12 col-md-4 text-center py-3 py-md-8'>
-                    <div class='mb-5'>
-                        <ClockIcon class='text-red' size='75'/>
+                    <div class='rounded py-3' style=' background: rgba(0,0,0,0.5);'>
+                        <div class='mb-5'>
+                            <ClockIcon class='text-red' size='75'/>
+                        </div>
+                        <div class='h1 text-white'>5000+ Hours</div>
+                        <span class='h3 text-white'>donated every year</span>
                     </div>
-                    <div class='h1'>5000+ Hours</div>
-                    <span class='h3'>donated every year</span>
                 </div>
                 <div class='col-12 py-lg-8'></div>
             </div>
