@@ -68,11 +68,7 @@
                             <h3 class='subheader mt-4'>Personal Details</h3>
                         </div>
 
-                        <div class='col-12 col-md-6'>
-                            <TablerInput type='date' label='Relationship Status' v-model='data.relationship'/>
-                        </div>
-
-                        <div class='col-12 col-md-6'>
+                        <div class='col-12'>
                             <TablerInput type='date' label='Years in Mesa County' v-model='data.years'/>
                         </div>
 
@@ -140,7 +136,6 @@ export default {
                 license_state: '',
                 license_number: '',
                 license_expiry: '',
-                relationship: '',
                 years: '',
                 courses: '',
                 outdoor: '',
