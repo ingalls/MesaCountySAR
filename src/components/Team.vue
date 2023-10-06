@@ -23,6 +23,8 @@
                         <p class='text-secondary'>
                             Each year we take on 20 potential members to go through an intensive
                             training and onboarding process to become an effective member of our team.
+
+                            Members come from a variety of backgrounds and bring unique skills to the team. Everyone has something to offer!
                         </p>
                     </div>
                 </div>
