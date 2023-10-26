@@ -32,94 +32,97 @@
             <div class="card">
                 <div class='card-header'><h3 class='card-title'>Team Application</h3></div>
                 <div class="card-body">
-                    <div class='row g-2'>
-                        <div class='col-12'>
-                            <TablerInput label='Applicant Name' v-model='data.name'/>
-                        </div>
+                    <TablerLoading v-if='loading' desc='Submitting Application'/>
+                    <template v-else>
+                        <div class='row g-2'>
+                            <div class='col-12'>
+                                <TablerInput label='Applicant Name' v-model='data.name'/>
+                            </div>
 
-                        <div class='col-12'>
-                            <h3 class='subheader mt-4'>Legal Address</h3>
-                        </div>
+                            <div class='col-12'>
+                                <h3 class='subheader mt-4'>Legal Address</h3>
+                            </div>
 
-                        <div class='col-12'>
-                            <TablerInput label='Street Address' v-model='data.addr'/>
-                        </div>
-                        <div class='col-12'>
-                            <TablerInput label='City' v-model='data.city'/>
-                        </div>
-                        <div class='col-12 col-md-6'>
-                            <TablerInput label='State' v-model='data.state'/>
-                        </div>
-                        <div class='col-12 col-md-6'>
-                            <TablerInput label='Zipcode' v-model='data.zip'/>
-                        </div>
+                            <div class='col-12'>
+                                <TablerInput label='Street Address' v-model='data.addr'/>
+                            </div>
+                            <div class='col-12'>
+                                <TablerInput label='City' v-model='data.city'/>
+                            </div>
+                            <div class='col-12 col-md-6'>
+                                <TablerInput label='State' v-model='data.state'/>
+                            </div>
+                            <div class='col-12 col-md-6'>
+                                <TablerInput label='Zipcode' v-model='data.zip'/>
+                            </div>
 
-                        <div class='col-12'>
-                            <h3 class='subheader mt-4'>Contact Details</h3>
-                        </div>
+                            <div class='col-12'>
+                                <h3 class='subheader mt-4'>Contact Details</h3>
+                            </div>
 
-                        <div class='col-12 col-md-6'>
-                            <TablerInput label='Phone' v-model='data.phone'/>
-                        </div>
-                        <div class='col-12 col-md-6'>
-                            <TablerInput label='Email' v-model='data.email'/>
-                        </div>
+                            <div class='col-12 col-md-6'>
+                                <TablerInput label='Phone' v-model='data.phone'/>
+                            </div>
+                            <div class='col-12 col-md-6'>
+                                <TablerInput label='Email' v-model='data.email'/>
+                            </div>
 
-                        <div class='col-12'>
-                            <h3 class='subheader mt-4'>Driver's License</h3>
-                        </div>
+                            <div class='col-12'>
+                                <h3 class='subheader mt-4'>Driver's License</h3>
+                            </div>
 
-                        <div class='col-12 col-md-4'>
-                            <TablerInput label='License State' v-model='data.license_state'/>
-                        </div>
-                        <div class='col-12 col-md-4'>
-                            <TablerInput label='License Number' v-model='data.license_number'/>
-                        </div>
-                        <div class='col-12 col-md-4'>
-                            <TablerInput type='date' label='License Expiration' v-model='data.license_expiry'/>
-                        </div>
+                            <div class='col-12 col-md-4'>
+                                <TablerInput label='License State' v-model='data.license_state'/>
+                            </div>
+                            <div class='col-12 col-md-4'>
+                                <TablerInput label='License Number' v-model='data.license_number'/>
+                            </div>
+                            <div class='col-12 col-md-4'>
+                                <TablerInput type='date' label='License Expiration' v-model='data.license_expiry'/>
+                            </div>
 
-                        <div class='col-12'>
-                            <h3 class='subheader mt-4'>Personal Details</h3>
-                        </div>
+                            <div class='col-12'>
+                                <h3 class='subheader mt-4'>Personal Details</h3>
+                            </div>
 
-                        <div class='col-12'>
-                            <TablerInput type='date' label='Years in Mesa County' v-model='data.years'/>
-                        </div>
+                            <div class='col-12'>
+                                <TablerInput type='date' label='Years in Mesa County' v-model='data.years'/>
+                            </div>
 
-                        <div class='col-12'>
-                            <h3 class='subheader mt-4'>Courses &amp; Qualifications</h3>
-                        </div>
+                            <div class='col-12'>
+                                <h3 class='subheader mt-4'>Courses &amp; Qualifications</h3>
+                            </div>
 
-                        <div class='col-12'>
-                            <TablerInput :rows='6' label='Description' v-model='data.courses'/>
-                        </div>
+                            <div class='col-12'>
+                                <TablerInput :rows='6' label='Description' v-model='data.courses'/>
+                            </div>
 
-                        <div class='col-12'>
-                            <h3 class='subheader mt-4'>Outdoor Recreation</h3>
-                        </div>
+                            <div class='col-12'>
+                                <h3 class='subheader mt-4'>Outdoor Recreation</h3>
+                            </div>
 
-                        <div class='col-12'>
-                            <TablerInput :rows='6' label='Description' v-model='data.outdoor'/>
-                        </div>
+                            <div class='col-12'>
+                                <TablerInput :rows='6' label='Description' v-model='data.outdoor'/>
+                            </div>
 
-                        <div class='col-12'>
-                            <h3 class='subheader mt-4'>Disclaimer</h3>
-                        </div>
+                            <div class='col-12'>
+                                <h3 class='subheader mt-4'>Disclaimer</h3>
+                            </div>
 
-                        <div class='col-12'>
-                            <p>I certify that my answers are true and complete to the best of my knowledge.</p>
-                            <p>I understand that false or misleading information will be grounds for termination from the Team.</p>
-                            <p>I also understand that I will have to pass a Mesa County Sheriff’s Office Background Check.</p>
-                        </div>
+                            <div class='col-12'>
+                                <p>I certify that my answers are true and complete to the best of my knowledge.</p>
+                                <p>I understand that false or misleading information will be grounds for termination from the Team.</p>
+                                <p>I also understand that I will have to pass a Mesa County Sheriff’s Office Background Check.</p>
+                            </div>
 
 
-                        <div class='col-12 d-flex py-3'>
-                            <div class='ms-auto btn-list'>
-                                <button class='btn btn-primary'>Submit Application</button>
+                            <div class='col-12 d-flex py-3'>
+                                <div class='ms-auto btn-list'>
+                                    <button @click='submit' class='btn btn-primary'>Submit Application</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </template>
                 </div>
             </div>
         </div>
@@ -133,6 +136,7 @@ import Header from './util/Header.vue';
 import PageFooter from './util/PageFooter.vue';
 import {
     TablerInput,
+    TablerLoading,
     TablerBreadCrumb
 } from '@tak-ps/vue-tabler';
 
@@ -140,6 +144,7 @@ export default {
     name: 'Team',
     data: function() {
         return {
+            loading: false,
             data: {
                 name: '',
                 addr: '',
@@ -157,11 +162,22 @@ export default {
             }
         }
     },
+    methods: {
+        submit: async function() {
+            this.loading = true;
+            window.std(new URL('https://team.mesacountysar.org/api/application'), {
+                method: 'POST',
+                body: this.data
+            });
+            this.loading = false;
+        }
+    },
     components: {
         Call911,
         Header,
         PageFooter,
         TablerInput,
+        TablerLoading,
         TablerBreadCrumb,
     }
 }
