@@ -165,7 +165,7 @@ export default {
     methods: {
         submit: async function() {
             this.loading = true;
-            window.std(new URL('https://team.mesacountysar.org/api/application'), {
+            window.std(new URL('https://team.mesacountysar.com/api/application'), {
                 method: 'POST',
                 body: this.data
             });
