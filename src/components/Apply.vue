@@ -19,13 +19,12 @@
                 <div class="card-body">
                     <h3 class="card-title">Applications Paused for 2024</h3>
                     <p class='text-secondary'>
-                        The team is currently focusing on our Mountain Rescue Association Accredition which takes place once every 5 years.
+                        The team is currently focusing on our Mountain Rescue Association Accreditation which takes place once every 5 years.
                     </p>
                     <p class='text-secondary'>
-                        As such we will not be running a Prospective Member program for the
-                        2024 year. We welcome you to submit an application for it to be considered for
-                        the 2025 program. Should a more immediate need for members present itself,
-                        these application will be considered first.
+                        As such we will not be running a Prospective Member program in the
+                        2024 year. We welcome you to submit an application for it to be considered in
+                        the 2025 program or should an immediate need for members present itself.
                     </p>
                 </div>
             </div>
