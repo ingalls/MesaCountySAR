@@ -33,6 +33,18 @@
                 <div class='card-header'><h3 class='card-title'>Team Application</h3></div>
                 <div class="card-body">
                     <TablerLoading v-if='loading' desc='Submitting Application'/>
+                    <template v-if='submitted'>
+                        <div class='d-flex justify-content-center mb-4'>
+                            <CheckIcon class='text-green' width='70' height='70' />
+                        </div>
+
+                        <div class='d-flex justify-content-center py-3'>
+                            <div>We've Recieved your application</div>
+                        </div>
+                        <div class='d-flex justify-content-center py-3'>
+                            <div>Give us a couple days to review it and we'll get back to you!</div>
+                        </div>
+                    </template>
                     <template v-else>
                         <div class='row g-2'>
                             <div class='col-12'>
@@ -135,6 +147,9 @@ import Call911 from './util/Call911.vue';
 import Header from './util/Header.vue';
 import PageFooter from './util/PageFooter.vue';
 import {
+    CheckIcon
+} from 'vue-tabler-icons';
+import {
     TablerInput,
     TablerLoading,
     TablerBreadCrumb
@@ -145,6 +160,7 @@ export default {
     data: function() {
         return {
             loading: false,
+            submitted: false,
             data: {
                 name: '',
                 addr: '',
@@ -169,12 +185,14 @@ export default {
                 method: 'POST',
                 body: this.data
             });
+            this.submitted = true;
             this.loading = false;
         }
     },
     components: {
         Call911,
         Header,
+        CheckIcon,
         PageFooter,
         TablerInput,
         TablerLoading,
