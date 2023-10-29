@@ -86,7 +86,7 @@
                             </div>
 
                             <div class='col-12'>
-                                <TablerInput type='date' label='Years in Mesa County' v-model='data.years'/>
+                                <TablerInput label='Years in Mesa County' v-model='data.years'/>
                             </div>
 
                             <div class='col-12'>
