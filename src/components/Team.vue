@@ -43,7 +43,7 @@
             <div class="col-md-6 col-lg-3">
                 <Leader
                     name='Connor Martin'
-                    profile=''
+                    profile='/img/connor.jpg'
                     group='Board'
                     position='Vice President'
                 />
