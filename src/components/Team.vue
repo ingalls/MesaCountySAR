@@ -42,24 +42,24 @@
             </div>
             <div class="col-md-6 col-lg-3">
                 <Leader
-                    name='Garrett Rodstrom'
-                    profile='/img/garrett.jpg'
+                    name='Connor Martin'
+                    profile=''
                     group='Board'
                     position='Vice President'
                 />
             </div>
             <div class="col-md-6 col-lg-3">
                 <Leader
-                    name='Donna Powelson'
-                    profile='/img/donna.jpg'
+                    name='Kirra Dyer'
+                    profile=''
                     group='Board'
                     position='Treasurer'
                 />
             </div>
             <div class="col-md-6 col-lg-3">
                 <Leader
-                    name='Nathan Smithgall'
-                    profile='/img/smithgall.jpg'
+                    name='Jeanine Camp'
+                    profile='/img/jeanine.jpg'
                     group='Board'
                     position='Secretary'
                 />
@@ -71,14 +71,6 @@
 
             <div class="col-md-6 col-lg-3">
                 <Leader
-                    name='Joe Kanopsic'
-                    profile='/img/joe.jpg'
-                    group='Standards'
-                    position='Standards'
-                />
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <Leader
                     name='Nicholas Ingalls'
                     profile='/img/nick.jpg'
                     group='Standards'
@@ -87,8 +79,16 @@
             </div>
             <div class="col-md-6 col-lg-3">
                 <Leader
-                    name='Jeanine Camp'
-                    profile='/img/jeanine.jpg'
+                    name='Ryan Grube'
+                    profile='/img/ryan.jpg'
+                    group='Standards'
+                    position='Standards'
+                />
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <Leader
+                    name='Ben Lawrence'
+                    profile='/img/ben.jpg'
                     group='Standards'
                     position='Standards'
                 />
