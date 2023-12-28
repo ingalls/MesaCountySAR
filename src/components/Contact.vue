@@ -23,7 +23,7 @@
     </div>
 
 
-    <footer class="footer footer-transparent d-print-none">
+    <footer class="footer footer-transparent d-print-none py-0">
         <Location/>
     </footer>
 </div>
