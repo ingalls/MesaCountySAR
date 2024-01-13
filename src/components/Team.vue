@@ -51,7 +51,7 @@
             <div class="col-md-6 col-lg-3">
                 <Leader
                     name='Kirra Dyer'
-                    profile=''
+                    profile='/img/kirra.jpg'
                     group='Board'
                     position='Treasurer'
                 />
