@@ -116,7 +116,7 @@
 
             <div class="col-12">
                 <div class="card">
-                    <img class="rounded" src='/img/team.jpg'/>
+                    <img class="rounded" src='/img/team-2024.png'/>
                 </div>
             </div>
         </div>
