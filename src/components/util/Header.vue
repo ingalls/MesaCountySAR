@@ -50,7 +50,7 @@
 
 <script>
 export default {
-    name: 'Header',
+    name: 'SARHeader',
     props: {
         label: {
             type: String,

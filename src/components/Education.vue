@@ -2,7 +2,7 @@
     <div class='page page-center'>
         <Call911 />
 
-        <Header label='Education' />
+        <SARHeader label='Education' />
 
         <PageFooter />
     </div>
@@ -10,17 +10,14 @@
 
 <script>
 import Call911 from './util/Call911.vue';
-import Header from './util/Header.vue';
+import SARHeader from './util/Header.vue';
 import PageFooter from './util/PageFooter.vue';
 
 export default {
     name: 'Home',
     components: {
-        PageFooter,
-    },
-    components: {
         Call911,
-        Header,
+        SARHeader,
         PageFooter,
     },
     data: function() {

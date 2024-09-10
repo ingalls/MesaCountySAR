@@ -2,7 +2,7 @@
     <div class='page page-center'>
         <Call911 />
 
-        <Header label='Contact Us' />
+        <SARHeader label='Contact Us' />
 
         <div class='container-tight py-4'>
             <div class='empty'>
@@ -33,16 +33,14 @@
 
 <script>
 import Call911 from './util/Call911.vue';
-import Header from './util/Header.vue';
-import PageFooter from './util/PageFooter.vue';
+import SARHeader from './util/Header.vue';
 import Location from './util/Location.vue';
 
 export default {
     name: 'Team',
     components: {
         Call911,
-        Header,
-        PageFooter,
+        SARHeader,
         Location
     },
     data: function() {

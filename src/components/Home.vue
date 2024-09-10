@@ -226,22 +226,18 @@
 </template>
 
 <script>
-import PageFooter from './util/PageFooter.vue';
 import Call911 from './util/Call911.vue';
 import {
     PhoneFilledIcon,
     ActivityHeartbeatIcon,
     ChevronDownIcon,
     ClockIcon,
-    LoginIcon,
 } from 'vue-tabler-icons';
 
 export default {
     name: 'Home',
     components: {
         Call911,
-        PageFooter,
-        LoginIcon,
         PhoneFilledIcon,
         ActivityHeartbeatIcon,
         ChevronDownIcon,

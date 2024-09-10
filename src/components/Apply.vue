@@ -2,7 +2,7 @@
     <div class='page page-center'>
         <Call911 />
 
-        <Header label='Join Our Team' />
+        <SARHeader label='Join Our Team' />
 
         <div class='container-xl mt-6 mb-6'>
             <div class='row g-2 align-items-center'>
@@ -218,8 +218,7 @@
 
 <script>
 import Call911 from './util/Call911.vue';
-import Header from './util/Header.vue';
-import PageFooter from './util/PageFooter.vue';
+import SARHeader from './util/Header.vue';
 import {
     CheckIcon
 } from 'vue-tabler-icons';
@@ -233,9 +232,8 @@ export default {
     name: 'Team',
     components: {
         Call911,
-        Header,
+        SARHeader,
         CheckIcon,
-        PageFooter,
         TablerInput,
         TablerLoading,
         TablerBreadCrumb,
