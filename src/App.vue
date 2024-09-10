@@ -1,10 +1,13 @@
 <template>
-<div class='page h-100'>
+    <div class='page h-100'>
+        <router-view />
 
-    <router-view/>
-
-    <TablerError v-if='err' :err='err' @close='err = null'/>
-</div>
+        <TablerError
+            v-if='err'
+            :err='err'
+            @close='err = null'
+        />
+    </div>
 </template>
 
 <script>
@@ -16,6 +19,9 @@ import {
 
 export default {
     name: 'MesaSAR',
+    components: {
+        TablerError
+    },
     data: function() {
         return {
             err: null,
@@ -23,9 +29,6 @@ export default {
     },
     errorCaptured: function(err) {
         this.err = err;
-    },
-    components: {
-        TablerError
     }
 }
 </script>
