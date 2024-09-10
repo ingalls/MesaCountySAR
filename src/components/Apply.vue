@@ -20,10 +20,11 @@
                     </div>
                     <div class='card-body'>
                         <h3 class='card-title'>
-                            Applications for Winter/Spring 2025
+                            Applications for Spring 2026
                         </h3>
                         <p class='text-secondary'>
-                            The team is excited to be accepting applications for the Winter/Spring 2025 Prospective Member program
+                            The team is excited to be accepting applications for the Winter/Spring 2026 Prospective Member program
+                            Applications for the 2025 program have concluded effective September 8th, 2024.
                         </p>
                         <p class='text-secondary'>
                             Once you apply you can expect a call from a member of our onboarding team to answer any questions you might
