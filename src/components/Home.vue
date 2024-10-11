@@ -83,7 +83,7 @@
 
                     <div class='pb-1'>
                         <div><a href='tel:2023906116' class='text-white cursor-pointer'>202-390-6116</a></div>
-                        <div><a href='mailto:rescue@ingalls.ca' class='text-white cursor-pointer'>rescue@ingalls.ca</a></div>
+                        <div><a href='mailto:team@mesacountysar.com' class='text-white cursor-pointer'>team@mesacountysar.com</a></div>
                     </div>
                 </div>
                 <div class='col-12 col-md-4 text-center py-2 py-md-6'>
