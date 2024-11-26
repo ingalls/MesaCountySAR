@@ -11,7 +11,7 @@
                 <span @click='$router.push("/education")' class='nav-hover mx-3 cursor-pointer'>Education</span>
                 <span @click='$router.push("/gallery")' class='nav-hover mx-3 cursor-pointer'>Gallery</span>
                 <span @click='$router.push("/contact")' class='nav-hover mx-3 cursor-pointer'>Contact</span>
-                <span @click='external("https://buy.stripe.com/aEUaFy1ZE03y8nu3cc")' class='nav-hover my-3 bg-red px-3 py-3 w-50 rounded cursor-pointer'>Donate</span>
+                <span @click='external("https://www.paypal.com/donate/?hosted_button_id=9ZE83Z9KZSW5J")' class='nav-hover my-3 bg-red px-3 py-3 w-50 rounded cursor-pointer'>Donate</span>
             </div>
         </div>
         <div class='text-white text-center text-md-left ml-lg-300'>
@@ -91,7 +91,7 @@
                         <div style="background: url(/logo.png) no-repeat 0 0; background-size: cover; width: 150px; height: 150px;" class='my-3'></div>
                     </div>
                     <div class='d-flex justify-content-center'>
-                        <div @click='external("https://buy.stripe.com/aEUaFy1ZE03y8nu3cc")' class='nav-hover my-3 bg-red py-3 w-50 rounded cursor-pointer'>Donate</div>
+                        <div @click='external("https://www.paypal.com/donate/?hosted_button_id=9ZE83Z9KZSW5J")' class='nav-hover my-3 bg-red py-3 w-50 rounded cursor-pointer'>Donate</div>
                     </div>
                 </div>
                 <div class='col-12 col-md-4 text-center py-2 py-md-8 strong'>

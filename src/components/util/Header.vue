@@ -15,7 +15,7 @@
             <span @click='$router.push("/education")' class='nav-hover mx-3 cursor-pointer'>Education</span>
             <span @click='$router.push("/gallery")' class='nav-hover mx-3 cursor-pointer'>Gallery</span>
             <span @click='$router.push("/contact")' class='nav-hover mx-3 cursor-pointer'>Contact</span>
-            <span @click='external("https://buy.stripe.com/aEUaFy1ZE03y8nu3cc")' class='nav-hover mx-3 bg-red py-3 px-3 rounded cursor-pointer'>Donate</span>
+            <span @click='external("https://www.paypal.com/donate/?hosted_button_id=9ZE83Z9KZSW5J")' class='nav-hover mx-3 bg-red py-3 px-3 rounded cursor-pointer'>Donate</span>
         </div>
     </div>
 </div>

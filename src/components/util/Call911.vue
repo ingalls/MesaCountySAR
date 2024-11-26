@@ -31,7 +31,7 @@
         <div v-if='$route.name !== "education"' @click='$router.push("/education")' class='my-3 cursor-pointer'>Education</div>
         <div v-if='$route.name !== "gallery"' @click='$router.push("/gallery")' class='my-3 cursor-pointer'>Gallery</div>
         <div v-if='$route.name !== "contact"' @click='$router.push("/contact")' class='my-3 cursor-pointer'>Contact</div>
-        <div @click='external("https://buy.stripe.com/aEUaFy1ZE03y8nu3cc")' class='my-3 cursor-pointer'>
+        <div @click='external("https://www.paypal.com/donate/?hosted_button_id=9ZE83Z9KZSW5J")' class='my-3 cursor-pointer'>
             <span class='bg-red text-white px-4 py-2 rounded'>Donate</span>
         </div>
         <div @click='external("https://team.mesacountysar.com")' class='my-3 cursor-pointer'>Team Login</div>
