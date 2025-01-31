@@ -1,11 +1,11 @@
 <template>
-<div class='page page-center'>
-    <Call911/>
+    <div class='page page-center'>
+        <Call911 />
 
-    <Header label='Education'/>
+        <Header label='Education' />
 
-    <PageFooter/>
-</div>
+        <PageFooter />
+    </div>
 </template>
 
 <script>
@@ -18,6 +18,11 @@ export default {
     components: {
         PageFooter,
     },
+    components: {
+        Call911,
+        Header,
+        PageFooter,
+    },
     data: function() {
         return {
         }
@@ -26,11 +31,6 @@ export default {
         external: function(url) {
               window.location = new URL(url);
         },
-    },
-    components: {
-        Call911,
-        Header,
-        PageFooter,
     }
 }
 </script>

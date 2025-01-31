@@ -1,32 +1,34 @@
 <template>
-<div class='page page-center'>
-    <Call911/>
+    <div class='page page-center'>
+        <Call911 />
 
-    <Header label='Contact Us'/>
+        <Header label='Contact Us' />
 
-    <div class="container-tight py-4">
-        <div class="empty">
-            <p class="empty-title">Mailing Address</p>
-            <p class="empty-subtitle text-muted">
-                Mesa County Search &amp; Rescue
-            </p>
-            <p class="empty-subtitle text-muted">
-                PO Box 2251
-            </p>
-            <p class="empty-subtitle text-muted">
-                Grand Junction CO
-            </p>
-            <p class="empty-subtitle text-muted">
-                81502, USA
-            </p>
+        <div class='container-tight py-4'>
+            <div class='empty'>
+                <p class='empty-title'>
+                    Mailing Address
+                </p>
+                <p class='empty-subtitle text-muted'>
+                    Mesa County Search &amp; Rescue
+                </p>
+                <p class='empty-subtitle text-muted'>
+                    PO Box 2251
+                </p>
+                <p class='empty-subtitle text-muted'>
+                    Grand Junction CO
+                </p>
+                <p class='empty-subtitle text-muted'>
+                    81502, USA
+                </p>
+            </div>
         </div>
+
+
+        <footer class='footer footer-transparent d-print-none py-0'>
+            <Location />
+        </footer>
     </div>
-
-
-    <footer class="footer footer-transparent d-print-none py-0">
-        <Location/>
-    </footer>
-</div>
 </template>
 
 <script>
@@ -37,15 +39,15 @@ import Location from './util/Location.vue';
 
 export default {
     name: 'Team',
-    data: function() {
-        return {
-        }
-    },
     components: {
         Call911,
         Header,
         PageFooter,
         Location
+    },
+    data: function() {
+        return {
+        }
     }
 }
 </script>
