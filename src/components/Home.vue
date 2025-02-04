@@ -1,5 +1,5 @@
 <template>
-    <div class='page page-center'>
+    <div>
         <Call911 />
 
         <div

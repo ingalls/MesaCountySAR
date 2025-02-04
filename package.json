@@ -9,12 +9,11 @@
         "lint": "eslint ./src/"
     },
     "dependencies": {
-        "@tabler/core": "^1.0.0-beta16",
+        "@tabler/core": "^1.0.0",
         "@tak-ps/vue-tabler": "^3.1.1",
         "core-js": "^3.6.4",
         "floating-vue": "^2.0.0-beta.17",
         "mapbox-gl": "^3.0.0",
-        "maplibre-gl": "^3.0.0",
         "sass": "^1.49.7",
         "sass-loader": "^13.0.0",
         "vue": "^3.2.31",
