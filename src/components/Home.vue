@@ -68,7 +68,7 @@
                 </p>
             </div>
         </div>
-        <div class='position-relative bg-none py-md-8'>
+        <div class='min-vh-100 position-relative bg-none py-md-8'>
             <div class='container-xl'>
                 <div class='row'>
                     <div class='col-12 col-md-4 text-center py-3 py-md-8'>
@@ -130,44 +130,46 @@
         <div style='background: rgba(0,0,0,0.7);'>
             <div class='container-xl'>
                 <div class='row text-white'>
-                    <div class='col-12 col-md-4 text-center py-2 py-md-8'>
-                        <h3>Get In Touch</h3>
+                    <div class='col-12 col-md-4 text-center py-2 py-md-6'>
+                        <div class='pt-3'>
+                            <h3>Get In Touch</h3>
 
-                        <div class='pb-1'>
-                            <div>
-                                <a
-                                    class='text-white cursor-pointer'
-                                    @click='external("https://goo.gl/maps/2gg7YG9toWsiE3Yz6")'
-                                >215 Rice Street</a>
+                            <div class='pb-1'>
+                                <div>
+                                    <a
+                                        class='text-white cursor-pointer'
+                                        @click='external("https://goo.gl/maps/2gg7YG9toWsiE3Yz6")'
+                                    >215 Rice Street</a>
+                                </div>
+                                <div>
+                                    <a
+                                        class='text-white cursor-pointer'
+                                        @click='external("https://goo.gl/maps/2gg7YG9toWsiE3Yz6")'
+                                    >Grand Junction, CO</a>
+                                </div>
+                                <div>
+                                    <a
+                                        class='text-white cursor-pointer'
+                                        @click='external("https://goo.gl/maps/2gg7YG9toWsiE3Yz6")'
+                                    >81501</a>
+                                </div>
                             </div>
-                            <div>
-                                <a
-                                    class='text-white cursor-pointer'
-                                    @click='external("https://goo.gl/maps/2gg7YG9toWsiE3Yz6")'
-                                >Grand Junction, CO</a>
-                            </div>
-                            <div>
-                                <a
-                                    class='text-white cursor-pointer'
-                                    @click='external("https://goo.gl/maps/2gg7YG9toWsiE3Yz6")'
-                                >81501</a>
-                            </div>
-                        </div>
 
-                        <h3>Non-Emergency Contact</h3>
+                            <h3>Non-Emergency Contact</h3>
 
-                        <div class='pb-1'>
-                            <div>
-                                <a
-                                    href='tel:2023906116'
-                                    class='text-white cursor-pointer'
-                                >202-390-6116</a>
-                            </div>
-                            <div>
-                                <a
-                                    href='mailto:team@mesacountysar.com'
-                                    class='text-white cursor-pointer'
-                                >team@mesacountysar.com</a>
+                            <div class='pb-1'>
+                                <div>
+                                    <a
+                                        href='tel:2023906116'
+                                        class='text-white cursor-pointer'
+                                    >202-390-6116</a>
+                                </div>
+                                <div>
+                                    <a
+                                        href='mailto:team@mesacountysar.com'
+                                        class='text-white cursor-pointer'
+                                    >team@mesacountysar.com</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -187,36 +189,38 @@
                             </div>
                         </div>
                     </div>
-                    <div class='col-12 col-md-4 text-center py-2 py-md-8 strong'>
-                        <div
-                            class='cursor-pointer'
-                            @click='$router.push("/team")'
-                        >
-                            The Team
-                        </div>
-                        <div
-                            class='my-3 cursor-pointer'
-                            @click='$router.push("/education")'
-                        >
-                            Education
-                        </div>
-                        <div
-                            class='my-3 cursor-pointer'
-                            @click='$router.push("/gallery")'
-                        >
-                            Gallery
-                        </div>
-                        <div
-                            class='my-3 cursor-pointer'
-                            @click='$router.push("/contact")'
-                        >
-                            Contact
-                        </div>
-                        <div
-                            class='my-3 cursor-pointer'
-                            @click='external("https://team.mesacountysar.com")'
-                        >
-                            Team Login
+                    <div class='col-12 col-md-4 text-center py-2 py-md-6'>
+                        <div class='pt-3'>
+                            <div
+                                class='cursor-pointer strong'
+                                @click='$router.push("/team")'
+                            >
+                                The Team
+                            </div>
+                            <div
+                                class='my-3 cursor-pointer strong'
+                                @click='$router.push("/education")'
+                            >
+                                Education
+                            </div>
+                            <div
+                                class='my-3 cursor-pointer strong'
+                                @click='$router.push("/gallery")'
+                            >
+                                Gallery
+                            </div>
+                            <div
+                                class='my-3 cursor-pointer strong'
+                                @click='$router.push("/contact")'
+                            >
+                                Contact
+                            </div>
+                            <div
+                                class='my-3 cursor-pointer strong'
+                                @click='external("https://team.mesacountysar.com")'
+                            >
+                                Team Login
+                            </div>
                         </div>
                     </div>
                 </div>
