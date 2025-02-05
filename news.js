@@ -8,20 +8,35 @@ for (const file of dir.sort()) {
 
     const article = String(fs.readFileSync(`./news/${file}`));
 
-    const keyValueStore = article.match(/---\n([\s\S]*?)\n---/)[1];
-    const lines = keyValueStore.split('\n');
+    const lines = article.split('\n');
     const jsonObject = {};
 
+    let preamble = false;
+    let body = [];
+
     lines.forEach(line => {
-        const [key, value] = line.split(': ');
-        if (value.startsWith('[') && value.endsWith(']')) {
-            jsonObject[key] = JSON.parse(value);
+        if (line.trim() === '---' && !preamble) {
+            preamble = true;
+            return;
+        } else if (line.trim() === '---') {
+            preamble = false;
+            return;
+        }
+
+        if (preamble) {
+            const [key, value] = line.split(': ');
+            if (value.startsWith('[') && value.endsWith(']')) {
+                jsonObject[key] = JSON.parse(value);
+            } else {
+                jsonObject[key] = value;
+            }
         } else {
-            jsonObject[key] = value;
+            body.push(line);
         }
     });
 
     jsonObject.date = file.replace(/.md/, '');
+    jsonObject.body = body.join('\n');
 
     items.push(jsonObject);
 }
