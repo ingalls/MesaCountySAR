@@ -24,6 +24,12 @@
                         <div class='card-header row'>
                             <div class='col-auto'>
                                 <IconNews
+                                    v-if='article.type === "news"'
+                                    :size='32'
+                                    stroke='1'
+                                />
+                                <IconInfoCircle
+                                    v-else
                                     :size='32'
                                     stroke='1'
                                 />
@@ -35,6 +41,27 @@
                                 <div class='col-12'>
                                     <span class='subheader' v-text='article.date'></span>
                                 </div>
+                            </div>
+                        </div>
+                        <div class='card-body'>
+                            <TablerMarkdown :markdown='article.expanded ? article.body : article.body.split("\n\n")[0]'/>
+                            <div class='d-flex justify-content-center'>
+                                <span
+                                    v-if='!article.expanded'
+                                    class='text-blue cursor-pointer'
+                                    @click='article.expanded = true'
+                                >
+                                    <IconSquareRoundedArrowDown/>
+                                    Expand
+                                </span>
+                                <span
+                                    v-else
+                                    class='text-gray cursor-pointer'
+                                    @click='article.expanded = false'
+                                >
+                                    <IconSquareRoundedArrowUp/>
+                                    Collapse
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -52,11 +79,15 @@ import Call911 from './util/Call911.vue';
 import PageHeader from './util/Header.vue';
 import PageFooter from './util/PageFooter.vue';
 import {
-    IconNews
+    IconNews,
+    IconInfoCircle,
+    IconSquareRoundedArrowUp,
+    IconSquareRoundedArrowDown,
 } from '@tabler/icons-vue';
 import {
     TablerNone,
-    TablerLoading
+    TablerLoading,
+    TablerMarkdown,
 } from '@tak-ps/vue-tabler'
 
 const loading = ref(true);
@@ -67,7 +98,14 @@ const news = ref({
 onMounted(async () => {
     const res = await fetch(window.location.origin + '/news.json');
 
-    news.value = await res.json();
+    const body = await res.json();
+
+    body.items.map((b) => {
+        b.expanded = false;
+        return b;
+    });
+
+    news.value = body;
 
     loading.value = false;
 });
