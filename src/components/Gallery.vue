@@ -2,7 +2,7 @@
     <div class='page page-center'>
         <Call911 />
 
-        <Header label='Gallery' />
+        <PageHeader label='Gallery' />
 
         <div class='page-wrapper'>
             <!-- Page header -->
@@ -215,14 +215,14 @@
 
 <script>
 import Call911 from './util/Call911.vue';
-import Header from './util/Header.vue';
+import PageHeader from './util/Header.vue';
 import PageFooter from './util/PageFooter.vue';
 
 export default {
     name: 'Team',
     components: {
         Call911,
-        Header,
+        PageHeader,
         PageFooter,
     },
     data: function() {

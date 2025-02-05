@@ -50,7 +50,7 @@
 
 <script>
 export default {
-    name: 'Header',
+    name: 'PageHeader',
     props: {
         label: {
             type: String,

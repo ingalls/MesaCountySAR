@@ -2,7 +2,7 @@
     <div class='page page-center'>
         <Call911 />
 
-        <Header label='Our Team' />
+        <PageHeader label='Our Team' />
 
         <div class='container-xl mt-6 mb-6'>
             <div class='row g-2 align-items-center'>
@@ -139,7 +139,7 @@
 
 <script>
 import Call911 from './util/Call911.vue';
-import Header from './util/Header.vue';
+import PageHeader from './util/Header.vue';
 import PageFooter from './util/PageFooter.vue';
 import Leader from './util/Leader.vue';
 
@@ -152,7 +152,7 @@ export default {
     components: {
         Leader,
         Call911,
-        Header,
+        PageHeader,
         PageFooter,
         TablerBreadCrumb
     },
