@@ -42,8 +42,8 @@
 
                 <div class='col-md-6 col-lg-3'>
                     <Leader
-                        name='Nate Rinderle'
-                        profile='/img/nate.jpg'
+                        name='Jesse Goryl'
+                        profile='/img/jesse.jpg'
                         group='Board'
                         position='President'
                     />
@@ -66,8 +66,8 @@
                 </div>
                 <div class='col-md-6 col-lg-3'>
                     <Leader
-                        name='Jeanine Camp'
-                        profile='/img/jeanine.jpg'
+                        name='Nallely Bean'
+                        profile='/img/nallely.jpg'
                         group='Board'
                         position='Secretary'
                     />
@@ -111,8 +111,8 @@
                 </div>
                 <div class='col-md-6 col-lg-3'>
                     <Leader
-                        name='Cory Lidberg'
-                        profile='/img/cory.jpg'
+                        name='Katy Brown'
+                        profile='/img/katy.jpg'
                         group='Standards'
                         position='Standards'
                     />
