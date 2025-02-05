@@ -64,9 +64,9 @@
             <div
                 v-if='$route.name !== "education"'
                 class='my-3 cursor-pointer'
-                @click='$router.push("/education")'
+                @click='$router.push("/news")'
             >
-                Education
+                News
             </div>
             <div
                 v-if='$route.name !== "gallery"'

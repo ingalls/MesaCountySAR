@@ -29,8 +29,8 @@
                 >Team</span>
                 <span
                     class='nav-hover mx-3 cursor-pointer'
-                    @click='$router.push("/education")'
-                >Education</span>
+                    @click='$router.push("/news")'
+                >News</span>
                 <span
                     class='nav-hover mx-3 cursor-pointer'
                     @click='$router.push("/gallery")'
