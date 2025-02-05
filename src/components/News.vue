@@ -15,7 +15,30 @@
                 :create='false'
             />
             <template v-else>
-
+                <div
+                    v-for='article of news.items'
+                    :key='`${article.date}-${article.name}`'
+                    class='container-lg py-4'
+                >
+                    <div class='card'>
+                        <div class='card-header row'>
+                            <div class='col-auto'>
+                                <IconNews
+                                    :size='32'
+                                    stroke='1'
+                                />
+                            </div>
+                            <div class='col-auto'>
+                                <div class='col-12'>
+                                    <h2 class='card-title' v-text='article.name'></h2>
+                                </div>
+                                <div class='col-12'>
+                                    <span class='subheader' v-text='article.date'></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </template>
         </div>
 
@@ -28,6 +51,9 @@ import { ref, onMounted } from 'vue';
 import Call911 from './util/Call911.vue';
 import PageHeader from './util/Header.vue';
 import PageFooter from './util/PageFooter.vue';
+import {
+    IconNews
+} from '@tabler/icons-vue';
 import {
     TablerNone,
     TablerLoading
