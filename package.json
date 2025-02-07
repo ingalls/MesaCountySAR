@@ -5,7 +5,7 @@
     "private": true,
     "scripts": {
         "serve": "vite serve --port 8080",
-        "build": "vite build && cp news.json dist/ && mkdir -p dist/news/ && cp news/* dist/news/ && cp *.md dist/",
+        "build": "vite build && cp news.json dist/ && mkdir -p dist/news/ && cp news/* dist/news/ && cp dist/index.html dist/404.html",
         "lint": "eslint ./src/"
     },
     "dependencies": {
