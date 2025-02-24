@@ -1,5 +1,5 @@
 <template>
-    <div class='page h-100'>
+    <div class='page'>
         <router-view />
 
         <TablerError
