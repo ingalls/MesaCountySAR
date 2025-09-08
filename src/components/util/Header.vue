@@ -40,6 +40,10 @@
                     @click='$router.push("/contact")'
                 >Contact</span>
                 <span
+                    class='nav-hover mx-3 cursor-pointer'
+                    @click='$router.push("/apply")'
+                >Join Us</span>
+                <span
                     class='nav-hover mx-3 bg-red py-3 px-3 rounded cursor-pointer'
                     @click='external("https://www.paypal.com/donate/?hosted_button_id=9ZE83Z9KZSW5J")'
                 >Donate</span>

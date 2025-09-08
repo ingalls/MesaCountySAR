@@ -16,12 +16,6 @@
             <div class='row row-cards'>
                 <div class='col-12'>
                     <div class='card'>
-                        <div
-                            class='ribbon bg-red cursor-pointer'
-                            @click='$router.push("/apply")'
-                        >
-                            Apply
-                        </div>
                         <div class='card-body'>
                             <h3 class='card-title'>
                                 Join Our Team
@@ -32,6 +26,12 @@
 
                                 Members come from a variety of backgrounds and bring unique skills to the team. Everyone has something to offer!
                             </p>
+
+                            <div class='col-12 d-flex'>
+                                <div class='ms-auto'>
+                                    <button class='btn btn-danger'>Apply</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
