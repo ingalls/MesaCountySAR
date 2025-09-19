@@ -3,7 +3,7 @@ import fs from 'node:fs';
 const dir = fs.readdirSync('./news');
 
 const items = [];
-for (const file of dir.sort()) {
+for (const file of dir.sort().reverse()) {
     if (!file.endsWith('.md')) continue;
 
     const article = String(fs.readFileSync(`./news/${file}`));
