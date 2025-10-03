@@ -73,7 +73,7 @@
                                         <button
                                             class='btn btn-primary'
                                             :disabled='new Date() > new Date("2025-11-02")'
-                                        >Sign Up for Interview</button>
+                                        ><a href='https://www.signupgenius.com/go/10C0A4FABAB2BA5F5C34-59230380-mesasar'>Sign Up for Interview</a></button>
                                     </div>
                                 </div>
                             </div>
