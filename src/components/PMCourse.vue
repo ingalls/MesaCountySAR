@@ -92,7 +92,7 @@
                                 </div>
                                 <div class='card-body'>
                                     <div class='row'>
-                                        <div class='col-8'>
+                                        <div class='col-lg-10 col-md-8 col-sm-12'>
                                             <p>
                                                 The 2025-2026 PM Course fee is $150. This fee will cover the cost of certification, training materials, and expendables used during training.
                                             </p>
@@ -103,11 +103,12 @@
                                                 Payment can be made by Venmo to @Mesa-SAR (see the QR code to the right) or via the <a href='https://www.paypal.com/donate/?hosted_button_id=9ZE83Z9KZSW5J'>Donate</a> page.
                                             </p>
                                         </div>
-                                        <div class='col-4'>
+                                        <div class='col-lg-2 col-md-4 col-sm-12 d-flex justify-content-center align-items-center'>
                                             <img
                                                 src='/venmo.jpg'
                                                 alt='Venmo QR Code'
-                                                class='img-fluid'
+                                                style='height: 200px;'
+                                                class='rounded'
                                             />
                                         </div>
                                     </div>
@@ -268,7 +269,7 @@
                                                     <div>Saturday, March 28th, 2026</div>
                                                     <span class='subheader'>
                                                         <IconClock :size='14' stroke='1'/>
-                                                        0800 - 17:00
+                                                        0800 - 1700
                                                     </span>
                                                 </td>
                                                 <td>
@@ -284,7 +285,7 @@
                                                     <div>Thursday, April 2nd, 2026</div>
                                                     <span class='subheader'>
                                                         <IconClock :size='14' stroke='1'/>
-                                                        17:30 - 00:00
+                                                        17:30 - 0000
                                                     </span>
                                                 </td>
                                                 <td>
@@ -300,7 +301,7 @@
                                                     <div>Saturday, April 4th, 2026</div>
                                                     <span class='subheader'>
                                                         <IconClock :size='14' stroke='1'/>
-                                                        0800 - 17:00
+                                                        0800 - 1700
                                                     </span>
                                                 </td>
                                                 <td>
@@ -333,7 +334,7 @@
                                                     <div>Friday, April 10th, 2026</div>
                                                     <span class='subheader'>
                                                         <IconClock :size='14' stroke='1'/>
-                                                        18:00 - 0800 Saturday
+                                                        1800 - 0800 Saturday
                                                     </span>
                                                 </td>
                                                 <td>
@@ -347,7 +348,10 @@
                                             <tr class='bg-red-lt'>
                                                 <td>
                                                     <div>Saturday, March 14th, 2026</div>
-                                                    <span class='subheader'>Sunday, March 22nd, 2026</span>
+                                                    <span class='subheader'>
+                                                        <IconClock :size='14' stroke='1'/>
+                                                        0800 - 1000
+                                                    </span>
                                                 </td>
                                                 <td>Overnighter Morning Location</td>
                                                 <td>
@@ -360,7 +364,7 @@
                                                     <div>Thursday, April 16th, 2026</div>
                                                     <span class='subheader'>
                                                         <IconClock :size='14' stroke='1'/>
-                                                        18:00 - 20:00
+                                                        1800 - 2000
                                                     </span>
                                                 </td>
                                                 <td>
