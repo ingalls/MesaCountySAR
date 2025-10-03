@@ -98,8 +98,8 @@
                 </div>
                 <div class='col-md-6 col-lg-3'>
                     <Leader
-                        name='Ben Lawrence'
-                        profile='/img/ben.jpg'
+                        name='Cory Lidberg'
+                        profile='/img/cory.jpg'
                         group='Standards'
                         position='Standards'
                     />

@@ -19,6 +19,8 @@ const router = new VueRouter.createRouter({
         { path: '/contact', name: 'contact', component: () => import('./components/Contact.vue') },
         { path: '/news', name: 'news', component: () => import('./components/News.vue') },
         { path: '/:catchAll(.*)', name: 'lost', component: () => import('./components/Lost.vue') },
+
+        { path: '/pmcourse', name: 'pmcourse', component: () => import('./components/PMCourse.vue') },
     ]
 });
 
