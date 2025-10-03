@@ -2,7 +2,7 @@
     <div class='page page-center'>
         <Call911 />
 
-        <PageHeader label='Gallery' />
+        <PageHeader label='PM Course Outline' />
 
         <div class='page-wrapper'>
             <div class='page-body'>
@@ -117,6 +117,38 @@
                         </div>
                         <div class='card'>
                             <div class='card-header'>
+                                <h3 class='card-title'>Pre-Course Requirements</h3>
+                            </div>
+                            <div class='card-body'>
+                                <p>
+                                    Prior to the start of the PM course, all applicants must complete or obtain the following requirements
+                                </p>
+                                <ul>
+                                    <li>
+                                        Have paid the PM Course fee of $150 by December 1st, 2025.
+                                    </li>
+                                    <li>
+                                        Obtain the following required gear
+                                        <ul>
+                                            <li>
+                                                SAR Pack: A comfortable pack capable of carrying all required gear for up to 24hrs in the field. Most team members aim for 30-40L
+                                            </li>
+                                            <li>
+                                                A UIAA or CE certified climbing helmet manufactured within the last 10 years, white is preferred if you don't already have a helmet
+                                            </li>
+                                            <li>
+                                                A UIAA certified climbing harness manufactured within the last 10 years
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <p>
+                                    Failure to complete these requirements by the specified deadlines may result in disqualification from the PM course.
+                                </p>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <div class='card-header'>
                                 <h3 class='card-title'>PM Course Timeline</h3>
                             </div>
                             <div class='card-body'>
@@ -182,7 +214,7 @@
                                                     <a href='https://maps.app.goo.gl/7T45ah24hnVi37X97'>Lunch Loops Trailhead</a>
                                                 </td>
                                                 <td>
-                                                    <div class='strong'>Search Theory amp; Fitness Hike</div>
+                                                    <div class='strong'>Search Theory &amp; Fitness Hike</div>
                                                     Students will learn the basics of performing a search operation, including a high level overview of search theory, and a
                                                     detailed overview of MCSAR expectations when responding to a callout. The day will conclude with the MCSAR annual fitness hike.
                                                 </td>
