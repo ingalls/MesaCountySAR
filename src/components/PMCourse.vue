@@ -88,13 +88,13 @@
                             </div>
                             <div>
                                 <div class='card-title'>
-                                    December 1st, 2025 - PM Course Fee Due
+                                    January 31st, 2025 - PM Course Fee Due
                                 </div>
                                 <div class='card-body'>
                                     <div class='row'>
                                         <div class='col-lg-10 col-md-8 col-sm-12'>
                                             <p>
-                                                The 2025-2026 PM Course fee is $150. This fee will cover the cost of certification, training materials, and expendables used during training.
+                                                The 2025-2026 PM Course fee is $125. This fee will cover the cost of certification, training materials, and expendables used during training.
                                             </p>
                                             <p>
                                                 Please note that this fee is non-refundable, except in the extremely unlikely case that MCSAR is unable to offer the PM course.
