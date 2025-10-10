@@ -436,7 +436,7 @@
                                             </tr>
                                             <tr class='bg-red-lt'>
                                                 <td>
-                                                    <div>Saturday, March 14th, 2026</div>
+                                                    <div>Saturday, April 11th, 2026</div>
                                                     <span class='subheader'>
                                                         <IconClock :size='14' stroke='1'/>
                                                         0800 - 1000
