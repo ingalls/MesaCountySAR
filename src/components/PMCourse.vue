@@ -27,10 +27,16 @@
                                 <h3 class='card-title'>2026 Prospective Member Training Schedule 2025-2026</h3>
                             </div>
                             <div class='card-body'>
+                                <p>
                                 Thank you for your interest in joining Mesa County Search &amp; Rescue (MCSAR).
                                 The following document outlines the process for becoming a member of MCSAR.
-                                <br /><br />
+                                </p>
+                                <p>
                                 A roster of current leadership can be found on the <a href='/team'>Team</a> page.
+                                </p>
+                                <p>
+                                    Throughout the process, any questions should be directed to the Prospective Member Coordinator at <a href='tel:2023906116'>(202) 390-6116</a>.
+                                </p>
                             </div>
                         </div>
                         <div class='card'>
@@ -67,17 +73,62 @@
                                     MCSAR will review all applications the week following interviews and notify applicants of their status by mid November at the latest.
                                     Please note that our PM course is limited to 20 new members, and not all applicants will be accepted.
                                 </p>
+                                <p>
+                                    All steps &amp; dates provided below that follow the interview are contingent on being offered one of the 20 searts in the PM course.
+                                </p>
 
                                 <div class='col-12 d-flex'>
                                     <div class='ms-auto'>
                                         <button
                                             class='btn btn-primary'
                                             :disabled='new Date() > new Date("2025-11-02")'
-                                        ><a href='https://www.signupgenius.com/go/10C0A4FABAB2BA5F5C34-59230380-mesasar'>Sign Up for Interview</a></button>
+                                            @click='externalURL("https://www.signupgenius.com/go/10C0A4FABAB2BA5F5C34-59230380-mesasar")'
+                                        >Sign Up for Interview</button>
+
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <div class='alert d-flex'>
+                            <div>
+                                <IconCalendar
+                                    :size='32'
+                                    color='blue'
+                                    stroke='1'
+                                />
+                            </div>
+                            <div>
+                                <div class='card-title'>
+                                    January 17th - 18th, 2026 - MCSAR Provided Wilderness First Aid Course
+                                </div>
+                                <div class='card-body'>
+                                    <p>
+                                        Prospective Members must hold a current WMEC member provided Wilderness First Aid (WFA) certification OR higher certification prior to the start of the PM course.
+                                    </p>
+                                    <p>
+                                        Alternate Certifications that meet this requirement include:
+                                    </p>
+
+                                    <ul>
+                                        <li>Current WMEC Wilderness First Responder (WFR)</li>
+                                        <li>Current Outdor Emergency Care (OEC) - National Ski Patrol</li>
+                                        <li>Current Emergency Medical Technician (EMT), NREMT Certificate</li>
+                                        <li>Current Paramedic (EMT-P), NREMT Certificate</li>
+                                        <li>Licensed Practical Nurse (LPN)</li>
+                                        <li>Registered Nurse (RN)</li>
+                                        <li>Physician (MD or DO)</li>
+                                    </ul>
+
+                                    <p>
+                                        To assist PM's who do not already hold one of the above certifications, MCSAR will be hosting a WFA course on January 17th-18th, 2026 that will come at no
+                                        cost provided PM's complete the PM Course. Registration details will be provided to those PM's who are offered a seat and require certification. PM's are
+                                        also welcome to obtain certification through other providers, but doing so wil be at their own expense. Please ensure the provider is accepted by MCSAR prior
+                                        to enrolling in a course by contacting the Prospective Member Coordinator.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class='alert d-flex'>
                             <div>
                                 <IconCalendar
@@ -125,7 +176,10 @@
                                 </p>
                                 <ul>
                                     <li>
-                                        Have paid the PM Course fee of $150 by December 1st, 2025.
+                                        Have paid the PM Course fee of $125 by January 31st, 2026.
+                                    </li>
+                                    <li>
+                                        Hold a WFA (or higher) certification by February 24th, 2026.
                                     </li>
                                     <li>
                                         Obtain the following required gear
@@ -138,6 +192,9 @@
                                             </li>
                                             <li>
                                                 A UIAA certified climbing harness manufactured within the last 10 years
+                                            </li>
+                                            <li>
+                                                Petzl GriGri (NOT the Petzl Noex and we recommend against the Petzl GriGri+)
                                             </li>
                                         </ul>
                                     </li>
@@ -432,5 +489,9 @@ import {
     IconAlertTriangle,
     IconInfoSquareRounded
 } from '@tabler/icons-vue';
+
+function externalURL(url) {
+    window.open(url, '_blank');
+}
 </script>
 
