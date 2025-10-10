@@ -398,7 +398,7 @@
                                                 </td>
                                                 <td>
                                                     <div class='strong'>Vertical Field Day + Pack Check</div>
-                                                    Students will practice low and high angle rescue skills in a field environment. Additionally, students will have their personal gear inspected to ensure they are carrying
+                                                    Students will practice high angle rescue skills in a field environment. Additionally, students will have their personal gear inspected to ensure they are carrying
                                                     the required equipment for field operations.
                                                 </td>
                                             </tr>
