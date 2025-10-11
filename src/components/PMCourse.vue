@@ -183,10 +183,45 @@
                                     </li>
                                     <li>
                                         Obtain the following required gear by February 24th, 2026:
-
                                         <ul>
                                             <li>
                                                 SAR Pack: A comfortable pack capable of carrying all required gear for up to 24hrs in the field. Most team members aim for 30-40L
+                                            </li>
+                                            <li>
+                                                Modern Android or iOS smartphone capable of running COTAK &amp; Active911
+                                            </li>
+                                            <li>
+                                                Light Source: Headlamp with extra batteries (ie: <a href='https://www.blackdiamondequipment.com/products/spot-400-headlamp'>Black Diamond Spot 400</a>, etc)
+                                            </li>
+                                            <li>
+                                                Weather Appropriate Clothing: Clothing suitable for outdoor activity in all weather conditions, including rain shell, warm layers, and extra clothing for patients
+                                            </li>
+                                            <li>
+                                                Sun Protection: Sunglasses, Sunscreen, Hat, SPF Lip Balm
+                                            </li>
+                                            <li>
+                                                Water Bottle(s): Recommend bottles so they can be given to patients if needed, 2-3L total (ie: Nalgenes, etc)
+                                            </li>
+                                            <li>
+                                                Whistle: Loud whistle for signaling/attraction in the field
+                                            </li>
+                                            <li>
+                                                Boots: Sturdy hiking boots or trail shoes with good ankle support and tread
+                                            </li>
+                                            <li>
+                                                Snacks: High energy snacks such as trail mix, energy bars, jerky, etc + extra for patients
+                                            </li>
+                                            <li>
+                                                First Aid Kit: A small first aid kid for personal use in case of minor injuries in the field.
+                                            </li>
+                                            <li>
+                                                Knife: Small folding knife or multi-tool, avoid "Tactical" or large knives. (IE Gerber, Leatherman, etc)
+                                            </li>
+                                            <li>
+                                                Fire Starting Kit: Waterproof matches/lighter
+                                            </li>
+                                            <li>
+                                                Shelter: Emergency Bivy or Tarp
                                             </li>
                                             <li>
                                                 A UIAA or CE certified climbing helmet manufactured within the last 10 years, plain white is preferred if you don't already have a helmet
@@ -205,6 +240,24 @@
                                             </li>
                                             <li>
                                                 Full Finger Leather Gloves (ie: <a href='https://www.outdoorresearch.com/collections/rock-climbing-gloves/products/direct-route-ii-gloves-287689'>Outdoor Research Direct Route II</a>, etc)
+                                            </li>
+                                            <li>
+                                                Additional gear may be required after the course as our winter season approaches, however once on the team you will gain access to gear discounts through various parternships which can reduce the cost of gear by 20-50%.
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        Complete the following no-cost FEMA ICS courses before Saturday, April 4th, 2026. We highly recommend completing these courses before starting the PM course on February 24th, 2026 to reduce the workload during the course.
+                                        Note that a FEMA Student ID is required to take these courses, which can be obtained for free by creating an account at <a href='https://cdp.dhs.gov/femasid'>FEMA SID</a>.
+                                        <ul>
+                                            <li>
+                                                <a href='https://www.firstrespondertraining.gov/frts/npccatalog?id=2304'>FEMA - Emergency Management Institute (EMI) Course | IS-100.C: Introduction to the Incident Command System, ICS 100</a>
+                                            </li>
+                                            <li>
+                                                <a href='https://www.firstrespondertraining.gov/frts/npccatalog?id=2304'>FEMA - Emergency Management Institute (EMI) Course | IS-200.C: Basic Incident Command System for Initial Response</a>
+                                            </li>
+                                            <li>
+                                                <a href='https://www.firstrespondertraining.gov/frts/npccatalog?id=2304'>FEMA - Emergency Management Institute (EMI) Course | IS-700.B: An Introduction to the National Incident Management System</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -250,6 +303,7 @@
                                                 <td>
                                                     <div class='strong'>Introduction + Expectations + Gear Review + SO Tour</div>
                                                     An introduction to the team, the PM course, and expectations for members. Additionally, a review of required personal gear and a tour of the Sheriff's Office.
+                                                    The MCSAR Bylaws &amp; Policies and Procedures will be provided for review and should be read and signed prior to the next training.
                                                 </td>
                                             </tr>
                                             <tr>
@@ -284,6 +338,8 @@
                                                     <div class='strong'>Search Theory &amp; Fitness Hike</div>
                                                     Students will learn the basics of performing a search operation, including a high level overview of search theory, and a
                                                     detailed overview of MCSAR expectations when responding to a callout. The day will conclude with the MCSAR annual fitness hike.
+                                                    Successful completion of the fitness hike with the alloted weight and within the allotted time is required before the Overnighter.
+
                                                 </td>
                                             </tr>
                                             <tr>
@@ -426,6 +482,7 @@
                                                 <td>
                                                     <div class='strong'>PM Annuals Testing</div>
                                                     The PM course up until this point is designed to prepare you for the team's annual testing. You will be tested on your rope skills, patient packaging skills, and first aid knowledge.
+                                                    Note: Passing annuals is required to complete the PM course. An additional retest date will be scheduled for those who do not pass on the first attempt.
                                                 </td>
                                             </tr>
                                             <tr>
@@ -442,6 +499,7 @@
                                                 <td>
                                                     <div class='strong'>Overnighter</div>
                                                     The "overnighter" is a mock mission designed to simulate a real search and rescue operation, testing all the skills and knowledge acquired during the PM course.
+                                                    Successful completion of the overnighter is required to complete the PM course.
                                                 </td>
                                             </tr>
                                             <tr class='bg-red-lt'>
@@ -477,6 +535,42 @@
                                         </tbody>
                                     </table>
                                 </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <div class='card-header'>
+                                <h3 class='card-title'>Post-Course Requirements</h3>
+                            </div>
+                            <div class='card-body'>
+                                <p>
+                                    If offered a seat on the team, probationary members must maintain the following requirements to remain in good standing with the team:
+                                </p>
+                                <ul>
+                                    <li>
+                                        Better than or equal to 50% training attendance (8 Trainings/Quarter - 5 after first year)
+                                    </li>
+                                    <li>
+                                        Better than or equal to 33% mission attendance.
+                                    </li>
+                                    <li>
+                                        Minimum of 1 PSAR (parade, hug-a-tree, etc.).
+                                    </li>
+                                    <li>
+                                        Practice and maintain fundamental SAR skills.
+                                    </li>
+                                    <li>
+                                        Maintain a high level of fitness and readiness to respond to missions.
+                                    </li>
+                                    <li>
+                                        Willingness to learn new skills, work as a team and take direction from others.
+                                    </li>
+                                    <li>
+                                        Represent MCSAR in a professional and respectable manner.
+                                    </li>
+                                    <li>
+                                        Maintain a valid WFA (or higher) certification.
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
