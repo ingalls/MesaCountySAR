@@ -122,7 +122,7 @@
                                     <p>
                                         To assist PM's who do not already hold one of the above certifications, MCSAR will be hosting a WFA course on January 17th-18th, 2026 that will come at no
                                         cost provided PM's complete the PM Course. Registration details will be provided to those PM's who are offered a seat and require certification. PM's are
-                                        also welcome to obtain certification through other providers, but doing so wil be at their own expense. Please ensure the provider is accepted by MCSAR prior
+                                        also welcome to obtain certification through other providers, but doing so will be at your own expense. Please ensure the provider is accepted by MCSAR prior
                                         to enrolling in a course by contacting the Prospective Member Coordinator.
                                     </p>
                                 </div>
@@ -276,7 +276,7 @@
                                     The PM Course is the foundational training program for applicants wishing to join MCSAR.
                                 </p>
                                 <p>
-                                    PM Course Dates are <span class='strong text-red'>MANDATORY</span> and attendance is required to successfully complete the course and be considered for membership.
+                                    PM Course Dates are <span class='strong text-red'>MANDATORY</span> and attendance is required to successfully complete the PM course and be considered for membership.
                                     Please review the schedule before attending your interview to ensure you will be able to attend all sessions if offered a seat on the team.
                                 </p>
                                 <div class='table-responsive'>
@@ -303,7 +303,7 @@
                                                 <td>
                                                     <div class='strong'>Introduction + Expectations + Gear Review + SO Tour</div>
                                                     An introduction to the team, the PM course, and expectations for members. Additionally, a review of required personal gear and a tour of the Sheriff's Office.
-                                                    The MCSAR Bylaws &amp; Policies and Procedures will be provided for review and should be read and signed prior to the next training.
+                                                    The MCSAR Bylaws, Policies and Procedures, &amp; Mesa County SO Code of Conduct will be provided for review and should be read and signed prior to the next training.
                                                 </td>
                                             </tr>
                                             <tr>
@@ -355,7 +355,7 @@
                                                 </td>
                                                 <td>
                                                     <div class='strong'>Primary Assessment Rodeo</div>
-                                                    Students will spend the evening practicing patient on a variety of patients and scenarios, focusing on
+                                                    Students will spend the evening practicing patient assessments on a variety of patients and scenarios, focusing on
                                                     building confidence and proficiency in primary assessment skills.
                                                 </td>
                                             </tr>
@@ -372,7 +372,7 @@
                                                 </td>
                                                 <td>
                                                     <div class='strong'>Patient Packaging &amp; Litter Skills</div>
-                                                    Students will learn how to properly package a patient in a litter for transport, including litter selection, patient packaging techniques, and litter movement in the field.
+                                                    Students will learn how to properly package a patient in a litter for transport, including litter assembly &amp; selection, patient packaging techniques, and litter movement in the field.
                                                 </td>
                                             </tr>
                                             <tr>
