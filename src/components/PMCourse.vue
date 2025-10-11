@@ -182,19 +182,29 @@
                                         Hold a WFA (or higher) certification by February 24th, 2026.
                                     </li>
                                     <li>
-                                        Obtain the following required gear
+                                        Obtain the following required gear by February 24th, 2026:
+
                                         <ul>
                                             <li>
                                                 SAR Pack: A comfortable pack capable of carrying all required gear for up to 24hrs in the field. Most team members aim for 30-40L
                                             </li>
                                             <li>
-                                                A UIAA or CE certified climbing helmet manufactured within the last 10 years, white is preferred if you don't already have a helmet
+                                                A UIAA or CE certified climbing helmet manufactured within the last 10 years, plain white is preferred if you don't already have a helmet
                                             </li>
                                             <li>
-                                                A UIAA certified climbing harness manufactured within the last 10 years
+                                                A UIAA certified climbing harness manufactured within the last 10 years.
                                             </li>
                                             <li>
-                                                Petzl GriGri (NOT the Petzl Noex and we recommend against the Petzl GriGri+)
+                                                <a href='https://www.petzl.com/US/en/Sport/Belay-Devices-And-Descenders/GRIGRI'>Petzl GriGri</a> (NOT the Petzl Noex and we recommend against the Petzl GriGri+)
+                                            </li>
+                                            <li>
+                                                4 Locking HMS Carabiners (ie: <a href='https://blackdiamondequipment.com/products/rocklock-screwgate-carabiner'>Black Diamond Rocklock</a>, etc)
+                                            </li>
+                                            <li>
+                                                1 <a href='https://www.bluewaterropes.com/product/vt-prusik/'>8mm VT Prussik</a>
+                                            </li>
+                                            <li>
+                                                Full Finger Leather Gloves (ie: <a href='https://www.outdoorresearch.com/collections/rock-climbing-gloves/products/direct-route-ii-gloves-287689'>Outdoor Research Direct Route II</a>, etc)
                                             </li>
                                         </ul>
                                     </li>
