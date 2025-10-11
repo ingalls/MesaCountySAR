@@ -74,7 +74,7 @@
                                     Please note that our PM course is limited to 20 new members, and not all applicants will be accepted.
                                 </p>
                                 <p>
-                                    All steps &amp; dates provided below that follow the interview are contingent on being offered one of the 20 searts in the PM course.
+                                    All subsequent sections below are contingent on being offered one of the 20 PM seats"
                                 </p>
 
                                 <div class='col-12 d-flex'>
@@ -111,7 +111,7 @@
 
                                     <ul>
                                         <li>Current WMEC Wilderness First Responder (WFR)</li>
-                                        <li>Current Outdor Emergency Care (OEC) - National Ski Patrol</li>
+                                        <li>Current Outdoor Emergency Care (OEC) - National Ski Patrol</li>
                                         <li>Current Emergency Medical Technician (EMT), NREMT Certificate</li>
                                         <li>Current Paramedic (EMT-P), NREMT Certificate</li>
                                         <li>Licensed Practical Nurse (LPN)</li>
