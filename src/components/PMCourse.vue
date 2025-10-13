@@ -151,7 +151,7 @@
                                                 Please note that this fee is non-refundable, except in the extremely unlikely case that MCSAR is unable to offer the PM course.
                                             </p>
                                             <p>
-                                                Payment can be made by Venmo to @Mesa-SAR (see the QR code to the right) or via the <a href='https://www.paypal.com/donate/?hosted_button_id=9ZE83Z9KZSW5J'>Donate</a> page.
+                                                Payment can be made by Venmo to @Mesa-SAR (see the QR code to the right).
                                             </p>
                                         </div>
                                         <div class='col-lg-2 col-md-4 col-sm-12 d-flex justify-content-center align-items-center'>
