@@ -138,25 +138,23 @@
                         <div class='pt-3'>
                             <h3>Get In Touch</h3>
 
+                            <h4>Mailing Address</h4>
+
                             <div class='pb-1'>
-                                <div>
-                                    <a
-                                        class='text-white cursor-pointer'
-                                        @click='external("https://goo.gl/maps/2gg7YG9toWsiE3Yz6")'
-                                    >215 Rice Street</a>
-                                </div>
-                                <div>
-                                    <a
-                                        class='text-white cursor-pointer'
-                                        @click='external("https://goo.gl/maps/2gg7YG9toWsiE3Yz6")'
-                                    >Grand Junction, CO</a>
-                                </div>
-                                <div>
-                                    <a
-                                        class='text-white cursor-pointer'
-                                        @click='external("https://goo.gl/maps/2gg7YG9toWsiE3Yz6")'
-                                    >81501</a>
-                                </div>
+                                <a
+                                    class='text-white cursor-pointer'
+                                    @click='external("https://goo.gl/maps/2gg7YG9toWsiE3Yz6")'
+                                >
+                                    <p class='my-0'>
+                                        PO BOX 2251
+                                    </p>
+                                    <p class='my-0'>
+                                        Grand Junction, CO
+                                    </p>
+                                    <p class='my-0'>
+                                        81502
+                                    </p>
+                                </a>
                             </div>
 
                             <h3>Non-Emergency Contact</h3>
