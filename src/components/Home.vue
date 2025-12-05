@@ -67,7 +67,7 @@
         </div>
 
         <!-- Stats Section -->
-        <div class='py-6 py-md-8 position-relative bg-none'>
+        <div class='py-6 py-md-8 position-relative bg-none' ref="statsSection">
             <div class='container-xl'>
                 <div class='row g-4'>
                     <div class='col-12 col-md-4'>
@@ -75,7 +75,7 @@
                             <div class='mb-4'>
                                 <PhoneFilledIcon class='text-danger' size='64' />
                             </div>
-                            <h3 class='display-4 fw-bold mb-2'>100+</h3>
+                            <h3 class='display-4 fw-bold mb-2'>{{ stats.missions }}+</h3>
                             <p class='h4 fw-light'>Missions Annually</p>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
                             <div class='mb-4'>
                                 <ActivityHeartbeatIcon class='text-danger' size='64' />
                             </div>
-                            <h3 class='display-4 fw-bold mb-2'>20+</h3>
+                            <h3 class='display-4 fw-bold mb-2'>{{ stats.years }}+</h3>
                             <p class='h4 fw-light'>Years of Service</p>
                         </div>
                     </div>
@@ -93,7 +93,7 @@
                             <div class='mb-4'>
                                 <ClockIcon class='text-danger' size='64' />
                             </div>
-                            <h3 class='display-4 fw-bold mb-2'>5000+</h3>
+                            <h3 class='display-4 fw-bold mb-2'>{{ stats.hours }}+</h3>
                             <p class='h4 fw-light'>Volunteer Hours</p>
                         </div>
                     </div>
@@ -125,10 +125,69 @@ export default {
         ChevronDownIcon,
         ClockIcon,
     },
+    data() {
+        return {
+            stats: {
+                missions: 0,
+                years: 0,
+                hours: 0
+            },
+            hasAnimated: false,
+            observer: null
+        }
+    },
+    mounted() {
+        this.observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting && !this.hasAnimated) {
+                    this.animateStats();
+                    this.hasAnimated = true;
+                }
+            });
+        }, { threshold: 0.5 });
+
+        const statsSection = this.$refs.statsSection;
+        if (statsSection) {
+            this.observer.observe(statsSection);
+        }
+    },
+    beforeUnmount() {
+        if (this.observer) {
+            this.observer.disconnect();
+        }
+    },
     methods: {
         external: function(url) {
             window.location = new URL(url);
         },
+        animateStats() {
+            const duration = 2000; // 2 seconds
+            const start = performance.now();
+            
+            const targets = {
+                missions: 100,
+                years: 20,
+                hours: 5000
+            };
+
+            const animate = (currentTime) => {
+                const elapsed = currentTime - start;
+                const progress = Math.min(elapsed / duration, 1);
+                
+                // Easing function (easeOutQuart)
+                const ease = 1 - Math.pow(1 - progress, 4);
+
+                this.stats.missions = Math.floor(targets.missions * ease);
+                this.stats.years = Math.floor(targets.years * ease);
+                this.stats.hours = Math.floor(targets.hours * ease);
+
+                if (progress < 1) {
+                    requestAnimationFrame(animate);
+                }
+            };
+            
+            requestAnimationFrame(animate);
+        }
     }
 }
 </script>
