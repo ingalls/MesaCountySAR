@@ -71,7 +71,7 @@
             <div class='container-xl'>
                 <div class='row g-4'>
                     <div class='col-12 col-md-4'>
-                        <div class='card h-100 bg-dark-transparent border-0 shadow-lg text-center text-white p-4 hover-lift'>
+                        <div class='card h-100 bg-light-transparent border-0 shadow-lg text-center text-dark p-4 hover-lift'>
                             <div class='mb-4'>
                                 <PhoneFilledIcon class='text-danger' size='64' />
                             </div>
@@ -80,7 +80,7 @@
                         </div>
                     </div>
                     <div class='col-12 col-md-4'>
-                        <div class='card h-100 bg-dark-transparent border-0 shadow-lg text-center text-white p-4 hover-lift'>
+                        <div class='card h-100 bg-light-transparent border-0 shadow-lg text-center text-dark p-4 hover-lift'>
                             <div class='mb-4'>
                                 <ActivityHeartbeatIcon class='text-danger' size='64' />
                             </div>
@@ -89,7 +89,7 @@
                         </div>
                     </div>
                     <div class='col-12 col-md-4'>
-                        <div class='card h-100 bg-dark-transparent border-0 shadow-lg text-center text-white p-4 hover-lift'>
+                        <div class='card h-100 bg-light-transparent border-0 shadow-lg text-center text-dark p-4 hover-lift'>
                             <div class='mb-4'>
                                 <ClockIcon class='text-danger' size='64' />
                             </div>
@@ -134,8 +134,8 @@ export default {
 </script>
 
 <style scoped>
-.bg-dark-transparent {
-    background: rgba(0, 0, 0, 0.7) !important;
+.bg-light-transparent {
+    background: rgba(255, 255, 255, 0.9) !important;
     backdrop-filter: blur(10px);
 }
 
