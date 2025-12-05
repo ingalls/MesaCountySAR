@@ -7,7 +7,6 @@
         
         <div class="fixed-top">
             <Call911 />
-            <NavBar :transparent="true" :fixed="false" />
         </div>
 
         <div class='container-xl position-relative z-index-1 pt-5'>
@@ -22,13 +21,11 @@
 </template>
 
 <script>
-import NavBar from './NavBar.vue';
 import Call911 from './Call911.vue';
 
 export default {
     name: 'PageHeader',
     components: {
-        NavBar,
         Call911
     },
     props: {

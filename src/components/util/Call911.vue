@@ -13,6 +13,27 @@
                         "text-white": invert
                     }'
                 >
+                    <div 
+                        class="cursor-pointer mx-3 rounded-circle" 
+                        style="background: white url(/logo.png) no-repeat center center; background-size: contain; width: 40px; height: 40px;"
+                        @click="$router.push('/')"
+                    ></div>
+
+                    <div class='d-flex justify-content-center align-items-center d-inline strong mx-3'>
+                        <div><PhoneCallIcon /> For Rescue Assistance - Call 911</div>
+                    </div>
+
+                    <div class="ms-auto"></div>
+
+                    <div class="d-none d-lg-flex align-items-center">
+                        <span class="nav-link text-white cursor-pointer mx-2 strong" @click="$router.push('/')">Home</span>
+                        <span class="nav-link text-white cursor-pointer mx-2 strong" @click="$router.push('/team')">Team</span>
+                        <span class="nav-link text-white cursor-pointer mx-2 strong" @click="$router.push('/news')">News</span>
+                        <span class="nav-link text-white cursor-pointer mx-2 strong" @click="$router.push('/gallery')">Gallery</span>
+                        <span class="nav-link text-white cursor-pointer mx-2 strong" @click="$router.push('/contact')">Contact</span>
+                        <span class="nav-link text-white cursor-pointer mx-2 strong" @click="$router.push('/apply')">Join Us</span>
+                    </div>
+
                     <BrandFacebookFilledIcon
                         class='cursor-pointer mx-3 d-none d-md-inline'
                         @click='external("https://www.facebook.com/profile.php?id=100064661560769")'
@@ -21,18 +42,6 @@
                         class='cursor-pointer d-none d-md-inline'
                         @click='external("https://www.instagram.com/mesacountysar/")'
                     />
-
-                    <div class="d-none d-lg-flex align-items-center ms-auto">
-                        <span class="nav-link text-white cursor-pointer mx-2 strong" @click="$router.push('/team')">Team</span>
-                        <span class="nav-link text-white cursor-pointer mx-2 strong" @click="$router.push('/news')">News</span>
-                        <span class="nav-link text-white cursor-pointer mx-2 strong" @click="$router.push('/gallery')">Gallery</span>
-                        <span class="nav-link text-white cursor-pointer mx-2 strong" @click="$router.push('/contact')">Contact</span>
-                        <span class="nav-link text-white cursor-pointer mx-2 strong" @click="$router.push('/apply')">Join Us</span>
-                    </div>
-
-                    <div class='d-flex justify-content-center align-items-center d-inline strong mx-3'>
-                        <div><PhoneCallIcon /> For Rescue Assistance - Call 911</div>
-                    </div>
 
                     <div
                         v-if='menu'

@@ -2,7 +2,6 @@
     <div>
         <div class="fixed-top">
             <Call911 />
-            <NavBar :transparent="true" :fixed="false" />
         </div>
 
         <!-- Hero Section -->
@@ -107,7 +106,6 @@
 </template>
 
 <script>
-import NavBar from './util/NavBar.vue';
 import SiteFooter from './util/SiteFooter.vue';
 import Call911 from './util/Call911.vue';
 import {
@@ -120,7 +118,6 @@ import {
 export default {
     name: 'Home',
     components: {
-        NavBar,
         SiteFooter,
         Call911,
         PhoneFilledIcon,

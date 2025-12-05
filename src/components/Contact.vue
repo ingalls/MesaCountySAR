@@ -1,5 +1,5 @@
 <template>
-    <div class='page page-center'>
+    <div class='page page-center d-flex flex-column min-vh-100'>
         <PageHeader label='Contact Us' />
 
         <div class='container-xl py-4'>
@@ -23,9 +23,9 @@
         </div>
 
 
-        <footer class='footer footer-transparent d-print-none py-0'>
-            <Location />
-        </footer>
+        <div class='flex-grow-1 w-100 position-relative'>
+            <Location class="position-absolute top-0 start-0 w-100 h-100" />
+        </div>
     </div>
 </template>
 

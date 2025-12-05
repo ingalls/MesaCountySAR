@@ -1,7 +1,7 @@
 <template>
     <div
         id='map'
-        style='height: 350px;'
+        class="w-100 h-100"
     />
 </template>
 
