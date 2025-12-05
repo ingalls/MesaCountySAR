@@ -67,10 +67,10 @@
         </div>
 
         <!-- Stats Section -->
-        <div class='py-6 py-md-8 position-relative bg-none' ref="statsSection">
+        <div class='py-6 py-md-8 position-relative bg-none'>
             <div class='container-xl'>
                 <div class='row g-4'>
-                    <div class='col-12 col-md-4'>
+                    <div class='col-12 col-md-4' ref="statMissions" data-stat="missions">
                         <div class='card h-100 bg-light-transparent border-0 shadow-lg text-center text-dark p-4 hover-lift'>
                             <div class='mb-4'>
                                 <PhoneFilledIcon class='text-danger' size='64' />
@@ -79,7 +79,7 @@
                             <p class='h4 fw-light'>Missions Annually</p>
                         </div>
                     </div>
-                    <div class='col-12 col-md-4'>
+                    <div class='col-12 col-md-4' ref="statYears" data-stat="years">
                         <div class='card h-100 bg-light-transparent border-0 shadow-lg text-center text-dark p-4 hover-lift'>
                             <div class='mb-4'>
                                 <ActivityHeartbeatIcon class='text-danger' size='64' />
@@ -88,7 +88,7 @@
                             <p class='h4 fw-light'>Years of Service</p>
                         </div>
                     </div>
-                    <div class='col-12 col-md-4'>
+                    <div class='col-12 col-md-4' ref="statHours" data-stat="hours">
                         <div class='card h-100 bg-light-transparent border-0 shadow-lg text-center text-dark p-4 hover-lift'>
                             <div class='mb-4'>
                                 <ClockIcon class='text-danger' size='64' />
@@ -132,24 +132,31 @@ export default {
                 years: 0,
                 hours: 0
             },
-            hasAnimated: false,
+            animated: {
+                missions: false,
+                years: false,
+                hours: false
+            },
             observer: null
         }
     },
     mounted() {
         this.observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
-                if (entry.isIntersecting && !this.hasAnimated) {
-                    this.animateStats();
-                    this.hasAnimated = true;
+                if (entry.isIntersecting) {
+                    const key = entry.target.dataset.stat;
+                    if (key && !this.animated[key]) {
+                        this.animateStat(key);
+                        this.animated[key] = true;
+                        this.observer.unobserve(entry.target);
+                    }
                 }
             });
         }, { threshold: 0.5 });
 
-        const statsSection = this.$refs.statsSection;
-        if (statsSection) {
-            this.observer.observe(statsSection);
-        }
+        if (this.$refs.statMissions) this.observer.observe(this.$refs.statMissions);
+        if (this.$refs.statYears) this.observer.observe(this.$refs.statYears);
+        if (this.$refs.statHours) this.observer.observe(this.$refs.statHours);
     },
     beforeUnmount() {
         if (this.observer) {
@@ -160,7 +167,7 @@ export default {
         external: function(url) {
             window.location = new URL(url);
         },
-        animateStats() {
+        animateStat(key) {
             const duration = 2000; // 2 seconds
             const start = performance.now();
             
@@ -169,6 +176,8 @@ export default {
                 years: 20,
                 hours: 5000
             };
+            
+            const target = targets[key];
 
             const animate = (currentTime) => {
                 const elapsed = currentTime - start;
@@ -177,9 +186,7 @@ export default {
                 // Easing function (easeOutQuart)
                 const ease = 1 - Math.pow(1 - progress, 4);
 
-                this.stats.missions = Math.floor(targets.missions * ease);
-                this.stats.years = Math.floor(targets.years * ease);
-                this.stats.hours = Math.floor(targets.hours * ease);
+                this.stats[key] = Math.floor(target * ease);
 
                 if (progress < 1) {
                     requestAnimationFrame(animate);
