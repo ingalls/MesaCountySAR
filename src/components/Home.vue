@@ -11,7 +11,7 @@
         >
             <div class="position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0,0,0,0.4);"></div>
             
-            <div class='container-xl position-relative z-index-1 text-center text-white'>
+            <div class='container-xl position-relative z-index-1 text-center text-white' style="padding-top: 6rem">
                 <div class="mb-4 animate__animated animate__fadeInDown">
                     <div
                         class='mx-auto'

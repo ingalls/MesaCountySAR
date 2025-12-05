@@ -58,15 +58,18 @@
                     </div>
                 </div>
             </div>
-        </div>
 
         <div
             v-if='shown'
-            class='text-center'
+            class='text-center pb-3'
+            :class='{
+                "text-white": invert,
+                "bg-white text-black": !invert
+            }'
         >
             <div
                 v-if='$route.name !== "home"'
-                class='my-3 cursor-pointer'
+                class='pt-3 cursor-pointer'
                 @click='$router.push("/")'
             >
                 Home
@@ -111,6 +114,7 @@
             >
                 Team Login
             </div>
+        </div>
         </div>
     </div>
 </template>
