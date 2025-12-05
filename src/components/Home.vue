@@ -1,261 +1,132 @@
 <template>
     <div>
-        <Call911 />
+        <div class="fixed-top">
+            <Call911 />
+            <NavBar :transparent="true" :fixed="false" />
+        </div>
 
+        <!-- Hero Section -->
         <div
-            class='min-vh-100'
-            style='background: #eee url(/MainPageDarken70.jpg) no-repeat 0 0; background-size: cover;'
+            class='min-vh-100 d-flex align-items-center justify-content-center position-relative'
+            style='background: #eee url(/MainPageDarken70.jpg) no-repeat center center; background-size: cover;'
         >
-            <div class='d-flex justify-content-center px-3 py-3'>
-                <div
-                    class='my-3 mx-md-100'
-                    style='background: url(/logo.png) no-repeat 0 0; background-size: cover; width: 150px; height: 150px;'
-                />
+            <div class="position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0,0,0,0.4);"></div>
+            
+            <div class='container-xl position-relative z-index-1 text-center text-white'>
+                <div class="mb-4 animate__animated animate__fadeInDown">
+                    <div
+                        class='mx-auto'
+                        style='background: url(/logo.png) no-repeat center center; background-size: contain; width: 180px; height: 180px; filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));'
+                    />
+                </div>
+                
+                <h1 class='display-3 fw-bold mb-4 animate__animated animate__fadeInUp'>
+                    Dedicated to Saving Lives
+                </h1>
+                <h2 class='display-5 fw-light mb-5 animate__animated animate__fadeInUp animate__delay-1s'>
+                    Serving Mesa County for over 20 years
+                </h2>
 
-                <div
-                    class='ms-auto d-none d-lg-inline strong text-white fs-dynamic'
-                    style='margin-top: 75px; margin-right: 100px;'
-                >
-                    <span
-                        class='nav-hover mx-3 cursor-pointer'
-                        @click='$router.push("/team")'
-                    >Team</span>
-                    <span
-                        class='nav-hover mx-3 cursor-pointer'
-                        @click='$router.push("/news")'
-                    >News</span>
-                    <span
-                        class='nav-hover mx-3 cursor-pointer'
-                        @click='$router.push("/gallery")'
-                    >Gallery</span>
-                    <span
-                        class='nav-hover mx-3 cursor-pointer'
-                        @click='$router.push("/contact")'
-                    >Contact</span>
-                    <span
-                        class='nav-hover mx-3 cursor-pointer'
-                        @click='$router.push("/apply")'
-                    >Join Us</span>
-                    <span
-                        class='nav-hover my-3 bg-red px-3 py-3 w-50 rounded cursor-pointer'
-                        @click='external("https://www.paypal.com/donate/?hosted_button_id=9ZE83Z9KZSW5J")'
-                    >Donate</span>
+                <div class="d-flex justify-content-center gap-3 animate__animated animate__fadeInUp animate__delay-2s">
+                    <button 
+                        class="btn btn-danger btn-lg px-5 py-3 rounded-pill fw-bold shadow-lg hover-lift"
+                        @click="external('https://www.paypal.com/donate/?hosted_button_id=9ZE83Z9KZSW5J')"
+                    >
+                        DONATE
+                    </button>
+                    <button 
+                        class="btn btn-outline-light btn-lg px-5 py-3 rounded-pill fw-bold shadow-lg hover-lift"
+                        @click="$router.push('/news')"
+                    >
+                        NEWS
+                    </button>
                 </div>
             </div>
-            <div class='text-white text-center text-md-left ml-lg-300'>
-                <div class='display-md-4 strong my-md-50'>
-                    Dedicated to saving lives
-                </div>
-                <div class='display-md-4 strong my-md-50'>
-                    and serving Mesa County
-                </div>
-                <div class='display-md-4 strong my-md-50'>
-                    for over 20 years
-                </div>
-            </div>
-            <div class='text-white'>
-                <div class='d-flex justify-content-center my-7'>
-                    <ChevronDownIcon size='50' />
-                </div>
+
+            <div class='position-absolute bottom-0 start-0 w-100 text-center pb-4 text-white animate__animated animate__fadeIn animate__delay-3s'>
+                <ChevronDownIcon size='40' class="animate-bounce" />
             </div>
         </div>
-        <div class='my-4 my-md-7'>
-            <h1 class='text-center display-md-4 strong'>
-                Mesa County Search and Rescue
-            </h1>
-            <div class='container-xl py-3'>
-                <p class='text-center strong display-md-6'>
-                    Our fully unpaid team of 40+ volunteers donates thousands of hours serving Mesa County's community and visitors.
-                </p>
-                <p class='text-center strong display-md-6'>
-                    We are entirely funded by community donations and grants.
-                </p>
-            </div>
-        </div>
-        <div class='min-vh-100 position-relative bg-none py-md-8'>
+
+        <!-- Mission Section -->
+        <div class='py-6 py-md-8 bg-light'>
             <div class='container-xl'>
-                <div class='row'>
-                    <div class='col-12 col-md-4 text-center py-3 py-md-8'>
-                        <div
-                            class='rounded py-3'
-                            style=' background: rgba(0,0,0,0.5);'
-                        >
-                            <div class='mb-5'>
-                                <PhoneFilledIcon
-                                    class='text-red'
-                                    size='75'
-                                />
-                            </div>
-
-                            <div class='h1 text-white'>
-                                100+ Missions
-                            </div>
-                            <span class='h3 text-white'>performed annually</span>
-                        </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class='display-5 fw-bold mb-4 text-dark'>
+                            Mesa County Search and Rescue
+                        </h2>
+                        <p class='lead text-muted mb-4'>
+                            Our fully unpaid team of 40+ volunteers donates thousands of hours serving Mesa County's community and visitors.
+                        </p>
+                        <p class='lead text-muted'>
+                            We are entirely funded by community donations and grants.
+                        </p>
                     </div>
-                    <div class='col-12 col-md-4 text-center py-3 py-md-8'>
-                        <div
-                            class='rounded py-3'
-                            style=' background: rgba(0,0,0,0.5);'
-                        >
-                            <div class='mb-5'>
-                                <ActivityHeartbeatIcon
-                                    class='text-red'
-                                    size='75'
-                                />
-                            </div>
-                            <div class='h1 text-white'>
-                                20+ Years
-                            </div>
-                            <span class='h3 text-white'>on-call 24/7</span>
-                        </div>
-                    </div>
-                    <div class='col-12 col-md-4 text-center py-3 py-md-8'>
-                        <div
-                            class='rounded py-3'
-                            style=' background: rgba(0,0,0,0.5);'
-                        >
-                            <div class='mb-5'>
-                                <ClockIcon
-                                    class='text-red'
-                                    size='75'
-                                />
-                            </div>
-                            <div class='h1 text-white'>
-                                5000+ Hours
-                            </div>
-                            <span class='h3 text-white'>donated every year</span>
-                        </div>
-                    </div>
-                    <div class='col-12 py-lg-8' />
                 </div>
             </div>
         </div>
-        <div style='background: rgba(0,0,0,0.7);'>
+
+        <!-- Stats Section -->
+        <div class='py-6 py-md-8 position-relative bg-none'>
             <div class='container-xl'>
-                <div class='row text-white'>
-                    <div class='col-12 col-md-4 text-center py-2 py-md-6'>
-                        <div class='pt-3'>
-                            <h3>Get In Touch</h3>
-
-                            <h4>Mailing Address</h4>
-
-                            <div class='pb-1'>
-                                <a
-                                    class='text-white cursor-pointer'
-                                    @click='external("https://goo.gl/maps/2gg7YG9toWsiE3Yz6")'
-                                >
-                                    <p class='my-0'>
-                                        PO BOX 2251
-                                    </p>
-                                    <p class='my-0'>
-                                        Grand Junction, CO
-                                    </p>
-                                    <p class='my-0'>
-                                        81502
-                                    </p>
-                                </a>
+                <div class='row g-4'>
+                    <div class='col-12 col-md-4'>
+                        <div class='card h-100 bg-dark-transparent border-0 shadow-lg text-center text-white p-4 hover-lift'>
+                            <div class='mb-4'>
+                                <PhoneFilledIcon class='text-danger' size='64' />
                             </div>
-
-                            <h3>Non-Emergency Contact</h3>
-
-                            <div class='pb-1'>
-                                <div>
-                                    <a
-                                        href='tel:2023906116'
-                                        class='text-white cursor-pointer'
-                                    >202-390-6116</a>
-                                </div>
-                                <div>
-                                    <a
-                                        href='mailto:team@mesacountysar.com'
-                                        class='text-white cursor-pointer'
-                                    >team@mesacountysar.com</a>
-                                </div>
-                            </div>
+                            <h3 class='display-4 fw-bold mb-2'>100+</h3>
+                            <p class='h4 fw-light'>Missions Annually</p>
                         </div>
                     </div>
-                    <div class='col-12 col-md-4 text-center py-2 py-md-6'>
-                        <div class='d-none d-md-flex justify-content-center'>
-                            <div
-                                style='background: url(/logo.png) no-repeat 0 0; background-size: cover; width: 150px; height: 150px;'
-                                class='my-3'
-                            />
-                        </div>
-                        <div class='d-flex justify-content-center'>
-                            <div
-                                class='nav-hover my-3 bg-red py-3 w-50 rounded cursor-pointer'
-                                @click='external("https://www.paypal.com/donate/?hosted_button_id=9ZE83Z9KZSW5J")'
-                            >
-                                Donate
+                    <div class='col-12 col-md-4'>
+                        <div class='card h-100 bg-dark-transparent border-0 shadow-lg text-center text-white p-4 hover-lift'>
+                            <div class='mb-4'>
+                                <ActivityHeartbeatIcon class='text-danger' size='64' />
                             </div>
+                            <h3 class='display-4 fw-bold mb-2'>20+</h3>
+                            <p class='h4 fw-light'>Years of Service</p>
                         </div>
                     </div>
-                    <div class='col-12 col-md-4 text-center py-2 py-md-6'>
-                        <div class='pt-3'>
-                            <div
-                                class='cursor-pointer strong'
-                                @click='$router.push("/team")'
-                            >
-                                The Team
+                    <div class='col-12 col-md-4'>
+                        <div class='card h-100 bg-dark-transparent border-0 shadow-lg text-center text-white p-4 hover-lift'>
+                            <div class='mb-4'>
+                                <ClockIcon class='text-danger' size='64' />
                             </div>
-                            <div
-                                class='my-3 cursor-pointer strong'
-                                @click='$router.push("/news")'
-                            >
-                                News
-                            </div>
-                            <div
-                                class='my-3 cursor-pointer strong'
-                                @click='$router.push("/gallery")'
-                            >
-                                Gallery
-                            </div>
-                            <div
-                                class='my-3 cursor-pointer strong'
-                                @click='$router.push("/contact")'
-                            >
-                                Contact
-                            </div>
-                            <div
-                                class='my-3 cursor-pointer strong'
-                                @click='external("https://team.mesacountysar.com")'
-                            >
-                                Team Login
-                            </div>
+                            <h3 class='display-4 fw-bold mb-2'>5000+</h3>
+                            <p class='h4 fw-light'>Volunteer Hours</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <SiteFooter />
     </div>
 </template>
 
 <script>
-import PageFooter from './util/PageFooter.vue';
+import NavBar from './util/NavBar.vue';
+import SiteFooter from './util/SiteFooter.vue';
 import Call911 from './util/Call911.vue';
 import {
     PhoneFilledIcon,
     ActivityHeartbeatIcon,
     ChevronDownIcon,
     ClockIcon,
-    LoginIcon,
 } from 'vue-tabler-icons';
 
 export default {
     name: 'Home',
     components: {
+        NavBar,
+        SiteFooter,
         Call911,
-        PageFooter,
-        LoginIcon,
         PhoneFilledIcon,
         ActivityHeartbeatIcon,
         ChevronDownIcon,
         ClockIcon,
-    },
-    data: function() {
-        return {
-        }
     },
     methods: {
         external: function(url) {
@@ -264,4 +135,34 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+.bg-dark-transparent {
+    background: rgba(0, 0, 0, 0.7) !important;
+    backdrop-filter: blur(10px);
+}
+
+.hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+}
+
+.animate-bounce {
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-10px);}
+    60% {transform: translateY(-5px);}
+}
+
+.z-index-1 {
+    z-index: 1;
+}
+</style>
 

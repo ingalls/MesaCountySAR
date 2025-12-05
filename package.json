@@ -12,6 +12,7 @@
     "dependencies": {
         "@tabler/core": "^1.0.0",
         "@tak-ps/vue-tabler": "^3.1.1",
+        "animate.css": "^4.1.1",
         "core-js": "^3.6.4",
         "floating-vue": "^2.0.0-beta.17",
         "mapbox-gl": "^3.0.0",

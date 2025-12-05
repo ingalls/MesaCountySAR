@@ -1,70 +1,42 @@
 <template>
     <div
-        class='min-vh-25'
-        style='background: #eee url(/MainPageDarken70.jpg) no-repeat 0 0; background-size: cover;'
+        class='min-vh-25 position-relative d-flex align-items-center'
+        style='background: #eee url(/MainPageDarken70.jpg) no-repeat center center; background-size: cover;'
     >
-        <div class='d-flex px-3 py-3'>
-            <div
-                class='d-none d-md-inline cursor-pointer'
-                @click='$router.push("/")'
-            >
-                <div style='background: url(/logo.png) no-repeat 0 0; background-size: cover; width: 150px; height: 150px;' />
-            </div>
-            <div
-                class='d-inline d-md-none cursor-pointer'
-                @click='$router.push("/")'
-            >
-                <div style='background: url(/logo.png) no-repeat 0 0; background-size: cover; width: 50px; height: 50px;' />
-            </div>
+        <div class="position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0,0,0,0.5);"></div>
+        
+        <NavBar :transparent="true" />
 
-            <h1
-                class='my-auto mx-2 text-white'
-                v-text='label'
-            />
-
-            <div class='ms-auto d-none d-lg-inline strong text-white fs-dynamic my-auto'>
-                <span
-                    class='nav-hover mx-3 cursor-pointer'
-                    @click='$router.push("/team")'
-                >Team</span>
-                <span
-                    class='nav-hover mx-3 cursor-pointer'
-                    @click='$router.push("/news")'
-                >News</span>
-                <span
-                    class='nav-hover mx-3 cursor-pointer'
-                    @click='$router.push("/gallery")'
-                >Gallery</span>
-                <span
-                    class='nav-hover mx-3 cursor-pointer'
-                    @click='$router.push("/contact")'
-                >Contact</span>
-                <span
-                    class='nav-hover mx-3 cursor-pointer'
-                    @click='$router.push("/apply")'
-                >Join Us</span>
-                <span
-                    class='nav-hover mx-3 bg-red py-3 px-3 rounded cursor-pointer'
-                    @click='external("https://www.paypal.com/donate/?hosted_button_id=9ZE83Z9KZSW5J")'
-                >Donate</span>
+        <div class='container-xl position-relative z-index-1 pt-5'>
+            <div class="d-flex align-items-center">
+                <h1
+                    class='text-white display-4 fw-bold'
+                    v-text='label'
+                />
             </div>
         </div>
     </div>
 </template>
 
 <script>
+import NavBar from './NavBar.vue';
+
 export default {
     name: 'PageHeader',
+    components: {
+        NavBar
+    },
     props: {
         label: {
             type: String,
             required: true
         }
-    },
-    methods: {
-        external: function(url) {
-            window.location = new URL(url);
-        },
-    },
+    }
 }
 </script>
+
+<style scoped>
+.z-index-1 {
+    z-index: 1;
+}
+</style>
