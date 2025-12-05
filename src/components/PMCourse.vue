@@ -252,10 +252,10 @@
                                                 <a href='https://www.firstrespondertraining.gov/frts/npccatalog?id=2304'>FEMA - Emergency Management Institute (EMI) Course | IS-100.C: Introduction to the Incident Command System, ICS 100</a>
                                             </li>
                                             <li>
-                                                <a href='https://www.firstrespondertraining.gov/frts/npccatalog?id=2304'>FEMA - Emergency Management Institute (EMI) Course | IS-200.C: Basic Incident Command System for Initial Response</a>
+                                                <a href='https://www.firstrespondertraining.gov/frts/npccatalog?id=2322'>FEMA - Emergency Management Institute (EMI) Course | IS-200.C: Basic Incident Command System for Initial Response</a>
                                             </li>
                                             <li>
-                                                <a href='https://www.firstrespondertraining.gov/frts/npccatalog?id=2304'>FEMA - Emergency Management Institute (EMI) Course | IS-700.B: An Introduction to the National Incident Management System</a>
+                                                <a href='https://www.firstrespondertraining.gov/frts/npccatalog?id=2404'>FEMA - Emergency Management Institute (EMI) Course | IS-700.B: An Introduction to the National Incident Management System</a>
                                             </li>
                                         </ul>
                                     </li>
