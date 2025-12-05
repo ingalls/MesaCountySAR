@@ -1,10 +1,8 @@
 <template>
     <div class='page page-center'>
-        <Call911 />
-
         <PageHeader label='Gallery' />
 
-        <div class='page-wrapper'>
+        <div class='container-xl py-4'>
             <!-- Page header -->
             <div class='page-header d-print-none'>
                 <div class='container-xl'>

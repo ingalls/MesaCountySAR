@@ -19,13 +19,23 @@
 
             <div class="collapse navbar-collapse justify-content-end" :class="{ 'show': isMenuOpen }">
                 <ul class="navbar-nav align-items-center text-center">
-                    <li class="nav-item ms-md-3 my-3 my-md-0 w-100 w-md-auto">
+                    <li class="nav-item ms-md-3 my-3 my-md-0 w-100 w-md-auto d-md-none">
                         <a class="btn btn-danger rounded-pill px-4 w-100 w-md-auto" @click="external('https://www.paypal.com/donate/?hosted_button_id=9ZE83Z9KZSW5J')">
                             Donate
                         </a>
                     </li>
                 </ul>
             </div>
+        </div>
+        
+        <div class="fixed-bottom d-none d-md-block p-4 text-end pointer-events-none">
+            <a 
+                class="btn btn-danger rounded-pill px-4 py-2 shadow-lg pointer-events-auto animate__animated animate__fadeInUp" 
+                @click="external('https://www.paypal.com/donate/?hosted_button_id=9ZE83Z9KZSW5J')"
+                style="z-index: 1050;"
+            >
+                Donate
+            </a>
         </div>
     </nav>
 </template>
@@ -89,5 +99,13 @@ export default {
     .ms-md-3 {
         margin-left: 1rem !important;
     }
+}
+
+.pointer-events-none {
+    pointer-events: none;
+}
+
+.pointer-events-auto {
+    pointer-events: auto;
 }
 </style>

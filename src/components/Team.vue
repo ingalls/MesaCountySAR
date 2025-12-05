@@ -1,7 +1,5 @@
 <template>
     <div class='page page-center'>
-        <Call911 />
-
         <PageHeader label='Our Team' />
 
         <div class='container-xl mt-6 mb-6'>

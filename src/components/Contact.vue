@@ -1,10 +1,8 @@
 <template>
     <div class='page page-center'>
-        <Call911 />
-
         <PageHeader label='Contact Us' />
 
-        <div class='container-tight py-4'>
+        <div class='container-xl py-4'>
             <div class='empty'>
                 <p class='empty-title'>
                     Mailing Address

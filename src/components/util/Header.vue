@@ -5,7 +5,10 @@
     >
         <div class="position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0,0,0,0.5);"></div>
         
-        <NavBar :transparent="true" />
+        <div class="fixed-top">
+            <Call911 />
+            <NavBar :transparent="true" :fixed="false" />
+        </div>
 
         <div class='container-xl position-relative z-index-1 pt-5'>
             <div class="d-flex align-items-center">
@@ -20,11 +23,13 @@
 
 <script>
 import NavBar from './NavBar.vue';
+import Call911 from './Call911.vue';
 
 export default {
     name: 'PageHeader',
     components: {
-        NavBar
+        NavBar,
+        Call911
     },
     props: {
         label: {

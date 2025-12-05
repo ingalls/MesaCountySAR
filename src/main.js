@@ -3,6 +3,7 @@ import * as VueRouter from 'vue-router'
 
 import 'floating-vue/dist/style.css'
 import FloatingVue from 'floating-vue'
+import 'animate.css'
 
 import App from './App.vue'
 

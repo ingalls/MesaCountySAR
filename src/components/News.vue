@@ -1,7 +1,5 @@
 <template>
     <div class='page page-center'>
-        <Call911 />
-
         <PageHeader label='Blog' />
 
         <div class='py-4'>
@@ -9,6 +7,15 @@
                 v-if='loading'
                 desc='Loading Newsfeed'
             />
+            <div v-else-if='err' class='card'>
+                <div class='card-body'>
+                    <TablerAlert
+                        title='Error Loading Newsfeed'
+                        :desc='err.message'
+                        type='danger'
+                    />
+                </div>
+            </div>
             <TablerNone
                 v-else-if='news.items.length === 0'
                 label='News Posts'
@@ -75,7 +82,6 @@
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import Call911 from './util/Call911.vue';
 import PageHeader from './util/Header.vue';
 import PageFooter from './util/PageFooter.vue';
 import {
@@ -88,26 +94,32 @@ import {
     TablerNone,
     TablerLoading,
     TablerMarkdown,
+    TablerAlert,
 } from '@tak-ps/vue-tabler'
 
 const loading = ref(true);
+const err = ref(null);
 const news = ref({
     items: []
 })
 
 onMounted(async () => {
-    const res = await fetch(window.location.origin + '/news.json');
+    try {
+        const res = await fetch(window.location.origin + '/news.json');
 
-    const body = await res.json();
+        const body = await res.json();
 
-    body.items.map((b) => {
-        b.expanded = false;
-        return b;
-    });
+        body.items.map((b) => {
+            b.expanded = false;
+            return b;
+        });
 
-    news.value = body;
-
-    loading.value = false;
+        news.value = body;
+        loading.value = false;
+    } catch (e) {
+        err.value = e;
+        loading.value = false;
+    }
 });
 
 function external() {

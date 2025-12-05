@@ -1,7 +1,5 @@
 <template>
     <div class='page page-center'>
-        <Call911 />
-
         <PageHeader label='Donate' />
 
         <div class='container-tight py-4'>

@@ -1,10 +1,8 @@
 <template>
     <div class='page page-center'>
-        <Call911 />
-
         <PageHeader label='Join Our Team' />
 
-        <div class='container-xl mt-6 mb-6'>
+        <div class='container-xl py-4'>
             <div class='row g-2 align-items-center'>
                 <div class='col d-flex'>
                     <TablerBreadCrumb />

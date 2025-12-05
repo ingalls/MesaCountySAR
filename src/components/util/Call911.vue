@@ -1,13 +1,13 @@
 <template>
     <div>
         <div
-            :style='{
-                backgroundColor: invert ? `rgba(214, 57, 57, ${bgOpacity})` : ""
+            :class='{
+                "bg-red": invert
             }'
         >
             <div class='mx-md-100'>
                 <div
-                    class='d-flex py-3'
+                    class='d-flex py-3 align-items-center'
                     :class='{
                         "text-red": !invert,
                         "text-white": invert
@@ -30,7 +30,7 @@
                         <span class="nav-link text-white cursor-pointer mx-2 strong" @click="$router.push('/apply')">Join Us</span>
                     </div>
 
-                    <div class='d-flex justify-content-center d-inline strong mx-3'>
+                    <div class='d-flex justify-content-center align-items-center d-inline strong mx-3'>
                         <div><PhoneCallIcon /> For Rescue Assistance - Call 911</div>
                     </div>
 
@@ -134,27 +134,25 @@ export default {
     },
     data: function() {
         return {
-            shown: false,
-            bgOpacity: 1
+            shown: false
         }
     },
-    mounted() {
-        window.addEventListener('scroll', this.handleScroll);
-    },
-    beforeUnmount() {
-        window.removeEventListener('scroll', this.handleScroll);
-    },
     methods: {
-        handleScroll() {
-            const scrollY = window.scrollY;
-            // Reduce opacity from 1 to 0.5 over 200px scroll
-            const opacity = Math.max(0.5, 1 - (scrollY / 400));
-            this.bgOpacity = opacity;
-        },
         external: function(url) {
             window.location = new URL(url);
         },
     }
 }
 </script>
+
+<style scoped>
+.nav-link {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+}
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+</style>
 

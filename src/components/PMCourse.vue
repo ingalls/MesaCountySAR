@@ -1,7 +1,5 @@
 <template>
     <div class='page page-center'>
-        <Call911 />
-
         <PageHeader label='PM Course Outline' />
 
         <div class='page-wrapper'>
