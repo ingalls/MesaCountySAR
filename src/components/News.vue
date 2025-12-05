@@ -51,7 +51,12 @@
                             </div>
                         </div>
                         <div class='card-body'>
-                            <TablerMarkdown :markdown='article.expanded ? article.body : article.body.split("\n\n")[0]'/>
+                            <TablerMarkdown :markdown='article.body.split("\n\n")[0]'/>
+                            <div class='expandable' :class='{ open: article.expanded }'>
+                                <div class='expandable-inner'>
+                                    <TablerMarkdown :markdown='article.body.split("\n\n").slice(1).join("\n\n")'/>
+                                </div>
+                            </div>
                             <div class='d-flex justify-content-center'>
                                 <span
                                     v-if='!article.expanded'
@@ -126,4 +131,20 @@ function external() {
       window.location = new URL(url);
 }
 </script>
+
+<style scoped>
+.expandable {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.3s ease-out;
+}
+
+.expandable.open {
+    grid-template-rows: 1fr;
+}
+
+.expandable-inner {
+    overflow: hidden;
+}
+</style>
 
