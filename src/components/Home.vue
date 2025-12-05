@@ -53,13 +53,13 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center">
                         <h2 class='display-5 fw-bold mb-4 text-dark'>
-                            Mesa County Search and Rescue
+                            Professional Service, Volunteer Spirit
                         </h2>
                         <p class='lead text-muted mb-4'>
-                            Our fully unpaid team of 40+ volunteers donates thousands of hours serving Mesa County's community and visitors.
+                            Mesa County Search and Rescue is a dedicated team of over 40 unpaid professionals who respond 24/7 to emergencies in our community. From high-angle technical rescues to lost hikers, our members undergo intensive training to bring their unique skills to every mission.
                         </p>
                         <p class='lead text-muted'>
-                            We are entirely funded by community donations and grants.
+                            As a non-profit organization, we rely entirely on community donations and grants to fund our operations, equipment, and training. We never charge for rescue.
                         </p>
                     </div>
                 </div>

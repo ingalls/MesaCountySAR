@@ -49,11 +49,11 @@
                 </div>
             </div>
             
-            <div class="row mt-5 pt-4 border-top border-secondary">
+            <div class="row mt-5 pt-4">
                 <div class="col-12 text-center text-muted">
                     <small>
-                        Copyright © {{ new Date().getFullYear() }} Mesa County Search and Rescue. 
-                        <a href="https://ingalls.ca" class="text-muted text-decoration-none">Nick Ingalls</a>
+                        Copyright © {{ new Date().getFullYear() }} Mesa County Search and Rescue & 
+                        <a href="https://ingalls.ca" class="text-muted text-decoration-underline">Nick Ingalls</a>
                     </small>
                 </div>
             </div>
