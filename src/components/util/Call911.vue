@@ -20,7 +20,7 @@
                     />
 
                     <div class='d-flex justify-content-center align-items-center d-inline strong mx-3'>
-                        <div><PhoneCallIcon /> For Rescue Assistance - Call 911</div>
+                        <div><PhoneCallIcon /> For Rescue - Call 911</div>
                     </div>
 
                     <div class='ms-auto' />

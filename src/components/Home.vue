@@ -6,7 +6,7 @@
 
         <!-- Hero Section -->
         <div
-            class='min-vh-100 d-flex align-items-center justify-content-center position-relative'
+            class='min-vh-100 d-flex align-items-center justify-content-center position-relative hero-section'
             style='background: #eee url(/MainPageDarken70.jpg) no-repeat center center; background-size: cover;'
         >
             <div
@@ -15,8 +15,7 @@
             />
             
             <div
-                class='container-xl position-relative z-index-1 text-center text-white'
-                style='padding-top: 6rem'
+                class='container-xl position-relative z-index-1 text-center text-white hero-content'
             >
                 <div class='mb-4 animate__animated animate__fadeInDown'>
                     <div
@@ -25,14 +24,14 @@
                     />
                 </div>
                 
-                <h1 class='display-3 fw-bold mb-4 animate__animated animate__fadeInUp'>
+                <h1 class='display-3 fw-bold mb-4 d-none d-md-block animate__animated animate__fadeInUp'>
                     Dedicated to Saving Lives
                 </h1>
-                <h2 class='display-5 fw-light mb-5 animate__animated animate__fadeInUp animate__delay-1s'>
+                <h2 class='display-5 fw-light mb-5 d-none d-md-block animate__animated animate__fadeInUp animate__delay-1s'>
                     Serving Mesa County for over 20 years
                 </h2>
 
-                <div class='d-flex justify-content-center gap-3 animate__animated animate__fadeInUp animate__delay-2s'>
+                <div class='d-flex justify-content-center gap-3 hero-buttons animate__animated animate__fadeInUp animate__delay-2s'>
                     <button 
                         class='btn btn-danger btn-lg px-5 py-3 rounded-pill fw-bold shadow-lg hover-lift'
                         @click='external(&apos;https://www.paypal.com/donate/?hosted_button_id=9ZE83Z9KZSW5J&apos;)'
@@ -61,7 +60,7 @@
                 title='Get Film Festival Tickets'
                 @click='scrollToFestival'
             >
-                <TicketIcon
+                <KayakIcon
                     size='20'
                     class='me-2'
                 />
@@ -211,6 +210,7 @@ import {
     ActivityHeartbeatIcon,
     ChevronDownIcon,
     ClockIcon,
+    KayakIcon,
     MovieIcon,
     TicketIcon,
 } from 'vue-tabler-icons';
@@ -224,6 +224,7 @@ export default {
         ActivityHeartbeatIcon,
         ChevronDownIcon,
         ClockIcon,
+        KayakIcon,
         MovieIcon,
         TicketIcon,
     },
@@ -334,9 +335,32 @@ export default {
     z-index: 1;
 }
 
+.hero-content {
+    padding-top: 6rem;
+}
+
+@media (max-width: 576px) {
+    .hero-section {
+        align-items: stretch !important;
+    }
+
+    .hero-content {
+        padding-top: calc(60px + 32px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 1;
+    }
+
+    .hero-buttons {
+        margin-top: auto;
+        padding-bottom: 140px;
+    }
+}
+
 .ticket-bubble {
     position: absolute;
-    bottom: 60px;
+    bottom: 80px;
     right: 20px;
     background: rgba(255, 193, 7, 0.95);
     color: #1a1a2e;
@@ -359,10 +383,14 @@ export default {
 
 @media (max-width: 576px) {
     .ticket-bubble {
-        right: 10px;
-        bottom: 50px;
+        right: 0;
+        left: 0;
+        bottom: 90px;
+        margin: 0 auto;
+        width: fit-content;
         font-size: 0.85rem;
         padding: 8px 14px;
+        white-space: nowrap;
     }
 }
 </style>
