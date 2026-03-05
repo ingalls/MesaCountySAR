@@ -14,24 +14,42 @@
                     }'
                 >
                     <div 
-                        class="cursor-pointer mx-3 rounded-circle" 
-                        style="background: white url(/logo.png) no-repeat center center; background-size: contain; width: 40px; height: 40px;"
-                        @click="$router.push('/')"
-                    ></div>
+                        class='cursor-pointer mx-3 rounded-circle' 
+                        style='background: white url(/logo.png) no-repeat center center; background-size: contain; width: 40px; height: 40px;'
+                        @click='$router.push(&apos;/&apos;)'
+                    />
 
                     <div class='d-flex justify-content-center align-items-center d-inline strong mx-3'>
                         <div><PhoneCallIcon /> For Rescue Assistance - Call 911</div>
                     </div>
 
-                    <div class="ms-auto"></div>
+                    <div class='ms-auto' />
 
-                    <div class="d-none d-lg-flex align-items-center">
-                        <span class="nav-link text-white cursor-pointer mx-2 strong" @click="$router.push('/')">Home</span>
-                        <span class="nav-link text-white cursor-pointer mx-2 strong" @click="$router.push('/team')">Team</span>
-                        <span class="nav-link text-white cursor-pointer mx-2 strong" @click="$router.push('/news')">News</span>
-                        <span class="nav-link text-white cursor-pointer mx-2 strong" @click="$router.push('/gallery')">Gallery</span>
-                        <span class="nav-link text-white cursor-pointer mx-2 strong" @click="$router.push('/contact')">Contact</span>
-                        <span class="nav-link text-white cursor-pointer mx-2 strong" @click="$router.push('/apply')">Join Us</span>
+                    <div class='d-none d-lg-flex align-items-center'>
+                        <span
+                            class='nav-link text-white cursor-pointer mx-2 strong'
+                            @click='$router.push(&apos;/&apos;)'
+                        >Home</span>
+                        <span
+                            class='nav-link text-white cursor-pointer mx-2 strong'
+                            @click='$router.push(&apos;/team&apos;)'
+                        >Team</span>
+                        <span
+                            class='nav-link text-white cursor-pointer mx-2 strong'
+                            @click='$router.push(&apos;/news&apos;)'
+                        >News</span>
+                        <span
+                            class='nav-link text-white cursor-pointer mx-2 strong'
+                            @click='$router.push(&apos;/gallery&apos;)'
+                        >Gallery</span>
+                        <span
+                            class='nav-link text-white cursor-pointer mx-2 strong'
+                            @click='$router.push(&apos;/contact&apos;)'
+                        >Contact</span>
+                        <span
+                            class='nav-link text-white cursor-pointer mx-2 strong'
+                            @click='$router.push(&apos;/apply&apos;)'
+                        >Join Us</span>
                     </div>
 
                     <BrandFacebookFilledIcon
@@ -59,62 +77,62 @@
                 </div>
             </div>
 
-        <div
-            v-if='shown'
-            class='text-center pb-3'
-            :class='{
-                "text-white": invert,
-                "bg-white text-black": !invert
-            }'
-        >
             <div
-                v-if='$route.name !== "home"'
-                class='pt-3 cursor-pointer'
-                @click='$router.push("/")'
+                v-if='shown'
+                class='text-center pb-3'
+                :class='{
+                    "text-white": invert,
+                    "bg-white text-black": !invert
+                }'
             >
-                Home
+                <div
+                    v-if='$route.name !== "home"'
+                    class='pt-3 cursor-pointer'
+                    @click='$router.push("/")'
+                >
+                    Home
+                </div>
+                <div
+                    v-if='$route.name !== "team"'
+                    class='my-3 cursor-pointer'
+                    @click='$router.push("/team")'
+                >
+                    The Team
+                </div>
+                <div
+                    v-if='$route.name !== "education"'
+                    class='my-3 cursor-pointer'
+                    @click='$router.push("/news")'
+                >
+                    News
+                </div>
+                <div
+                    v-if='$route.name !== "gallery"'
+                    class='my-3 cursor-pointer'
+                    @click='$router.push("/gallery")'
+                >
+                    Gallery
+                </div>
+                <div
+                    v-if='$route.name !== "contact"'
+                    class='my-3 cursor-pointer'
+                    @click='$router.push("/contact")'
+                >
+                    Contact
+                </div>
+                <div
+                    class='my-3 cursor-pointer'
+                    @click='external("https://www.paypal.com/donate/?hosted_button_id=9ZE83Z9KZSW5J")'
+                >
+                    <span class='bg-red text-white px-4 py-2 rounded'>Donate</span>
+                </div>
+                <div
+                    class='my-3 cursor-pointer'
+                    @click='external("https://team.mesacountysar.com")'
+                >
+                    Team Login
+                </div>
             </div>
-            <div
-                v-if='$route.name !== "team"'
-                class='my-3 cursor-pointer'
-                @click='$router.push("/team")'
-            >
-                The Team
-            </div>
-            <div
-                v-if='$route.name !== "education"'
-                class='my-3 cursor-pointer'
-                @click='$router.push("/news")'
-            >
-                News
-            </div>
-            <div
-                v-if='$route.name !== "gallery"'
-                class='my-3 cursor-pointer'
-                @click='$router.push("/gallery")'
-            >
-                Gallery
-            </div>
-            <div
-                v-if='$route.name !== "contact"'
-                class='my-3 cursor-pointer'
-                @click='$router.push("/contact")'
-            >
-                Contact
-            </div>
-            <div
-                class='my-3 cursor-pointer'
-                @click='external("https://www.paypal.com/donate/?hosted_button_id=9ZE83Z9KZSW5J")'
-            >
-                <span class='bg-red text-white px-4 py-2 rounded'>Donate</span>
-            </div>
-            <div
-                class='my-3 cursor-pointer'
-                @click='external("https://team.mesacountysar.com")'
-            >
-                Team Login
-            </div>
-        </div>
         </div>
     </div>
 </template>

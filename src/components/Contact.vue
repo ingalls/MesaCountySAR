@@ -24,7 +24,7 @@
 
 
         <div class='flex-grow-1 w-100 position-relative'>
-            <Location class="position-absolute top-0 start-0 w-100 h-100" />
+            <Location class='position-absolute top-0 start-0 w-100 h-100' />
         </div>
     </div>
 </template>

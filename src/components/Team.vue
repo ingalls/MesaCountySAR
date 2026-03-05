@@ -28,9 +28,11 @@
                             <div class='col-12 d-flex'>
                                 <div class='ms-auto'>
                                     <button
-                                        @click='$router.push("/apply")'
                                         class='btn btn-danger'
-                                    >Apply</button>
+                                        @click='$router.push("/apply")'
+                                    >
+                                        Apply
+                                    </button>
                                 </div>
                             </div>
                         </div>

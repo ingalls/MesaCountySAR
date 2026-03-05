@@ -22,6 +22,7 @@ const router = new VueRouter.createRouter({
         { path: '/:catchAll(.*)', name: 'lost', component: () => import('./components/Lost.vue') },
 
         { path: '/pmcourse', name: 'pmcourse', component: () => import('./components/PMCourse.vue') },
+        { path: '/tickets', beforeEnter() { window.location.href = 'https://events.ticketleap.com/tickets/mesacountysarcom/grand-junction-paddling-film-festival'; } },
     ]
 });
 

@@ -22,15 +22,17 @@
                         </div>
                         <div class='card'>
                             <div class='card-header'>
-                                <h3 class='card-title'>2026 Prospective Member Training Schedule 2025-2026</h3>
+                                <h3 class='card-title'>
+                                    2026 Prospective Member Training Schedule 2025-2026
+                                </h3>
                             </div>
                             <div class='card-body'>
                                 <p>
-                                Thank you for your interest in joining Mesa County Search &amp; Rescue (MCSAR).
-                                The following document outlines the process for becoming a member of MCSAR.
+                                    Thank you for your interest in joining Mesa County Search &amp; Rescue (MCSAR).
+                                    The following document outlines the process for becoming a member of MCSAR.
                                 </p>
                                 <p>
-                                A roster of current leadership can be found on the <a href='/team'>Team</a> page.
+                                    A roster of current leadership can be found on the <a href='/team'>Team</a> page.
                                 </p>
                                 <p>
                                     Throughout the process, any questions should be directed to the Prospective Member Coordinator at <a href='tel:2023906116'>(202) 390-6116</a>.
@@ -39,7 +41,9 @@
                         </div>
                         <div class='card'>
                             <div class='card-header'>
-                                <h3 class='card-title'>Interview Slots</h3>
+                                <h3 class='card-title'>
+                                    Interview Slots
+                                </h3>
                             </div>
                             <div class='card-body'>
                                 <p>
@@ -81,8 +85,9 @@
                                             class='btn btn-primary'
                                             :disabled='new Date() > new Date("2025-11-02")'
                                             @click='externalURL("https://www.signupgenius.com/go/10C0A4FABAB2BA5F5C34-59230380-mesasar")'
-                                        >Sign Up for Interview</button>
-
+                                        >
+                                            Sign Up for Interview
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -158,7 +163,7 @@
                                                 alt='Venmo QR Code'
                                                 style='height: 200px;'
                                                 class='rounded'
-                                            />
+                                            >
                                         </div>
                                     </div>
                                 </div>
@@ -166,7 +171,9 @@
                         </div>
                         <div class='card'>
                             <div class='card-header'>
-                                <h3 class='card-title'>Pre-Course Requirements</h3>
+                                <h3 class='card-title'>
+                                    Pre-Course Requirements
+                                </h3>
                             </div>
                             <div class='card-body'>
                                 <p>
@@ -267,7 +274,9 @@
                         </div>
                         <div class='card'>
                             <div class='card-header'>
-                                <h3 class='card-title'>PM Course Timeline</h3>
+                                <h3 class='card-title'>
+                                    PM Course Timeline
+                                </h3>
                             </div>
                             <div class='card-body'>
                                 <p>
@@ -291,7 +300,10 @@
                                                 <td>
                                                     <div>Tuesday, February 24th, 2026</div>
                                                     <span class='subheader'>
-                                                        <IconClock :size='14' stroke='1'/>
+                                                        <IconClock
+                                                            :size='14'
+                                                            stroke='1'
+                                                        />
                                                         1800 - 2100
                                                     </span>
                                                 </td>
@@ -299,7 +311,9 @@
                                                     <a href='https://maps.app.goo.gl/UY96dX6jL7VTWCP79'>Mesa County Sheriff's Office - Main Conference Room</a>
                                                 </td>
                                                 <td>
-                                                    <div class='strong'>Introduction + Expectations + Gear Review + SO Tour</div>
+                                                    <div class='strong'>
+                                                        Introduction + Expectations + Gear Review + SO Tour
+                                                    </div>
                                                     An introduction to the team, the PM course, and expectations for members. Additionally, a review of required personal gear and a tour of the Sheriff's Office.
                                                     The MCSAR Bylaws, Policies and Procedures, &amp; Mesa County SO Code of Conduct will be provided for review and should be read and signed prior to the next training.
                                                 </td>
@@ -308,7 +322,10 @@
                                                 <td>
                                                     <div>Thursday, February 26th, 2026</div>
                                                     <span class='subheader'>
-                                                        <IconClock :size='14' stroke='1'/>
+                                                        <IconClock
+                                                            :size='14'
+                                                            stroke='1'
+                                                        />
                                                         1800 - 2100
                                                     </span>
                                                 </td>
@@ -316,7 +333,9 @@
                                                     <a href='https://maps.app.goo.gl/UY96dX6jL7VTWCP79'>Mesa County Sheriff's Office - Main Conference Room</a>
                                                 </td>
                                                 <td>
-                                                    <div class='strong'>Navigation With COTAK</div>
+                                                    <div class='strong'>
+                                                        Navigation With COTAK
+                                                    </div>
                                                     Students will learn the basics of utilizing <a href='https://cotak.gov/'>COTAK</a> for navigation, including map reading, Colorado's
                                                     first responder situational awareness tool.
                                                 </td>
@@ -325,7 +344,10 @@
                                                 <td>
                                                     <div>Saturday, February 28th, 2026</div>
                                                     <span class='subheader'>
-                                                        <IconClock :size='14' stroke='1'/>
+                                                        <IconClock
+                                                            :size='14'
+                                                            stroke='1'
+                                                        />
                                                         0800 - Afternoon
                                                     </span>
                                                 </td>
@@ -333,18 +355,22 @@
                                                     <a href='https://maps.app.goo.gl/7T45ah24hnVi37X97'>Lunch Loops Trailhead</a>
                                                 </td>
                                                 <td>
-                                                    <div class='strong'>Search Theory &amp; Fitness Hike</div>
+                                                    <div class='strong'>
+                                                        Search Theory &amp; Fitness Hike
+                                                    </div>
                                                     Students will learn the basics of performing a search operation, including a high level overview of search theory, and a
                                                     detailed overview of MCSAR expectations when responding to a callout. The day will conclude with the MCSAR annual fitness hike.
                                                     Successful completion of the fitness hike with the alloted weight and within the allotted time is required before the Overnighter.
-
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
                                                     <div>Thursday, March 5th, 2026</div>
                                                     <span class='subheader'>
-                                                        <IconClock :size='14' stroke='1'/>
+                                                        <IconClock
+                                                            :size='14'
+                                                            stroke='1'
+                                                        />
                                                         1800 - 2100
                                                     </span>
                                                 </td>
@@ -352,7 +378,9 @@
                                                     <a href='https://maps.app.goo.gl/wPm9riUFucWdXepo7'>Geer Building</a>
                                                 </td>
                                                 <td>
-                                                    <div class='strong'>Primary Assessment Rodeo</div>
+                                                    <div class='strong'>
+                                                        Primary Assessment Rodeo
+                                                    </div>
                                                     Students will spend the evening practicing patient assessments on a variety of patients and scenarios, focusing on
                                                     building confidence and proficiency in primary assessment skills.
                                                 </td>
@@ -361,7 +389,10 @@
                                                 <td>
                                                     <div>Saturday, March 7th, 2026</div>
                                                     <span class='subheader'>
-                                                        <IconClock :size='14' stroke='1'/>
+                                                        <IconClock
+                                                            :size='14'
+                                                            stroke='1'
+                                                        />
                                                         0800 - 1700
                                                     </span>
                                                 </td>
@@ -369,7 +400,9 @@
                                                     <a href='https://maps.app.goo.gl/VxYkHj1SxWYGXVA9A'>Opal Hill/Devil's Canyon Trailhead</a>
                                                 </td>
                                                 <td>
-                                                    <div class='strong'>Patient Packaging &amp; Litter Skills</div>
+                                                    <div class='strong'>
+                                                        Patient Packaging &amp; Litter Skills
+                                                    </div>
                                                     Students will learn how to properly package a patient in a litter for transport, including litter assembly &amp; selection, patient packaging techniques, and litter movement in the field.
                                                 </td>
                                             </tr>
@@ -377,7 +410,10 @@
                                                 <td>
                                                     <div>Thursday, March 12th, 2026</div>
                                                     <span class='subheader'>
-                                                        <IconClock :size='14' stroke='1'/>
+                                                        <IconClock
+                                                            :size='14'
+                                                            stroke='1'
+                                                        />
                                                         1800 - 2100
                                                     </span>
                                                 </td>
@@ -385,7 +421,9 @@
                                                     <a href='https://maps.app.goo.gl/wPm9riUFucWdXepo7'>Geer Building</a>
                                                 </td>
                                                 <td>
-                                                    <div class='strong'>Basic System Intro + Anchors + Litter Bridles</div>
+                                                    <div class='strong'>
+                                                        Basic System Intro + Anchors + Litter Bridles
+                                                    </div>
                                                     Students will be introduced to to fundemental technical rescue concepts, starting with basic forces and load factors and graduating
                                                     to practicing applications in a hands-on environment.
                                                 </td>
@@ -404,7 +442,10 @@
                                                 <td>
                                                     <div>Thursday, March 26th, 2026</div>
                                                     <span class='subheader'>
-                                                        <IconClock :size='14' stroke='1'/>
+                                                        <IconClock
+                                                            :size='14'
+                                                            stroke='1'
+                                                        />
                                                         1800 - 2100
                                                     </span>
                                                 </td>
@@ -412,7 +453,9 @@
                                                     <a href='https://maps.app.goo.gl/Ypc6qtt8znjXkxTk6'>Pepsi Building</a>
                                                 </td>
                                                 <td>
-                                                    <div class='strong'>Personal Rope Skills</div>
+                                                    <div class='strong'>
+                                                        Personal Rope Skills
+                                                    </div>
                                                     Students will learn essential rope skills for personal safety and movement in a vertical environment, focusing on
                                                     ascending, descending, &amp changeovers.
                                                 </td>
@@ -421,7 +464,10 @@
                                                 <td>
                                                     <div>Saturday, March 28th, 2026</div>
                                                     <span class='subheader'>
-                                                        <IconClock :size='14' stroke='1'/>
+                                                        <IconClock
+                                                            :size='14'
+                                                            stroke='1'
+                                                        />
                                                         0800 - 1700
                                                     </span>
                                                 </td>
@@ -429,7 +475,9 @@
                                                     <a href='https://maps.app.goo.gl/g9iWQiRfQPcmAvL77'>Bangs Canyon</a>
                                                 </td>
                                                 <td>
-                                                    <div class='strong'>Low Angle Field Day + System Safety</div>
+                                                    <div class='strong'>
+                                                        Low Angle Field Day + System Safety
+                                                    </div>
                                                     Students will practice low angle team based rescue in a field environment, learning how to identify low vs high angle terrain and to recognize hazards in the field.
                                                 </td>
                                             </tr>
@@ -437,7 +485,10 @@
                                                 <td>
                                                     <div>Thursday, April 2nd, 2026</div>
                                                     <span class='subheader'>
-                                                        <IconClock :size='14' stroke='1'/>
+                                                        <IconClock
+                                                            :size='14'
+                                                            stroke='1'
+                                                        />
                                                         17:30 - 0000
                                                     </span>
                                                 </td>
@@ -445,7 +496,9 @@
                                                     🤫
                                                 </td>
                                                 <td>
-                                                    <div class='strong'>Mini Mission</div>
+                                                    <div class='strong'>
+                                                        Mini Mission
+                                                    </div>
                                                     The "mini mission" will be the first time PM's are put to the test in a realistic search and rescue scenario, covering all skills introduced up to this point.
                                                 </td>
                                             </tr>
@@ -453,7 +506,10 @@
                                                 <td>
                                                     <div>Saturday, April 4th, 2026</div>
                                                     <span class='subheader'>
-                                                        <IconClock :size='14' stroke='1'/>
+                                                        <IconClock
+                                                            :size='14'
+                                                            stroke='1'
+                                                        />
                                                         0800 - 1700
                                                     </span>
                                                 </td>
@@ -461,7 +517,9 @@
                                                     <a href='https://maps.app.goo.gl/ZNPFogtMeJZP99g19'>Shareholder Canyon</a>
                                                 </td>
                                                 <td>
-                                                    <div class='strong'>Vertical Field Day + Pack Check</div>
+                                                    <div class='strong'>
+                                                        Vertical Field Day + Pack Check
+                                                    </div>
                                                     Students will practice high angle rescue skills in a field environment. Additionally, students will have their personal gear inspected to ensure they are carrying
                                                     the required equipment for field operations.
                                                 </td>
@@ -470,7 +528,10 @@
                                                 <td>
                                                     <div>Thursday, April 9th, 2026</div>
                                                     <span class='subheader'>
-                                                        <IconClock :size='14' stroke='1'/>
+                                                        <IconClock
+                                                            :size='14'
+                                                            stroke='1'
+                                                        />
                                                         1800 - 2200
                                                     </span>
                                                 </td>
@@ -478,7 +539,9 @@
                                                     <a href='https://maps.app.goo.gl/Ypc6qtt8znjXkxTk6'>Pepsi Building</a>
                                                 </td>
                                                 <td>
-                                                    <div class='strong'>PM Annuals Testing</div>
+                                                    <div class='strong'>
+                                                        PM Annuals Testing
+                                                    </div>
                                                     The PM course up until this point is designed to prepare you for the team's annual testing. You will be tested on your rope skills, patient packaging skills, and first aid knowledge.
                                                     Note: Passing annuals is required to complete the PM course. An additional retest date will be scheduled for those who do not pass on the first attempt.
                                                 </td>
@@ -487,7 +550,10 @@
                                                 <td>
                                                     <div>Friday, April 10th, 2026</div>
                                                     <span class='subheader'>
-                                                        <IconClock :size='14' stroke='1'/>
+                                                        <IconClock
+                                                            :size='14'
+                                                            stroke='1'
+                                                        />
                                                         1800 - 0800 Saturday
                                                     </span>
                                                 </td>
@@ -495,7 +561,9 @@
                                                     🤫
                                                 </td>
                                                 <td>
-                                                    <div class='strong'>Overnighter</div>
+                                                    <div class='strong'>
+                                                        Overnighter
+                                                    </div>
                                                     The "overnighter" is a mock mission designed to simulate a real search and rescue operation, testing all the skills and knowledge acquired during the PM course.
                                                     Successful completion of the overnighter is required to complete the PM course.
                                                 </td>
@@ -504,13 +572,18 @@
                                                 <td>
                                                     <div>Saturday, April 11th, 2026</div>
                                                     <span class='subheader'>
-                                                        <IconClock :size='14' stroke='1'/>
+                                                        <IconClock
+                                                            :size='14'
+                                                            stroke='1'
+                                                        />
                                                         0800 - 1000
                                                     </span>
                                                 </td>
                                                 <td>Overnighter Morning Location</td>
                                                 <td>
-                                                    <div class='strong'>Overnighter Evaluation</div>
+                                                    <div class='strong'>
+                                                        Overnighter Evaluation
+                                                    </div>
                                                     The team will evaluate PM performance and call PM's that evening to notify if they will be offered a seat on the team.
                                                 </td>
                                             </tr>
@@ -518,7 +591,10 @@
                                                 <td>
                                                     <div>Thursday, April 16th, 2026</div>
                                                     <span class='subheader'>
-                                                        <IconClock :size='14' stroke='1'/>
+                                                        <IconClock
+                                                            :size='14'
+                                                            stroke='1'
+                                                        />
                                                         1800 - 2000
                                                     </span>
                                                 </td>
@@ -526,7 +602,9 @@
                                                     <a href='https://maps.app.goo.gl/UY96dX6jL7VTWCP79'>Main SO</a>
                                                 </td>
                                                 <td>
-                                                    <div class='strong'>Post PM Logistics &amp; Potluck</div>
+                                                    <div class='strong'>
+                                                        Post PM Logistics &amp; Potluck
+                                                    </div>
                                                     Finalize administrative tasks and celebrate the completion of the 2026 PM course
                                                 </td>
                                             </tr>
@@ -537,7 +615,9 @@
                         </div>
                         <div class='card'>
                             <div class='card-header'>
-                                <h3 class='card-title'>Post-Course Requirements</h3>
+                                <h3 class='card-title'>
+                                    Post-Course Requirements
+                                </h3>
                             </div>
                             <div class='card-body'>
                                 <p>

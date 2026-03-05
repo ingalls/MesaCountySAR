@@ -7,7 +7,10 @@
                 v-if='loading'
                 desc='Loading Newsfeed'
             />
-            <div v-else-if='err' class='card'>
+            <div
+                v-else-if='err'
+                class='card'
+            >
                 <div class='card-body'>
                     <TablerAlert
                         title='Error Loading Newsfeed'
@@ -43,18 +46,27 @@
                             </div>
                             <div class='col-auto'>
                                 <div class='col-12'>
-                                    <h2 class='card-title' v-text='article.name'></h2>
+                                    <h2
+                                        class='card-title'
+                                        v-text='article.name'
+                                    />
                                 </div>
                                 <div class='col-12'>
-                                    <span class='subheader' v-text='article.date'></span>
+                                    <span
+                                        class='subheader'
+                                        v-text='article.date'
+                                    />
                                 </div>
                             </div>
                         </div>
                         <div class='card-body'>
-                            <TablerMarkdown :markdown='article.body.split("\n\n")[0]'/>
-                            <div class='expandable' :class='{ open: article.expanded }'>
+                            <TablerMarkdown :markdown='article.body.split("\n\n")[0]' />
+                            <div
+                                class='expandable'
+                                :class='{ open: article.expanded }'
+                            >
                                 <div class='expandable-inner'>
-                                    <TablerMarkdown :markdown='article.body.split("\n\n").slice(1).join("\n\n")'/>
+                                    <TablerMarkdown :markdown='article.body.split("\n\n").slice(1).join("\n\n")' />
                                 </div>
                             </div>
                             <div class='d-flex justify-content-center'>
@@ -63,7 +75,7 @@
                                     class='text-blue cursor-pointer'
                                     @click='article.expanded = true'
                                 >
-                                    <IconSquareRoundedArrowDown/>
+                                    <IconSquareRoundedArrowDown />
                                     Expand
                                 </span>
                                 <span
@@ -71,7 +83,7 @@
                                     class='text-gray cursor-pointer'
                                     @click='article.expanded = false'
                                 >
-                                    <IconSquareRoundedArrowUp/>
+                                    <IconSquareRoundedArrowUp />
                                     Collapse
                                 </span>
                             </div>
