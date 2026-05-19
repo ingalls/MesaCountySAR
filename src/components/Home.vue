@@ -54,22 +54,6 @@
                 />
             </div>
 
-            <div
-                class='ticket-bubble animate__animated animate__fadeInRight animate__delay-2s'
-                role='button'
-                title='Get Film Festival Tickets'
-                @click='scrollToFestival'
-            >
-                <KayakIcon
-                    size='20'
-                    class='me-2'
-                />
-                <span>Paddling Film Festival &mdash; Get Tickets!</span>
-                <ChevronDownIcon
-                    size='16'
-                    class='ms-1'
-                />
-            </div>
         </div>
 
         <!-- Mission Section -->
@@ -86,45 +70,6 @@
                         <p class='lead text-muted'>
                             As a non-profit organization, we rely entirely on community donations and grants to fund our operations, equipment, and training. We never charge for rescue.
                         </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Film Festival Section -->
-        <div
-            id='film-festival'
-            class='py-6 py-md-8 text-white position-relative'
-            style='background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);'
-        >
-            <div class='container-xl'>
-                <div class='row align-items-center justify-content-center'>
-                    <div class='col-lg-8 text-center'>
-                        <div class='mb-4'>
-                            <MovieIcon
-                                class='text-warning'
-                                size='64'
-                            />
-                        </div>
-                        <h2 class='display-5 fw-bold mb-3'>
-                            Grand Junction Paddling Film Festival
-                        </h2>
-                        <p
-                            class='lead mb-4'
-                            style='opacity: 0.9;'
-                        >
-                            Join us for an evening of inspiring paddling films! All proceeds support Mesa County Search and Rescue operations, equipment, and training.
-                        </p>
-                        <button
-                            class='btn btn-warning btn-lg px-5 py-3 rounded-pill fw-bold shadow-lg hover-lift'
-                            @click='external(&apos;https://events.ticketleap.com/tickets/mesacountysarcom/grand-junction-paddling-film-festival&apos;)'
-                        >
-                            <TicketIcon
-                                size='20'
-                                class='me-2'
-                            />
-                            GET TICKETS
-                        </button>
                     </div>
                 </div>
             </div>
@@ -210,9 +155,6 @@ import {
     ActivityHeartbeatIcon,
     ChevronDownIcon,
     ClockIcon,
-    KayakIcon,
-    MovieIcon,
-    TicketIcon,
 } from 'vue-tabler-icons';
 
 export default {
@@ -224,9 +166,6 @@ export default {
         ActivityHeartbeatIcon,
         ChevronDownIcon,
         ClockIcon,
-        KayakIcon,
-        MovieIcon,
-        TicketIcon,
     },
     data() {
         return {
@@ -269,10 +208,6 @@ export default {
     methods: {
         external: function(url) {
             window.location = new URL(url);
-        },
-        scrollToFestival() {
-            const el = document.getElementById('film-festival');
-            if (el) el.scrollIntoView({ behavior: 'smooth' });
         },
         animateStat(key) {
             const duration = 2000; // 2 seconds
