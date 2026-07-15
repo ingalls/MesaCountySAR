@@ -134,6 +134,34 @@
                     </div>
                 </div>
             </div>
+
+            <div class='row row-cards mt-3'>
+                <div class='col-12'>
+                    <div class='card'>
+                        <div class='card-body'>
+                            <h3 class='card-title'>
+                                Mission
+                            </h3>
+                            <p class='text-secondary'>
+                                Mesa County Search and Rescue is an all-volunteer organization that serves our
+                                community by providing search, rescue, and recovery of individuals in need or
+                                distress with professionalism and compassion.
+                            </p>
+
+                            <h3 class='card-title'>
+                                Vision
+                            </h3>
+                            <p class='text-secondary'>
+                                To cultivate a dedicated and well-respected volunteer team, focused on operational
+                                excellence and compassionate service to people in Mesa County. We will achieve this
+                                through sustainable funding, effective recruitment and retention, and proactive
+                                community engagement, continuously growing our capabilities to meet the needs of the
+                                community.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <PageFooter />
