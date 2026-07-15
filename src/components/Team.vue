@@ -53,16 +53,16 @@
                 </div>
                 <div class='col-md-6 col-lg-3'>
                     <Leader
-                        name='Connor Martin'
-                        profile='/img/connor.jpg'
+                        name='Jeff Stephens'
+                        profile='/img/jeff.png'
                         group='Board'
                         position='Vice President'
                     />
                 </div>
                 <div class='col-md-6 col-lg-3'>
                     <Leader
-                        name='Kirra Dyer'
-                        profile='/img/kirra.jpg'
+                        name='Lizzy Depew'
+                        profile='/img/lizzy.png'
                         group='Board'
                         position='Treasurer'
                     />
@@ -91,23 +91,23 @@
                 <div class='col-md-6 col-lg-3'>
                     <Leader
                         name='Ryan Grube'
-                        profile='/img/ryan.jpg'
+                        profile='/img/ryan.png'
                         group='Standards'
                         position='Standards'
                     />
                 </div>
                 <div class='col-md-6 col-lg-3'>
                     <Leader
-                        name='Cory Lidberg'
-                        profile='/img/cory.jpg'
+                        name='Tanner Bean'
+                        profile='/img/tanner.png'
                         group='Standards'
                         position='Standards'
                     />
                 </div>
                 <div class='col-md-6 col-lg-3'>
                     <Leader
-                        name='Jeffrey Stephens'
-                        profile='/img/jeff.jpg'
+                        name='Josiah Brown'
+                        profile='/img/josiah.png'
                         group='Standards'
                         position='Standards'
                     />
@@ -115,7 +115,7 @@
                 <div class='col-md-6 col-lg-3'>
                     <Leader
                         name='Katy Brown'
-                        profile='/img/katy.jpg'
+                        profile='/img/katy.png'
                         group='Standards'
                         position='Standards'
                     />
