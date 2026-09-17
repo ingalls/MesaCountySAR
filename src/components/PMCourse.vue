@@ -23,7 +23,7 @@
                         <div class='card'>
                             <div class='card-header'>
                                 <h3 class='card-title'>
-                                    2026 Prospective Member Training Schedule 2025-2026
+                                    2027 Prospective Member Training Schedule 2026-2027
                                 </h3>
                             </div>
                             <div class='card-body'>
@@ -83,8 +83,8 @@
                                     <div class='ms-auto'>
                                         <button
                                             class='btn btn-primary'
-                                            :disabled='new Date() > new Date("2025-11-02")'
-                                            @click='externalURL("https://www.signupgenius.com/go/10C0A4FABAB2BA5F5C34-59230380-mesasar")'
+                                            :disabled='new Date() > new Date("2026-11-02")'
+                                            @click='externalURL("https://www.signupgenius.com/go/10C0A4FABAB2BA5F5C34-65950654-mesasar")'
                                         >
                                             Sign Up for Interview
                                         </button>
