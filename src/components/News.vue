@@ -11,13 +11,10 @@
                 v-else-if='err'
                 class='card'
             >
-                <div class='card-body'>
-                    <TablerAlert
-                        title='Error Loading Newsfeed'
-                        :desc='err.message'
-                        type='danger'
-                    />
-                </div>
+                <TablerAlert
+                    title='Error Loading Newsfeed'
+                    :err='err'
+                />
             </div>
             <TablerNone
                 v-else-if='news.items.length === 0'

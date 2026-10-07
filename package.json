@@ -11,7 +11,7 @@
     },
     "dependencies": {
         "@tabler/core": "^1.0.0",
-        "@tak-ps/vue-tabler": "^4.0.0",
+        "@tak-ps/vue-tabler": "^5.8.0",
         "animate.css": "^4.1.1",
         "core-js": "^3.6.4",
         "floating-vue": "^2.0.0-beta.17",
