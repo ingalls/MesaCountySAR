@@ -70,7 +70,7 @@
                 <div class='col-md-6 col-lg-3'>
                     <Leader
                         name='Nallely Bean'
-                        profile='/img/nallely.png'
+                        profile='/img/nalelly.png'
                         group='Board'
                         position='Secretary'
                     />
