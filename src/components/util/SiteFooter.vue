@@ -6,7 +6,7 @@
         <div class='container-xl'>
             <div class='row'>
                 <div class='col-12 col-md-4 text-center mb-4 mb-md-0'>
-                    <h3 class='mb-3'>
+                    <h3 class='text-white mb-3'>
                         Get In Touch
                     </h3>
                     
@@ -56,7 +56,7 @@
                 </div>
 
                 <div class='col-12 col-md-4 text-center'>
-                    <h3 class='mb-3'>
+                    <h3 class='text-white mb-3'>
                         Quick Links
                     </h3>
                     <div class='d-flex flex-column gap-2'>

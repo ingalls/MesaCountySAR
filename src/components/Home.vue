@@ -24,10 +24,10 @@
                     />
                 </div>
                 
-                <h1 class='display-3 fw-bold mb-4 d-none d-md-block animate__animated animate__fadeInUp'>
+                <h1 class='display-3 fw-bold mb-4 text-white d-none d-md-block animate__animated animate__fadeInUp'>
                     Dedicated to Saving Lives
                 </h1>
-                <h2 class='display-5 fw-light mb-5 d-none d-md-block animate__animated animate__fadeInUp animate__delay-1s'>
+                <h2 class='display-5 fw-light mb-5 text-white d-none d-md-block animate__animated animate__fadeInUp animate__delay-1s'>
                     Serving Mesa County for over 20 years
                 </h2>
 
