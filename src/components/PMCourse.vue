@@ -83,7 +83,7 @@
                                     <div class='ms-auto'>
                                         <button
                                             class='btn btn-primary'
-                                            :disabled='new Date() > new Date("2026-11-02")'
+                                            :disabled='new Date() > new Date("2026-11-08")'
                                             @click='externalURL("https://www.signupgenius.com/go/10C0A4FABAB2BA5F5C34-65950654-mesasar")'
                                         >
                                             Sign Up for Interview
@@ -92,45 +92,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class='alert d-flex'>
-                            <div>
-                                <IconCalendar
-                                    :size='32'
-                                    color='blue'
-                                    stroke='1'
-                                />
-                            </div>
-                            <div>
-                                <div class='card-title'>
-                                    January 17th - 18th, 2026 - MCSAR Provided Wilderness First Aid Course
-                                </div>
-                                <div class='card-body'>
-                                    <p>
-                                        Prospective Members must hold a current WMEC member provided Wilderness First Aid (WFA) certification OR higher certification prior to the start of the PM course.
-                                    </p>
-                                    <p>
-                                        Alternate Certifications that meet this requirement include:
-                                    </p>
-
-                                    <ul>
-                                        <li>Current WMEC Wilderness First Responder (WFR)</li>
-                                        <li>Current Outdoor Emergency Care (OEC) - National Ski Patrol</li>
-                                        <li>Current Emergency Medical Technician (EMT), NREMT Certificate</li>
-                                        <li>Current Paramedic (EMT-P), NREMT Certificate</li>
-                                        <li>Licensed Practical Nurse (LPN)</li>
-                                        <li>Registered Nurse (RN)</li>
-                                        <li>Physician (MD or DO)</li>
-                                    </ul>
-
-                                    <p>
-                                        To assist PM's who do not already hold one of the above certifications, MCSAR will be hosting a WFA course on January 17th-18th, 2026 that will come at no
-                                        cost provided PM's complete the PM Course. Registration details will be provided to those PM's who are offered a seat and require certification. PM's are
-                                        also welcome to obtain certification through other providers, but doing so will be at your own expense. Please ensure the provider is accepted by MCSAR prior
-                                        to enrolling in a course by contacting the Prospective Member Coordinator.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
 
                         <div class='alert d-flex'>
                             <div>
@@ -142,13 +103,13 @@
                             </div>
                             <div>
                                 <div class='card-title'>
-                                    January 31st, 2025 - PM Course Fee Due
+                                    ~1 Week Post Interview - PM Course Fee Due
                                 </div>
                                 <div class='card-body'>
                                     <div class='row'>
                                         <div class='col-lg-10 col-md-8 col-sm-12'>
                                             <p>
-                                                The 2025-2026 PM Course fee is $125. This fee will cover the cost of certification, training materials, and expendables used during training.
+                                                The 2026-2027 PM Course fee is $125. This fee will cover the cost of certification, training materials, and expendables used during training.
                                             </p>
                                             <p>
                                                 Please note that this fee is non-refundable, except in the extremely unlikely case that MCSAR is unable to offer the PM course.
@@ -169,6 +130,47 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class='alert d-flex'>
+                            <div>
+                                <IconCalendar
+                                    :size='32'
+                                    color='blue'
+                                    stroke='1'
+                                />
+                            </div>
+                            <div>
+                                <div class='card-title'>
+                                    TBD - MCSAR Provided Wilderness First Aid Course
+                                </div>
+                                <div class='card-body'>
+                                    <p>
+                                        Prospective Members must hold a current WMEC member provided Wilderness First Aid (WFA) certification OR higher certification prior to the start of the PM course.
+                                    </p>
+                                    <p>
+                                        Alternate Certifications that meet this requirement include:
+                                    </p>
+
+                                    <ul>
+                                        <li>Current WMEC Wilderness First Responder (WFR)</li>
+                                        <li>Current Outdoor Emergency Care (OEC) - National Ski Patrol</li>
+                                        <li>Current Emergency Medical Technician (EMT), NREMT Certificate</li>
+                                        <li>Current Paramedic (EMT-P), NREMT Certificate</li>
+                                        <li>Licensed Practical Nurse (LPN)</li>
+                                        <li>Registered Nurse (RN)</li>
+                                        <li>Physician (MD or DO)</li>
+                                    </ul>
+
+                                    <p>
+                                        To assist PM's who do not already hold one of the above certifications, MCSAR will be hosting a WFA course on TBD that will come at no
+                                        cost provided PM's complete the PM Course. Registration details will be provided to those PM's who are offered a seat and require certification. PM's are
+                                        also welcome to obtain certification through other providers, but doing so will be at your own expense. Please ensure the provider is accepted by MCSAR prior
+                                        to enrolling in a course by contacting the Prospective Member Coordinator.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class='card'>
                             <div class='card-header'>
                                 <h3 class='card-title'>
@@ -181,13 +183,13 @@
                                 </p>
                                 <ul>
                                     <li>
-                                        Have paid the PM Course fee of $125 by January 31st, 2026.
+                                        Have paid the PM Course fee after accepting their seat in the PM course.
                                     </li>
                                     <li>
-                                        Hold a WFA (or higher) certification by February 24th, 2026.
+                                        Hold a WFA (or higher) certification by February 23rd, 2027.
                                     </li>
                                     <li>
-                                        Obtain the following required gear by February 24th, 2026:
+                                        Obtain the following required gear by February 23rd, 2027:
                                         <ul>
                                             <li>
                                                 SAR Pack: A comfortable pack capable of carrying all required gear for up to 24hrs in the field. Most team members aim for 30-40L
@@ -229,13 +231,13 @@
                                                 Shelter: Emergency Bivy or Tarp
                                             </li>
                                             <li>
-                                                A UIAA or CE certified climbing helmet manufactured within the last 10 years, plain white is preferred if you don't already have a helmet
+                                                A UIAA or CE certified climbing helmet manufactured within the last 10 years, plain white is preferred
                                             </li>
                                             <li>
                                                 A UIAA certified climbing harness manufactured within the last 10 years.
                                             </li>
                                             <li>
-                                                <a href='https://www.petzl.com/US/en/Sport/Belay-Devices-And-Descenders/GRIGRI'>Petzl GriGri</a> (NOT the Petzl Noex and we recommend against the Petzl GriGri+)
+                                                <a href='https://www.petzl.com/US/en/Sport/Belay-Devices-And-Descenders/GRIGRI'>Petzl GriGri</a> (NOT the Petzl Neox and we recommend against the Petzl GriGri+)
                                             </li>
                                             <li>
                                                 4 Locking HMS Carabiners (ie: <a href='https://blackdiamondequipment.com/products/rocklock-screwgate-carabiner'>Black Diamond Rocklock</a>, etc)
@@ -252,7 +254,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        Complete the following no-cost FEMA ICS courses before Saturday, April 4th, 2026. We highly recommend completing these courses before starting the PM course on February 24th, 2026 to reduce the workload during the course.
+                                        Complete the following no-cost FEMA ICS courses before Saturday, April 4th, 2026. We highly recommend completing these courses before starting the PM course on February 23rd, 2027 to reduce the workload during the course.
                                         Note that a FEMA Student ID is required to take these courses, which can be obtained for free by creating an account at <a href='https://cdp.dhs.gov/femasid'>FEMA SID</a>.
                                         <ul>
                                             <li>
@@ -298,7 +300,7 @@
                                         <tbody>
                                             <tr>
                                                 <td>
-                                                    <div>Tuesday, February 24th, 2026</div>
+                                                    <div>Tuesday, March 2nd, 2027</div>
                                                     <span class='subheader'>
                                                         <IconClock
                                                             :size='14'
@@ -320,7 +322,7 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <div>Thursday, February 26th, 2026</div>
+                                                    <div>Thursday, March 4th, 2027</div>
                                                     <span class='subheader'>
                                                         <IconClock
                                                             :size='14'
@@ -342,7 +344,7 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <div>Saturday, February 28th, 2026</div>
+                                                    <div>Saturday, March 6th, 2027</div>
                                                     <span class='subheader'>
                                                         <IconClock
                                                             :size='14'
@@ -365,7 +367,7 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <div>Thursday, March 5th, 2026</div>
+                                                    <div>Thursday, March 11th, 2027</div>
                                                     <span class='subheader'>
                                                         <IconClock
                                                             :size='14'
@@ -387,7 +389,7 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <div>Saturday, March 7th, 2026</div>
+                                                    <div>Saturday, March 13th, 2027</div>
                                                     <span class='subheader'>
                                                         <IconClock
                                                             :size='14'
@@ -408,7 +410,7 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <div>Thursday, March 12th, 2026</div>
+                                                    <div>Thursday, March 18th, 2027</div>
                                                     <span class='subheader'>
                                                         <IconClock
                                                             :size='14'
@@ -428,19 +430,9 @@
                                                     to practicing applications in a hands-on environment.
                                                 </td>
                                             </tr>
-                                            <tr class='bg-blue-lt'>
-                                                <td>
-                                                    <div>Saturday, March 14th, 2026</div>
-                                                    <span class='subheader'>Sunday, March 22nd, 2026</span>
-                                                </td>
-                                                <td>
-                                                    Skiing or hopefully somewhere warm :)
-                                                </td>
-                                                <td>No Training for D51 Spring Break</td>
-                                            </tr>
                                             <tr>
                                                 <td>
-                                                    <div>Thursday, March 26th, 2026</div>
+                                                    <div>Thursday, April 1st, 2027</div>
                                                     <span class='subheader'>
                                                         <IconClock
                                                             :size='14'
@@ -457,12 +449,12 @@
                                                         Personal Rope Skills
                                                     </div>
                                                     Students will learn essential rope skills for personal safety and movement in a vertical environment, focusing on
-                                                    ascending, descending, &amp changeovers.
+                                                    ascending, descending, &amp; changeovers.
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <div>Saturday, March 28th, 2026</div>
+                                                    <div>Saturday, April 3rd, 2027</div>
                                                     <span class='subheader'>
                                                         <IconClock
                                                             :size='14'
@@ -483,7 +475,7 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <div>Thursday, April 2nd, 2026</div>
+                                                    <div>Thursday, April 8nd, 2027</div>
                                                     <span class='subheader'>
                                                         <IconClock
                                                             :size='14'
@@ -504,7 +496,7 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <div>Saturday, April 4th, 2026</div>
+                                                    <div>Saturday, April 10th, 2026</div>
                                                     <span class='subheader'>
                                                         <IconClock
                                                             :size='14'
@@ -526,7 +518,7 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <div>Thursday, April 9th, 2026</div>
+                                                    <div>Thursday, April 15th, 2027</div>
                                                     <span class='subheader'>
                                                         <IconClock
                                                             :size='14'
@@ -548,7 +540,7 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <div>Friday, April 10th, 2026</div>
+                                                    <div>Friday, April 17th, 2027</div>
                                                     <span class='subheader'>
                                                         <IconClock
                                                             :size='14'
@@ -570,7 +562,7 @@
                                             </tr>
                                             <tr class='bg-red-lt'>
                                                 <td>
-                                                    <div>Saturday, April 11th, 2026</div>
+                                                    <div>Saturday, April 18th, 2027</div>
                                                     <span class='subheader'>
                                                         <IconClock
                                                             :size='14'
@@ -589,7 +581,7 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <div>Thursday, April 16th, 2026</div>
+                                                    <div>Thursday, April 22nd, 2027</div>
                                                     <span class='subheader'>
                                                         <IconClock
                                                             :size='14'
@@ -605,7 +597,7 @@
                                                     <div class='strong'>
                                                         Post PM Logistics &amp; Potluck
                                                     </div>
-                                                    Finalize administrative tasks and celebrate the completion of the 2026 PM course
+                                                    Finalize administrative tasks and celebrate the completion of the 2027 PM course
                                                 </td>
                                             </tr>
                                         </tbody>
