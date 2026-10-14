@@ -189,6 +189,21 @@
                                         Hold a WFA (or higher) certification by February 23rd, 2027.
                                     </li>
                                     <li>
+                                        Complete the following no-cost FEMA ICS courses before the start of the PM Course.
+                                        Note that a FEMA Student ID is required to take these courses, which can be obtained for free by creating an account at <a href='https://cdp.dhs.gov/femasid'>FEMA SID</a>.
+                                        <ul>
+                                            <li>
+                                                <a href='https://www.firstrespondertraining.gov/frts/npccatalog?id=2304'>FEMA - Emergency Management Institute (EMI) Course | IS-100.C: Introduction to the Incident Command System, ICS 100</a>
+                                            </li>
+                                            <li>
+                                                <a href='https://www.firstrespondertraining.gov/frts/npccatalog?id=2322'>FEMA - Emergency Management Institute (EMI) Course | IS-200.C: Basic Incident Command System for Initial Response</a>
+                                            </li>
+                                            <li>
+                                                <a href='https://www.firstrespondertraining.gov/frts/npccatalog?id=2404'>FEMA - Emergency Management Institute (EMI) Course | IS-700.B: An Introduction to the National Incident Management System</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
                                         Obtain the following required gear by February 23rd, 2027:
                                         <ul>
                                             <li>
@@ -250,21 +265,6 @@
                                             </li>
                                             <li>
                                                 Additional gear may be required after the course as our winter season approaches, however once on the team you will gain access to gear discounts through various parternships which can reduce the cost of gear by 20-50%.
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        Complete the following no-cost FEMA ICS courses before Saturday, April 4th, 2026. We highly recommend completing these courses before starting the PM course on February 23rd, 2027 to reduce the workload during the course.
-                                        Note that a FEMA Student ID is required to take these courses, which can be obtained for free by creating an account at <a href='https://cdp.dhs.gov/femasid'>FEMA SID</a>.
-                                        <ul>
-                                            <li>
-                                                <a href='https://www.firstrespondertraining.gov/frts/npccatalog?id=2304'>FEMA - Emergency Management Institute (EMI) Course | IS-100.C: Introduction to the Incident Command System, ICS 100</a>
-                                            </li>
-                                            <li>
-                                                <a href='https://www.firstrespondertraining.gov/frts/npccatalog?id=2322'>FEMA - Emergency Management Institute (EMI) Course | IS-200.C: Basic Incident Command System for Initial Response</a>
-                                            </li>
-                                            <li>
-                                                <a href='https://www.firstrespondertraining.gov/frts/npccatalog?id=2404'>FEMA - Emergency Management Institute (EMI) Course | IS-700.B: An Introduction to the National Incident Management System</a>
                                             </li>
                                         </ul>
                                     </li>
