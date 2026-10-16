@@ -1,11 +1,10 @@
 <template>
     <div class='page page-center'>
-        <div class='d-print-none'>
-            <PageHeader
-                label='PM Course Outline'
-                sublabel='Prospective Member (PM) Course · 2026-2027'
-            />
-        </div>
+        <PageHeader
+            label='PM Course Outline'
+            sublabel='Prospective Member (PM) Course · 2026-2027'
+            class='d-print-none'
+        />
 
         <h1 class='d-none d-print-block container-xl mt-4'>
             MCSAR Prospective Member Course · 2026-2027
@@ -64,17 +63,31 @@
 
         <div class='container-xl'>
             <div class='row row-cards mb-6'>
-                <div class='alert alert-danger d-flex d-print-none'>
-                    <div>
+                <div
+                    class='alert alert-danger d-print-none'
+                    role='alert'
+                >
+                    <div class='d-flex'>
                         <IconAlertTriangle
-                            :size='32'
-                            stroke='1'
-                            class='text-danger'
+                            class='alert-icon flex-shrink-0'
+                            stroke='1.5'
                         />
-                    </div>
-                    <div>
-                        Interview slots are only available to those who have submitted an application and spoken with our Prospective Member Coordinator.
-                        To apply to join the team, and be given an interview slot, please visit the <router-link to='/apply'>Application Page</router-link>.
+                        <div class='d-flex flex-column flex-md-row align-items-md-center gap-3 flex-grow-1'>
+                            <div class='flex-grow-1'>
+                                <h4 class='alert-heading'>
+                                    Interviews are by invitation only
+                                </h4>
+                                <div class='alert-description'>
+                                    Interview slots are only available to applicants who have submitted an application and spoken with our Prospective Member Coordinator.
+                                </div>
+                            </div>
+                            <router-link
+                                to='/apply'
+                                class='btn btn-danger align-self-start align-self-md-center flex-shrink-0'
+                            >
+                                Apply to Join
+                            </router-link>
+                        </div>
                     </div>
                 </div>
 
@@ -179,17 +192,24 @@
                                 rel='noopener'
                             >Mesa County Sheriff's Office building</a>.
                         </p>
-                        <div class='alert alert-info d-flex'>
-                            <div>
+                        <div
+                            class='alert alert-info'
+                            role='alert'
+                        >
+                            <div class='d-flex'>
                                 <IconInfoSquareRounded
-                                    :size='32'
-                                    stroke='1'
-                                    class='text-info'
+                                    class='alert-icon flex-shrink-0'
+                                    stroke='1.5'
                                 />
-                            </div>
-                            <div>
-                                The Google Map link provided above is directly on the door you will enter for your interview. Do not attempt to enter through the main entrance of the Sheriff's Office
-                                or the Jail. If you have trouble finding the interview location, please call or text the Prospective Member Coordinator at <a href='tel:2023906116'>(202) 390-6116</a>.
+                                <div>
+                                    <h4 class='alert-heading'>
+                                        Use the side door
+                                    </h4>
+                                    <div class='alert-description'>
+                                        The Google Maps pin above marks the door you will enter for your interview. Do not enter through the main entrance of the Sheriff's Office
+                                        or the Jail. If you have trouble finding it, call or text the Prospective Member Coordinator at <a href='tel:2023906116'>(202) 390-6116</a>.
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <p>
@@ -399,6 +419,26 @@
                         <p>
                             Check items off as you acquire them. Your progress is saved in this browser.
                         </p>
+                        <div
+                            class='alert alert-warning'
+                            role='alert'
+                        >
+                            <div class='d-flex'>
+                                <IconAlertTriangle
+                                    class='alert-icon flex-shrink-0'
+                                    stroke='1.5'
+                                />
+                                <div>
+                                    <h4 class='alert-heading'>
+                                        Do not buy technical gear on Amazon
+                                    </h4>
+                                    <div class='alert-description'>
+                                        Every year PMs end up with counterfeit helmets, harnesses, belay devices, and carabiners that cannot be used for SAR and have to be replaced.
+                                        Buy life-safety gear from a reputable local retailer such as Gear Junction, Gearhead Outdoors, or REI, or directly from the manufacturer.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <GearChecklist />
                         <p class='text-secondary mt-3 mb-0'>
                             Additional gear may be required after the course as our winter season approaches. Once on the team you will gain access to gear discounts
@@ -531,7 +571,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue';
+import { ref, computed } from 'vue';
 import PageHeader from './util/Header.vue';
 import PageFooter from './util/PageFooter.vue';
 import CourseTimeline from './PMCourse/CourseTimeline.vue';
@@ -621,10 +661,6 @@ function print() {
     view.value = 'timeline';
     setTimeout(() => window.print(), 50);
 }
-
-onMounted(() => {
-    document.title = 'PM Course | Mesa County SAR';
-});
 </script>
 
 <style scoped>
