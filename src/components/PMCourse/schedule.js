@@ -10,15 +10,22 @@ import {
     IconClipboardText,
     IconMoonStars,
     IconConfetti,
-    IconSchoolOff
+    IconSchoolOff,
+    IconCalendarX,
+    IconChecklist
 } from '@tabler/icons-vue';
 
 const SO = { name: "Mesa County Sheriff's Office - Main Conference Room", url: 'https://maps.app.goo.gl/UY96dX6jL7VTWCP79' };
 const GEER = { name: 'Geer Building', url: 'https://maps.app.goo.gl/wPm9riUFucWdXepo7' };
 const PEPSI = { name: 'Pepsi Building', url: 'https://maps.app.goo.gl/Ypc6qtt8znjXkxTk6' };
-const SECRET = { name: '🤫' };
+const SECRET = { name: 'Disclosed the day of 🤫' };
 
-export default [{
+export const SIGNUP_CLOSE = '2026-11-08';
+export const PREREQ_DEADLINE = '2027-02-23';
+export const COURSE_FEE = '$125';
+export const COURSE_SEATS = 20;
+
+export const sessions = [{
     date: '2027-03-02',
     time: '1800 - 2100',
     location: SO,
@@ -39,7 +46,7 @@ export default [{
     location: { name: 'Lunch Loops Trailhead', url: 'https://maps.app.goo.gl/7T45ah24hnVi37X97' },
     icon: IconTrekking,
     topic: 'Search Theory & Fitness Hike',
-    description: 'Students will learn the basics of performing a search operation, including a high level overview of search theory, and a detailed overview of MCSAR expectations when responding to a callout. The day will conclude with the MCSAR annual fitness hike. Successful completion of the fitness hike with the alloted weight and within the allotted time is required before the Overnighter.'
+    description: 'Students will learn the basics of performing a search operation, including a high level overview of search theory, and a detailed overview of MCSAR expectations when responding to a callout. The day will conclude with the MCSAR annual fitness hike. Successful completion of the fitness hike with the allotted weight and within the allotted time is required before the Overnighter.'
 }, {
     date: '2027-03-11',
     time: '1800 - 2100',
@@ -87,7 +94,7 @@ export default [{
     location: SECRET,
     icon: IconTargetArrow,
     topic: 'Mini Mission',
-    description: 'The "mini mission" will be the first time PM\'s are put to the test in a realistic search and rescue scenario, covering all skills introduced up to this point.'
+    description: 'The "mini mission" will be the first time PMs are put to the test in a realistic search and rescue scenario, covering all skills introduced up to this point.'
 }, {
     date: '2027-04-10',
     time: '0800 - 1700',
@@ -115,7 +122,7 @@ export default [{
     location: { name: 'Overnighter Morning Location' },
     icon: IconClipboardText,
     topic: 'Overnighter Evaluation',
-    description: "The team will evaluate PM performance and call PM's that evening to notify if they will be offered a seat on the team.",
+    description: 'The team will evaluate PM performance and call PMs that evening to notify if they will be offered a seat on the team.',
     highlight: true
 }, {
     date: '2027-04-22',
@@ -123,11 +130,35 @@ export default [{
     location: { name: 'Main SO', url: 'https://maps.app.goo.gl/UY96dX6jL7VTWCP79' },
     icon: IconConfetti,
     topic: 'Post PM Logistics & Potluck',
-    description: 'Finalize administrative tasks and celebrate the completion of the 2027 PM course'
-}];
+    description: 'Finalize administrative tasks and celebrate the completion of the 2027 PM course.'
+}].sort(byDate);
+
+export const milestones = [{
+    type: 'deadline',
+    date: SIGNUP_CLOSE,
+    icon: IconCalendarX,
+    topic: 'Interview sign-up closes',
+    description: "Last day to reserve an interview slot. Interviews are held at the Mesa County Sheriff's Office."
+}, {
+    type: 'deadline',
+    date: PREREQ_DEADLINE,
+    icon: IconChecklist,
+    topic: 'WFA certification & required gear deadline',
+    description: 'Hold a current WFA (or higher) certification and have all required gear in hand before the first session.'
+}].sort(byDate);
+
+export default sessions;
+
+export function byDate(a, b) {
+    return a.date.localeCompare(b.date);
+}
 
 export function isBreak(event) {
     return event.type === 'break';
+}
+
+export function isDeadline(event) {
+    return event.type === 'deadline';
 }
 
 export function parseDate(iso) {
@@ -141,4 +172,8 @@ export function weekday(iso) {
 
 export function longDate(iso) {
     return parseDate(iso).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+}
+
+export function shortDate(iso) {
+    return parseDate(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
 }

@@ -12,7 +12,7 @@
             <div class='course-event-dot' />
             <div
                 v-if='isBreak(event)'
-                class='text-secondary d-flex align-items-center'
+                class='text-secondary d-flex align-items-center flex-wrap'
             >
                 <component
                     :is='event.icon'
@@ -20,8 +20,8 @@
                     stroke='1.5'
                     class='me-2'
                 />
-                <span class='strong'>{{ event.topic }}</span>
-                <span class='ms-2'>{{ longDate(event.date) }} - {{ longDate(event.end) }}</span>
+                <span class='strong me-2'>{{ event.topic }}</span>
+                <span>{{ longDate(event.date) }} - {{ longDate(event.end) }}</span>
             </div>
             <div
                 v-else
@@ -32,7 +32,7 @@
                         {{ weekday(event.date) }}
                     </div>
                     <div>{{ longDate(event.date) }}</div>
-                    <div class='subheader d-flex align-items-center gap-1 mt-1'>
+                    <div class='small text-secondary d-flex align-items-center gap-1 mt-1'>
                         <IconClock
                             :size='14'
                             stroke='1'
@@ -43,11 +43,13 @@
                         <IconMapPin
                             :size='14'
                             stroke='1'
+                            class='flex-shrink-0'
                         />
                         <a
                             v-if='event.location.url'
                             :href='event.location.url'
                             target='_blank'
+                            rel='noopener'
                         >{{ event.location.name }}</a>
                         <span v-else>{{ event.location.name }}</span>
                     </div>
@@ -58,7 +60,8 @@
                             :is='event.icon'
                             :size='20'
                             stroke='1.5'
-                            class='me-2 text-primary flex-shrink-0'
+                            class='me-2 flex-shrink-0'
+                            :class='event.highlight ? "text-red" : "text-primary"'
                         />
                         {{ event.topic }}
                     </div>
@@ -70,6 +73,7 @@
                                 :key='link.url'
                                 :href='link.url'
                                 target='_blank'
+                                rel='noopener'
                                 class='ms-1'
                             >{{ link.label }}</a>
                         </template>
@@ -111,6 +115,7 @@ defineProps({
 .course-event {
     position: relative;
     padding-bottom: 1.5rem;
+    break-inside: avoid;
 }
 
 .course-event:last-child {

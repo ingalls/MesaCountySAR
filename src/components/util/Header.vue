@@ -16,10 +16,16 @@
             class='container-xl position-relative z-index-1'
             style='padding-top: 6rem'
         >
-            <div class='d-flex align-items-center'>
+            <div>
                 <h1
                     class='text-white display-4 fw-bold'
                     v-text='label'
+                />
+                <div
+                    v-if='sublabel'
+                    class='text-white fs-2 pb-3'
+                    style='opacity: 0.85;'
+                    v-text='sublabel'
                 />
             </div>
         </div>
@@ -38,6 +44,10 @@ export default {
         label: {
             type: String,
             required: true
+        },
+        sublabel: {
+            type: String,
+            default: ''
         }
     }
 }
