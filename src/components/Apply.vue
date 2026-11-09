@@ -18,10 +18,10 @@
                     </div>
                     <div class='card-body'>
                         <h3 class='card-title'>
-                            Applications for Winter/Spring 2027
+                            Applications for the 2027/2028 Application Year
                         </h3>
                         <p class='text-secondary'>
-                            The team is excited to be accepting applications for the Winter/Spring 2027 Prospective Member program
+                            The team is excited to be accepting applications for the 2027/2028 application year of the Prospective Member program
                         </p>
                         <p class='text-secondary'>
                             Once you apply you can expect a call from a member of our onboarding team to answer any questions you might
